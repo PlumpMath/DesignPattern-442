@@ -3,9 +3,10 @@ package thread;
 import view.Home;
 
 /**
- * Created by DrownFish on 2017/3/10.
+ * 电脑计时线程
+ * @author Administrator
+ *
  */
-
 public class ComputerTimeThread extends Thread implements Runnable {
     private Home main;
     private int computer;
@@ -16,25 +17,26 @@ public class ComputerTimeThread extends Thread implements Runnable {
     }
 
     public void run() {
-        byte total = 10;
-        this.main.time[this.computer].setText("倒计时:" + String.valueOf(10));
-        this.main.time[this.computer].setVisible(true);
-
-        for(int i = total; i >= 0 && this.main.hasSend[this.computer] == 0; --i) {
-            this.main.time[this.computer].setText("倒计时:" + String.valueOf(i));
-
+        int total = 10;
+        // 倒计时：
+        main.time[this.computer].setText("倒计时:" + String.valueOf(10));
+        main.time[this.computer].setVisible(true);
+        for (int i = total; i >= 0; i--) {
+            if (main.hasSend[computer] != 0) {
+                // 已经发完牌或者不要就退出
+                break;
+            }
+            main.time[this.computer].setText("倒计时:" + String.valueOf(i));
             try {
-                Thread.sleep(1000L);
-            } catch (InterruptedException var4) {
-                var4.printStackTrace();
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
         }
-
-        if(this.main.hasSend[this.computer] == 1) {
-            this.main.time[this.computer].setText("我要");
+        if (main.hasSend[computer] == 1) {
+            main.time[computer].setText("我要");
         } else {
-            this.main.time[this.computer].setText("不要");
+            main.time[computer].setText("不要");
         }
-
     }
 }

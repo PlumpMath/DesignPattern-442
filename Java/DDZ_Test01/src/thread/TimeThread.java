@@ -7,13 +7,19 @@ import view.Home;
 import vo.Card;
 import java.awt.Color;
 import java.awt.Point;
-import java.util.Iterator;
 import java.util.List;
 
 /**
  * Created by DrownFish on 2017/3/10.
  */
 
+
+/**
+ * 出牌线程
+ *
+ * @author Administrator
+ *
+ */
 public class TimeThread extends Thread implements Runnable {
     private Home main;
 
@@ -21,341 +27,416 @@ public class TimeThread extends Thread implements Runnable {
         this.main = main;
     }
 
+    @Override
     public void run() {
-        int i;
-        for(i = 10; i >= 0 && this.main.dizhuFlag == -1; --i) {
-            this.main.time[1].setText("倒计时:" + i);
-            this.sleepSeconds(1);
-        }
-
-        if(this.main.dizhuFlag == 1) {
-            this.main.playerList[1].addAll(this.main.lordList);
-            this.openlord(true);
-            this.sleepSeconds(2);
-            Common.order(this.main.playerList[1]);
-            Common.rePosition(this.main, this.main.playerList[1], 1);
-            this.main.publishCard[1].setEnabled(false);
-            this.setlord(1);
-        } else if(this.main.dizhuFlag == 2) {
-            this.main.time[2].setText("抢地主");
-            this.main.time[2].setVisible(true);
-            this.setlord(2);
-            this.openlord(true);
-            this.sleepSeconds(3);
-            this.main.playerList[2].addAll(this.main.lordList);
-            Common.order(this.main.playerList[2]);
-            Common.rePosition(this.main, this.main.playerList[2], 2);
-            this.openlord(false);
-            if(Home.debug) {
-                this.openlord(true);
+        // TODO Auto-generated method stub
+        // 选地主时间段
+        for (int i = 10; i >= 0; i--) {
+            // 等待十秒钟选地主
+            if (main.dizhuFlag == -1) {
+                // 没有确定谁是地主
+                main.time[1].setText("倒计时:" + i);
+                sleepSeconds(1);
+            } else {
+                // 抢完地主了
+                break;
             }
+        }
+        // 发地主牌时间段
+        if (main.dizhuFlag == 1) {
+            // 自己是地主
+            main.playerList[1].addAll(main.lordList);
+            openlord(true);
+            this.sleepSeconds(2);// 等待2秒
+            Common.order(main.playerList[1]);
+            Common.rePosition(main, main.playerList[1], 1);
+            main.publishCard[1].setEnabled(false);
+            setlord(1);
         } else {
-            this.main.time[0].setText("抢地主");
-            this.main.time[0].setVisible(true);
-            this.setlord(0);
-            this.openlord(true);
-            this.sleepSeconds(3);
-            this.main.playerList[0].addAll(this.main.lordList);
-            Common.order(this.main.playerList[0]);
-            Common.rePosition(this.main, this.main.playerList[0], 0);
-            this.openlord(false);
-            if(Home.debug) {
-                this.openlord(true);
-            }
-        }
-
-        this.turnOn(false);
-
-        for(i = 0; i < 3; ++i) {
-            this.main.time[i].setText("不要");
-            this.main.time[i].setVisible(false);
-        }
-
-        do {
-            if(this.main.turn == 1) {
-                this.turnOn(true);
-                if(this.main.preChuPai == 1) {
-                    this.main.publishCard[1].setEnabled(false);
-                } else {
-                    this.main.publishCard[1].setEnabled(true);
+            // 电脑选地主
+            if (main.dizhuFlag == 2) {
+                main.time[2].setText("抢地主");
+                main.time[2].setVisible(true);
+                setlord(2);// 设定地主
+                openlord(true);
+                sleepSeconds(3);
+                main.playerList[2].addAll(main.lordList);
+                Common.order(main.playerList[2]);
+                Common.rePosition(main, main.playerList[2], 2);
+                openlord(false);
+                if (Home.debug) {
+                    openlord(true);
                 }
 
-                this.clearTable(1);
-                if(this.main.preChuPai == 1) {
-                    this.clearTable();
+            } else {
+                main.time[0].setText("抢地主");
+                main.time[0].setVisible(true);
+                setlord(0);// 设定地主
+                openlord(true);
+                sleepSeconds(3);
+                main.playerList[0].addAll(main.lordList);
+                Common.order(main.playerList[0]);
+                Common.rePosition(main, main.playerList[0], 0);
+                openlord(false);
+                if (Home.debug) {
+                    openlord(true);
+                }
+            }
+        }
+        // 出牌时间段
+        turnOn(false);
+        for (int i = 0; i < 3; i++) {
+            main.time[i].setText("不要");
+            main.time[i].setVisible(false);
+        }
+        while (true) {
+
+            if (main.turn == 1) // 我
+            {
+                turnOn(true);// 出牌按钮 --我出牌
+                // 如果我主动出牌关闭不要按钮
+                if (main.preChuPai == 1)
+                    main.publishCard[1].setEnabled(false);
+                else {
+                    main.publishCard[1].setEnabled(true);
+                }
+                // 如果主动出牌，清理桌面
+                clearTable(1);
+                if (main.preChuPai == 1) {
+                    clearTable();
                 }
 
-                this.turnOnLord(false);
-                this.makeCanClick(this.main.playerList[1], true);
-                this.timeWait(30, 1);
-                this.turnOn(false);
-                this.main.turn = (this.main.turn + 1) % 3;
+                turnOnLord(false);// 让抢地主按钮掩藏
+                this.makeCanClick(main.playerList[1], true);
+                timeWait(30, 1);// 我自己的定时器
+                turnOn(false);// 选完关闭
+                main.turn = (main.turn + 1) % 3;
+                // main.preChuPai=1;
+
+            }
+            if (main.turn == 0) {
+                // 启动一个电脑计时线程
+                main.hasSend[0] = 0;// 表示没有出牌完成
+                computerTimer(0);
+                clearTable(0);
+                computer0();
+                main.turn = (main.turn + 1) % 3;
+
+            }
+            if (main.turn == 2) {
+                clearTable(2);
+                // 启动一个电脑计时线程
+                main.hasSend[2] = 0;// 表示没有出牌完成
+                computerTimer(2);
+                computer2();
+                main.turn = (main.turn + 1) % 3;
             }
 
-            if(this.main.turn == 0) {
-                this.main.hasSend[0] = 0;
-                this.computerTimer(0);
-                this.clearTable(0);
-                this.computer0();
-                this.main.turn = (this.main.turn + 1) % 3;
-            }
-
-            if(this.main.turn == 2) {
-                this.clearTable(2);
-                this.main.hasSend[2] = 0;
-                this.computerTimer(2);
-                this.computer2();
-                this.main.turn = (this.main.turn + 1) % 3;
-            }
-        } while(!this.win());
+            if (win()) // 判断输赢
+                break;
+        }
 
     }
 
+    /**
+     * 判断输赢
+     *
+     * @return
+     */
     private boolean win() {
-        for(int i = 0; i < 3; ++i) {
-            if(this.main.playerList[i].size() == 0) {
+        for (int i = 0; i < 3; i++) {
+            if (main.playerList[i].size() == 0) {
                 String s;
-                if(i == 1) {
+                if (i == 1) {
                     s = "You win!";
-                    this.main.winJLabel[0].setVisible(true);
-                    this.main.winJLabel[1].setVisible(true);
-                    this.main.winOrLose.setForeground(Color.RED);
-                } else if(this.isFriend(i, 1)) {
-                    s = "You win!";
-                    this.main.winJLabel[0].setVisible(true);
-                    this.main.winJLabel[1].setVisible(true);
-                    this.main.winOrLose.setForeground(Color.RED);
+                    main.winJLabel[0].setVisible(true);
+                    main.winJLabel[1].setVisible(true);
+                    main.winOrLose.setForeground(Color.RED);
                 } else {
-                    s = "You lose!";
-                    this.main.loseJLabel[0].setVisible(true);
-                    this.main.loseJLabel[1].setVisible(true);
-                    this.main.winOrLose.setForeground(Color.black);
-                }
+                    if (isFriend(i, 1)) {
+                        s = "You win!";
+                        main.winJLabel[0].setVisible(true);
+                        main.winJLabel[1].setVisible(true);
+                        main.winOrLose.setForeground(Color.RED);
+                    } else {
+                        s = "You lose!";
+                        main.loseJLabel[0].setVisible(true);
+                        main.loseJLabel[1].setVisible(true);
+                        main.winOrLose.setForeground(Color.black);
+                    }
 
-                int j;
-                for(j = 0; j < this.main.playerList[(i + 1) % 3].size(); ++j) {
-                    ((Card)this.main.playerList[(i + 1) % 3].get(j)).turnFront();
                 }
-
-                for(j = 0; j < this.main.playerList[(i + 2) % 3].size(); ++j) {
-                    ((Card)this.main.playerList[(i + 2) % 3].get(j)).turnFront();
-                }
-
-                this.main.winOrLose.setText(s);
-                this.main.winOrLose.setVisible(true);
+                for (int j = 0; j < main.playerList[(i + 1) % 3].size(); j++)
+                    main.playerList[(i + 1) % 3].get(j).turnFront();
+                for (int j = 0; j < main.playerList[(i + 2) % 3].size(); j++)
+                    main.playerList[(i + 2) % 3].get(j).turnFront();
+                main.winOrLose.setText(s);
+                main.winOrLose.setVisible(true);
                 return true;
             }
         }
-
         return false;
     }
 
+    /**
+     * 电脑倒计时
+     *
+     * @param computer
+     */
     public void computerTimer(int computer) {
-        byte total = 10;
-        this.main.time[computer].setText("倒计时:" + String.valueOf(10));
-        this.main.time[computer].setVisible(true);
-
-        for(int i = total; i >= 10 && this.main.hasSend[computer] == 0; --i) {
-            this.main.time[computer].setText("倒计时:" + String.valueOf(i));
-
+        int total = 10;
+        // 倒计时：
+        main.time[computer].setText("倒计时:" + String.valueOf(10));
+        main.time[computer].setVisible(true);
+        for (int i = total; i >= 10; i--) {
+            if (main.hasSend[computer] != 0) {
+                // 已经发完牌或者不要就退出
+                break;
+            }
+            main.time[computer].setText("倒计时:" + String.valueOf(i));
             try {
-                Thread.sleep(1000L);
-            } catch (InterruptedException var5) {
-                var5.printStackTrace();
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
             }
         }
-
     }
 
+    /**
+     * 清理某人的桌面
+     *
+     * @param i
+     */
     private void clearTable(int i) {
-        Iterator var3 = this.main.currentList[i].iterator();
-
-        while(var3.hasNext()) {
-            Card bc = (Card)var3.next();
+        // TODO Auto-generated method stub
+        for (Card bc : main.currentList[i]) {
             bc.setVisible(false);
         }
-
-        this.main.currentList[i].clear();
+        main.currentList[i].clear();
     }
 
+    /**
+     * 清理桌面
+     */
     private void clearTable() {
-        for(int i = 0; i < 3; ++i) {
-            this.clearTable(i);
+        // TODO Auto-generated method stub
+        for (int i = 0; i < 3; i++) {
+            clearTable(i);
         }
-
     }
 
+    /**
+     * 电脑2出牌 出牌分为（要牌和自主出牌） 要牌规则1 只要是敌人就要牌，只要友人就不要
+     *
+     */
     private void computer2() {
-        byte role = 2;
-        OneSendCard oneSendCard;
-        if(!this.isSelfSendCard(role)) {
-            if(!this.isFriend(role, this.main.preChuPai)) {
-                oneSendCard = CardTypeFactory.getOneSendCardBiggerButleast(this.main.playerList[2], this.main.preOneSendCard);
-                if(oneSendCard == null) {
-                    this.main.hasSend[role] = 2;
-                    this.main.time[role].setText("不要");
+        // TODO Auto-generated method stub
+        int role = 2;
+        if (!isSelfSendCard(role)) {
+            // 如果电脑2不是主动出牌
+            if (!isFriend(role, main.preChuPai)) {
+                // 如果不是同伙关系
+                OneSendCard oneSendCard = CardTypeFactory.getOneSendCardBiggerButleast(main.playerList[2],
+                        main.preOneSendCard);
+
+                if (oneSendCard == null) {
+                    // 要不了
+                    main.hasSend[role] = 2;
+                    main.time[role].setText("不要");
                 } else {
-                    this.showCard(role, oneSendCard);
-                    this.main.preOneSendCard = oneSendCard;
-                    this.main.hasSendList.addAll(oneSendCard.getOneSendCardList());
-                    this.main.currentList[role] = oneSendCard.getOneSendCardList();
-                    this.main.preChuPai = role;
-                    this.main.hasSend[role] = 1;
-                    this.main.time[role].setText("我要");
+                    showCard(role, oneSendCard);
+                    // 设置上一次出的什么牌，谁出的牌，是否已经出牌
+                    main.preOneSendCard = oneSendCard;
+                    // 将出牌增加到已出列表
+                    main.hasSendList.addAll(oneSendCard.getOneSendCardList());
+                    main.currentList[role] = oneSendCard.getOneSendCardList();
+                    main.preChuPai = role;
+                    main.hasSend[role] = 1;
+                    main.time[role].setText("我要");
                 }
             } else {
-                this.main.time[role].setText("不要");
-                this.main.hasSend[role] = 2;
+                // 是同伙关系，暂时不要
+                main.time[role].setText("不要");
+                main.hasSend[role] = 2;
             }
         } else {
-            oneSendCard = CardTypeFactory.getFirstBestOneSendCard(this.main.playerList[2]);
-            this.showCard(role, oneSendCard);
-            this.main.preOneSendCard = oneSendCard;
-            this.main.hasSendList.addAll(oneSendCard.getOneSendCardList());
-            this.main.currentList[role] = oneSendCard.getOneSendCardList();
-            this.main.preChuPai = role;
-            this.main.hasSend[role] = 1;
+            // 电脑2主动出牌
+            OneSendCard oneSendCard = CardTypeFactory.getFirstBestOneSendCard(main.playerList[2]);
+            showCard(role, oneSendCard);
+            main.preOneSendCard = oneSendCard;
+            // 将出牌增加到已出列表
+            main.hasSendList.addAll(oneSendCard.getOneSendCardList());
+            main.currentList[role] = oneSendCard.getOneSendCardList();
+            main.preChuPai = role;
+            main.hasSend[role] = 1;
         }
-
     }
 
+    /**
+     *
+     * 出牌效果
+     *
+     * @param role
+     * @param oneSendCard
+     */
     private void showCard(int role, OneSendCard oneSendCard) {
-        List list = oneSendCard.getOneSendCardList();
-        this.main.currentList[role].clear();
+        List<Card> list = oneSendCard.getOneSendCardList();
+        main.currentList[role].clear();
         Point point = new Point();
-        if(role == 0) {
+        if (role == 0)
             point.x = 200;
-        }
-
-        if(role == 2) {
+        if (role == 2)
             point.x = 550;
-        }
-
-        if(role == 1) {
-            point.x = 385 - (this.main.currentList[1].size() + 1) * 15 / 2;
+        if (role == 1) {
+            point.x = (770 / 2) - (main.currentList[1].size() + 1) * 15 / 2;
             point.y = 300;
         }
-
-        point.y = 200 - (list.size() + 1) * 15 / 2;
-        Iterator var6 = list.iterator();
-
-        while(var6.hasNext()) {
-            Card card = (Card)var6.next();
+        point.y = (400 / 2) - (list.size() + 1) * 15 / 2;// 屏幕中部
+        for (Card card : list) {
             Common.move(card, card.getLocation(), point);
             point.y += 15;
-            this.main.container.setComponentZOrder(card, 0);
+            main.container.setComponentZOrder(card, 0);
             card.turnFront();
-            this.main.currentList[role].add(card);
-            this.main.playerList[role].remove(card);
-        }
+            main.currentList[role].add(card);
 
-        Common.rePosition(this.main, this.main.playerList[role], role);
+            main.playerList[role].remove(card);
+        }
+        Common.rePosition(main, main.playerList[role], role);
     }
 
+    /**
+     * 电脑2出牌 出牌分为（要牌和自主出牌） 要牌规则1 只要是敌人就要牌，只要友人就不要
+     *
+     */
     private void computer0() {
-        byte role = 0;
-        OneSendCard oneSendCard;
-        if(!this.isSelfSendCard(role)) {
-            if(!this.isFriend(role, this.main.preChuPai)) {
-                oneSendCard = CardTypeFactory.getBiggerOneSendCard(this.main.playerList[role], this.main.preOneSendCard);
-                if(oneSendCard == null) {
-                    this.main.hasSend[role] = 2;
-                    this.main.time[role].setText("不要");
+        // TODO Auto-generated method stub
+        int role = 0;
+        if (!isSelfSendCard(role)) {
+            // 如果电脑2不是主动出牌
+            if (!isFriend(role, main.preChuPai)) {
+                // 如果不是同伙关系
+                OneSendCard oneSendCard = CardTypeFactory.getBiggerOneSendCard(main.playerList[role],
+                        main.preOneSendCard);
+                if (oneSendCard == null) {
+                    // 要不了
+                    main.hasSend[role] = 2;
+                    main.time[role].setText("不要");
                 } else {
-                    this.showCard(role, oneSendCard);
-                    this.main.preOneSendCard = oneSendCard;
-                    this.main.hasSendList.addAll(oneSendCard.getOneSendCardList());
-                    this.main.preChuPai = role;
-                    this.main.hasSend[role] = 1;
-                    this.main.time[role].setText("我要");
+                    showCard(role, oneSendCard);
+                    // 设置上一次出的什么牌，谁出的牌，是否已经出牌
+                    main.preOneSendCard = oneSendCard;
+                    // 将出牌增加到已出列表
+                    main.hasSendList.addAll(oneSendCard.getOneSendCardList());
+                    main.preChuPai = role;
+                    main.hasSend[role] = 1;
+                    main.time[role].setText("我要");
                 }
             } else {
-                this.main.time[role].setText("不要");
-                this.main.hasSend[role] = 2;
+                // 是同伙关系，暂时不要
+                main.time[role].setText("不要");
+                main.hasSend[role] = 2;
             }
         } else {
-            oneSendCard = CardTypeFactory.getFirstBestOneSendCard(this.main.playerList[role]);
-            this.showCard(role, oneSendCard);
-            this.main.preOneSendCard = oneSendCard;
-            this.main.hasSendList.addAll(oneSendCard.getOneSendCardList());
-            this.main.preOneSendCard = oneSendCard;
-            this.main.currentList[role] = oneSendCard.getOneSendCardList();
-            this.main.preChuPai = role;
-            this.main.hasSend[role] = 1;
+            // 如果电脑2是主动出牌
+            OneSendCard oneSendCard = CardTypeFactory.getFirstBestOneSendCard(main.playerList[role]);
+            showCard(role, oneSendCard);
+            // 设置上一次出的什么牌，谁出的牌，是否已经出牌
+            main.preOneSendCard = oneSendCard;
+            // 将出牌增加到已出列表
+            main.hasSendList.addAll(oneSendCard.getOneSendCardList());
+            main.preOneSendCard = oneSendCard;
+            main.currentList[role] = oneSendCard.getOneSendCardList();
+            main.preChuPai = role;
+            main.hasSend[role] = 1;
         }
-
     }
 
+    /**
+     * 判断是否是主动出牌
+     */
     public boolean isSelfSendCard(int player) {
-        return this.main.preChuPai == -1 || this.main.preChuPai == player;
+        if (main.preChuPai == -1 || main.preChuPai == player) {
+            // 如果还没有人出牌或者上一次出牌的人是自己，本次就是自动出牌
+            return true;
+        } else {
+            return false;
+        }
     }
 
+    /**
+     * 判断两个人是不是一伙的
+     */
     public boolean isFriend(int i1, int i2) {
         boolean b = true;
-        if(i1 == this.main.dizhuFlag || i2 == this.main.dizhuFlag) {
+        // 只要两个人中有一个是地主，他们就不是一伙的
+        if (i1 == main.dizhuFlag || i2 == main.dizhuFlag) {
             b = false;
         }
-
         return b;
     }
 
+    /**
+     * 抢地主按钮显示，掩藏处理
+     *
+     * @param b
+     */
     private void turnOnLord(boolean b) {
-        for(int i = 0; i < 2; ++i) {
-            this.main.landlord[i].setVisible(b);
+        // TODO Auto-generated method stub
+        for (int i = 0; i < 2; i++) {
+            main.landlord[i].setVisible(b);
         }
-
     }
 
+    // 延时，模拟时钟
     public void timeWait(int n, int player) {
-        if(this.main.currentList[player].size() > 0) {
-            Common.hideCards(this.main.currentList[player]);
-        }
 
-        int i;
-        if(player == 1) {
-            for(i = n; !this.main.nextPlayer && i >= 0; --i) {
-                this.main.time[player].setText("倒计时:" + i);
-                this.main.time[player].setVisible(true);
-                this.sleepSeconds(1);
+        if (main.currentList[player].size() > 0)
+            Common.hideCards(main.currentList[player]);
+        if (player == 1) // 如果是我，30秒到后直接下一家出牌
+        {
+            int i = n;
+            while (main.nextPlayer == false && i >= 0) {
+                main.time[player].setText("倒计时:" + i);
+                main.time[player].setVisible(true);
+                sleepSeconds(1);
+                i--;
             }
-
-            if(i == -1) {
-                ;
+            if (i == -1 && player == 1) {
+                // 如果我超时
             }
-
-            this.main.nextPlayer = false;
+            main.nextPlayer = false;
         } else {
-            for(i = n; i >= 0; --i) {
-                this.sleepSeconds(1);
-                this.main.time[player].setText("倒计时:" + i);
-                this.main.time[player].setVisible(true);
+            for (int i = n; i >= 0; i--) {
+                sleepSeconds(1);
+                main.time[player].setText("倒计时:" + i);
+                main.time[player].setVisible(true);
             }
         }
-
-        this.main.time[player].setVisible(false);
+        main.time[player].setVisible(false);
     }
 
+    // 使全部牌变的是否可点击
     public void makeCanClick(List<Card> list, boolean b) {
-        Iterator var4 = list.iterator();
-
-        while(var4.hasNext()) {
-            Card card = (Card)var4.next();
+        for (Card card : list) {
             card.setCanClick(b);
         }
-
     }
 
+    // 打开出牌按钮
     public void turnOn(boolean flag) {
-        this.main.publishCard[0].setVisible(flag);
-        this.main.publishCard[1].setVisible(flag);
-        this.main.publishCard[2].setVisible(flag);
+        main.publishCard[0].setVisible(flag);
+        main.publishCard[1].setVisible(flag);
+        main.publishCard[2].setVisible(flag);
     }
 
+    // 设定地主
     public void setlord(int i) {
         Point point = new Point();
         Point point1 = new Point();
         Point point2 = new Point();
-        if(i == 1) {
+        if (i == 1) // 我是地主
+        {
             point.x = 80;
             point.y = 430;
             point1.x = 80;
@@ -363,8 +444,7 @@ public class TimeThread extends Thread implements Runnable {
             point2.x = 700;
             point2.y = 20;
         }
-
-        if(i == 0) {
+        if (i == 0) {
             point.x = 80;
             point.y = 20;
             point1.x = 80;
@@ -372,8 +452,7 @@ public class TimeThread extends Thread implements Runnable {
             point2.x = 700;
             point2.y = 20;
         }
-
-        if(i == 2) {
+        if (i == 2) {
             point.x = 700;
             point.y = 20;
             point1.x = 80;
@@ -381,34 +460,31 @@ public class TimeThread extends Thread implements Runnable {
             point2.x = 80;
             point2.y = 430;
         }
-
-        this.main.dizhu.setLocation(point);
-        this.main.farmer1.setLocation(point1);
-        this.main.farmer2.setLocation(point2);
-        this.main.dizhu.setVisible(true);
-        this.main.farmer1.setVisible(true);
-        this.main.farmer2.setVisible(true);
+        main.dizhu.setLocation(point);
+        main.farmer1.setLocation(point1);
+        main.farmer2.setLocation(point2);
+        main.dizhu.setVisible(true);
+        main.farmer1.setVisible(true);
+        main.farmer2.setVisible(true);
     }
 
+    // 地主牌翻看
     public void openlord(boolean is) {
-        for(int i = 0; i < 3; ++i) {
-            if(is) {
-                ((Card)this.main.lordList.get(i)).turnFront();
-            } else {
-                ((Card)this.main.lordList.get(i)).turnRear();
+        for (int i = 0; i < 3; i++) {
+            if (is)
+                main.lordList.get(i).turnFront(); // 地主牌翻看
+            else {
+                main.lordList.get(i).turnRear(); // 地主牌闭合
             }
-
-            ((Card)this.main.lordList.get(i)).setCanClick(true);
+            main.lordList.get(i).setCanClick(true);// 可被点击
         }
-
     }
 
     public void sleepSeconds(int second) {
         try {
-            Thread.sleep((long)(second * 1000));
-        } catch (InterruptedException var3) {
-            var3.printStackTrace();
+            Thread.sleep(second * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
-
     }
 }
