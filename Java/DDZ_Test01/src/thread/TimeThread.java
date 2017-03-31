@@ -89,6 +89,7 @@ public class TimeThread extends Thread implements Runnable {
             main.time[i].setText("不要");
             main.time[i].setVisible(false);
         }
+        turnOnLord(false);// 让抢地主按钮掩藏
         while (true) {
 
             if (main.turn == 1) // 我
@@ -106,7 +107,7 @@ public class TimeThread extends Thread implements Runnable {
                     clearTable();
                 }
 
-                turnOnLord(false);// 让抢地主按钮掩藏
+
                 this.makeCanClick(main.playerList[1], true);
                 timeWait(30, 1);// 我自己的定时器
                 turnOn(false);// 选完关闭

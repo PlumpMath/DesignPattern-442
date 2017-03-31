@@ -100,6 +100,8 @@ public class Common {
         return score0 > score2?0:2;
     }
 
+//    判断自己是否有能力去抢地主
+//    如果自己的大王和小王多，或者2多，可以抢地主
     public static int getScore(java.util.List<Card> list) {
         int count = 0;
         int i = 0;

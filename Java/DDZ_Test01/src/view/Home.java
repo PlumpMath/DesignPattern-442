@@ -19,6 +19,8 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
+import static java.lang.Thread.sleep;
+
 /**
  * Created by DrownFish on 2017/3/10.
  */
@@ -70,6 +72,9 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.container.repaint();
     }
 
+    /**
+     * 初始化界面,并添加需要的监听器
+     */
     public void Init() {
         this.setTitle("斗地主");
         this.setSize(830, 620);
@@ -90,7 +95,11 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.startBtn.setLocation((this.container.getWidth() - this.startImage.getIconWidth()) / 2, 350);
         this.startBtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent arg0) {
-                Home.this.startGame();
+                try {
+                    Home.this.startGame();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         });
         this.container.add(this.startBtn);
@@ -106,8 +115,12 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.container.add(this.exitBtn);
     }
 
-    void startGame() {
+    /**
+     * 开始游戏，首先清除初始化界面的内容，之后添加Button、Card、
+     */
+    void startGame() throws InterruptedException {
         this.container.removeAll();
+        //sleep(3000);
         this.SetButton();
         this.CardInit();
         this.getLord();
@@ -120,7 +133,6 @@ public class Home extends JFrame implements ActionListener, Runnable {
         for(int i = 0; i < 2; ++i) {
             this.landlord[i].setVisible(true);
         }
-
     }
 
     public void CardInit() {
@@ -128,6 +140,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
 
         int t;
         int i;
+        //初始化黑红梅花片四种牌的每种13张牌
         for(t = 1; t <= 4; ++t) {
             for(i = 3; i <= 15; ++i) {
                 this.card[count] = new Card(this, i, t, false);
@@ -137,6 +150,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
             }
         }
 
+        //初始化大王和小王
         this.card[52] = new Card(this, 16, 5, false);
         this.card[52].setLocation(350, 50);
         this.container.add(this.card[52]);
@@ -144,6 +158,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.card[53].setLocation(350, 50);
         this.container.add(this.card[53]);
 
+//        打乱牌顺序
         for(t = 0; t < 100; ++t) {
             Random var7 = new Random();
             int a = var7.nextInt(54);
@@ -211,32 +226,37 @@ public class Home extends JFrame implements ActionListener, Runnable {
     }
 
     public void SetButton() {
-        this.robImage = new ImageIcon("images/rob.png");
-        this.noImage = new ImageIcon("images/no.png");
-        this.tipImage = new ImageIcon("images/tip.png");
-        this.disImage = new ImageIcon("images/dis.png");
-        this.doImage = new ImageIcon("images/do.png");
+        this.robImage = new ImageIcon("images/rob.png");//叫地主
+        this.noImage = new ImageIcon("images/no.png");//不叫
+        this.tipImage = new ImageIcon("images/tip.png");//提示
+        this.disImage = new ImageIcon("images/dis.png");//不要
+        this.doImage = new ImageIcon("images/do.png");//出牌
+
         this.landlord[0] = new JButton(this.robImage);
         this.landlord[1] = new JButton(this.noImage);
+
         this.publishCard[0] = new JButton(this.doImage);
         this.publishCard[1] = new JButton(this.disImage);
         this.publishCard[2] = new JButton(this.tipImage);
+
+        //根据图片大小设置Button
         this.landlord[0].setSize(this.robImage.getIconWidth(), this.robImage.getIconHeight());
         this.landlord[1].setSize(this.noImage.getIconWidth(), this.noImage.getIconHeight());
         this.publishCard[0].setSize(this.doImage.getIconWidth(), this.doImage.getIconHeight());
         this.publishCard[1].setSize(this.disImage.getIconWidth(), this.disImage.getIconHeight());
         this.publishCard[2].setSize(this.tipImage.getIconWidth(), this.tipImage.getIconHeight());
 
-        int i;
-        for(i = 0; i < 2; ++i) {
-            this.publishCard[i].setLocation(270 + i * 100, 400);
+
+        for(int i = 0; i < 2; ++i) {
             this.landlord[i].setLocation(320 + i * 100, 400);
-            this.container.add(this.landlord[i]);
             this.landlord[i].addActionListener(this);
             this.landlord[i].setVisible(false);
-            this.container.add(this.publishCard[i]);
+            this.container.add(this.landlord[i]);
+
+            this.publishCard[i].setLocation(270 + i * 100, 400);
             this.publishCard[i].setVisible(false);
             this.publishCard[i].addActionListener(this);
+            this.container.add(this.publishCard[i]);
         }
 
         this.publishCard[2].setLocation(470, 400);
@@ -244,7 +264,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.publishCard[2].setVisible(false);
         this.publishCard[2].addActionListener(this);
 
-        for(i = 0; i < 3; ++i) {
+        for(int i = 0; i < 3; ++i) {
             this.time[i] = new JLabel("倒计时:");
             this.time[i].setVisible(false);
             this.container.add(this.time[i]);
@@ -254,7 +274,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.time[1].setBounds(374, 360, 60, 20);
         this.time[2].setBounds(620, 230, 60, 20);
 
-        for(i = 0; i < 3; ++i) {
+        for(int i = 0; i < 3; ++i) {
             this.currentList[i] = new ArrayList();
         }
 
@@ -265,10 +285,11 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.winOrLose.setLocation((this.container.getWidth() - this.winOrLose.getWidth()) / 2, 200);
         this.winOrLose.setVisible(false);
         this.container.add(this.winOrLose);
+
+
         this.winImage = new ImageIcon("images/win.gif");
         this.winJLabel = new JLabel[2];
-
-        for(i = 0; i < this.winJLabel.length; ++i) {
+        for(int i = 0; i < this.winJLabel.length; ++i) {
             this.winJLabel[i] = new JLabel(this.winImage);
             this.winJLabel[i].setSize(this.winImage.getIconWidth(), this.winImage.getIconHeight());
             this.winJLabel[i].setLocation((this.container.getWidth() - this.winOrLose.getWidth()) / 2 + 350 * i, 200);
@@ -276,10 +297,10 @@ public class Home extends JFrame implements ActionListener, Runnable {
             this.container.add(this.winJLabel[i]);
         }
 
+
         this.loseImage = new ImageIcon("images/lose.gif");
         this.loseJLabel = new JLabel[2];
-
-        for(i = 0; i < this.loseJLabel.length; ++i) {
+        for(int i = 0; i < this.loseJLabel.length; ++i) {
             this.loseJLabel[i] = new JLabel(this.loseImage);
             this.loseJLabel[i].setSize(300, 150);
             this.loseJLabel[i].setLocation((this.container.getWidth() - this.winOrLose.getWidth()) / 2 + 300 * i, 175);
@@ -425,7 +446,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
     public static void main(String[] args) {
         Home me = new Home();
         main = me;
-        (new Thread(me)).start();
+        //(new Thread(me)).start();
     }
 
     public void run() {

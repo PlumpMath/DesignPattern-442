@@ -289,7 +289,7 @@ public class CardTypeFactory {
     /**
      * 电脑自主出牌
      *
-     * @param list
+     * @param playerList
      * @return
      */
     public static OneSendCard getFirstBestOneSendCard(List<Card> playerList) {
