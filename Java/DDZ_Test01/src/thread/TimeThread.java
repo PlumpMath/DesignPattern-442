@@ -29,7 +29,6 @@ public class TimeThread extends Thread implements Runnable {
 
     @Override
     public void run() {
-        // TODO Auto-generated method stub
         // 选地主时间段
         for (int i = 10; i >= 0; i--) {
             // 等待十秒钟选地主
@@ -239,10 +238,9 @@ public class TimeThread extends Thread implements Runnable {
      * 电脑2出牌 出牌分为（要牌和自主出牌） 要牌规则1 只要是敌人就要牌，只要友人就不要
      */
     private void computer2() {
-        // TODO Auto-generated method stub
         int role = 2;
         if (!isSelfSendCard(role)) {
-            // 如果电脑2不是主动出牌
+            // 如果电脑2（自己）不是主动出牌
             if (!isFriend(role, main.preChuPai)) {
                 // 如果不是同伙关系
                 OneSendCard oneSendCard = CardTypeFactory.getOneSendCardBiggerButleast(main.playerList[2],
@@ -250,7 +248,7 @@ public class TimeThread extends Thread implements Runnable {
 
                 if (oneSendCard == null) {
                     // 要不了
-                    main.hasSend[role] = 2;
+                    main.hasSend[role] = 2; //不要状态
                     main.time[role].setText("不要");
                 } else {
                     showCard(role, oneSendCard);
@@ -260,13 +258,13 @@ public class TimeThread extends Thread implements Runnable {
                     main.hasSendList.addAll(oneSendCard.getOneSendCardList());
                     main.currentList[role] = oneSendCard.getOneSendCardList();
                     main.preChuPai = role;
-                    main.hasSend[role] = 1;
+                    main.hasSend[role] = 1; //要 状态
                     main.time[role].setText("我要");
                 }
             } else {
                 // 是同伙关系，暂时不要
                 main.time[role].setText("不要");
-                main.hasSend[role] = 2;
+                main.hasSend[role] = 2; //不要状态
             }
         } else {
             // 电脑2主动出牌
@@ -312,13 +310,17 @@ public class TimeThread extends Thread implements Runnable {
     }
 
     /**
-     * 电脑2出牌 出牌分为（要牌和自主出牌） 要牌规则1 只要是敌人就要牌，只要友人就不要
+     * 电脑0出牌 出牌分为（要牌和自主出牌）
+     * 规则：
+     *      1.如果是友方主动出牌，那么不要
+     *      2.如果是地方主动出牌
+     *
      */
     private void computer0() {
         // TODO Auto-generated method stub
         int role = 0;
         if (!isSelfSendCard(role)) {
-            // 如果电脑2不是主动出牌
+            // 如果电脑0不是主动出牌
             if (!isFriend(role, main.preChuPai)) {
                 // 如果不是同伙关系
                 OneSendCard oneSendCard = CardTypeFactory.getBiggerOneSendCard(main.playerList[role],
@@ -343,7 +345,7 @@ public class TimeThread extends Thread implements Runnable {
                 main.hasSend[role] = 2;
             }
         } else {
-            // 如果电脑2是主动出牌
+            // 如果电脑0是主动出牌
             OneSendCard oneSendCard = CardTypeFactory.getFirstBestOneSendCard(main.playerList[role]);
             showCard(role, oneSendCard);
             // 设置上一次出的什么牌，谁出的牌，是否已经出牌
@@ -362,7 +364,7 @@ public class TimeThread extends Thread implements Runnable {
      */
     public boolean isSelfSendCard(int player) {
         if (main.preChuPai == -1 || main.preChuPai == player) {
-            // 如果还没有人出牌或者上一次出牌的人是自己，本次就是自动出牌
+            // 如果还没有人出牌或者上一次出牌的人是自己，本次就是主动出牌
             return true;
         } else {
             return false;

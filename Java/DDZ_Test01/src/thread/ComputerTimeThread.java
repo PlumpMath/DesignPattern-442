@@ -23,15 +23,17 @@ public class ComputerTimeThread extends Thread implements Runnable {
         main.time[this.computer].setVisible(true);
         for (int i = total; i >= 0; i--) {
             if (main.hasSend[computer] != 0) {
-                // 已经发完牌或者不要就退出
+                // 已经出完牌或者不要就退出
                 break;
             }
             main.time[this.computer].setText("倒计时:" + String.valueOf(i));
+
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+
         }
         if (main.hasSend[computer] == 1) {
             main.time[computer].setText("我要");

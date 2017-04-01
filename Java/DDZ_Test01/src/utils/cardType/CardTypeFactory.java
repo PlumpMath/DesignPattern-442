@@ -27,9 +27,6 @@ import vo.Card;
 
 /**
  * 牌型工厂方法
- *
- * @author Administrator
- *
  */
 public class CardTypeFactory {
     public static String[] cardTypeStrings = { CardTypeString.SINGLE_CARDTYPE };
@@ -43,9 +40,7 @@ public class CardTypeFactory {
 
     /**
      * 根据传入的字符串返回牌型
-     *
-     * @param cardTypeString
-     *            牌型的字符串
+     * @param cardTypeString 牌型的字符串
      * @return 牌型的实例
      */
     public static ICardType getCardTypeByCardTypeString(String cardTypeString) {
@@ -84,7 +79,6 @@ public class CardTypeFactory {
 
     /**
      * 通过遍历类型，返回该类型字符串
-     *
      * @param list
      * @return
      */
@@ -99,11 +93,8 @@ public class CardTypeFactory {
 
     /**
      * 如果是朋友出牌，如果能顺牌，则顺牌，比如单牌，要顺牌
-     *
-     * @param playerList
-     *            所有的牌
-     * @param preOneSendCard
-     *            上一次出的牌
+     * @param playerList 所有的牌
+     * @param preOneSendCard 上一次出的牌
      * @return
      */
     public static OneSendCard getFriendBiggerOneSendCard(List<Card> playerList, OneSendCard preOneSendCard) {
@@ -113,11 +104,8 @@ public class CardTypeFactory {
     /**
      * 找出压牌的出牌，首先从最优方案中能够压牌的 OneSendCard，如果不存在，则再调用
      * getOneSendCardBiggerButleast找到一个可以压牌的OneSendCard
-     *
-     * @param playerList
-     *            所有的牌
-     * @param preOneSendCard
-     *            上一次出的牌
+     * @param playerList 所有的牌
+     * @param preOneSendCard 上一次出的牌
      * @return
      */
     public static OneSendCard getBiggerOneSendCard(List<Card> playerList, OneSendCard preOneSendCard) {
@@ -231,15 +219,11 @@ public class CardTypeFactory {
 
     /**
      * 从所有的牌中找到比上一次出牌大的中最小的那个一次出牌
-     *
-     * @param playerList
-     *            所有的牌
-     * @param preOneSendCard
-     *            上一次出的牌
+     * @param playerList 所有的牌
+     * @param preOneSendCard 上一次出的牌
      * @return
      */
     public static OneSendCard getOneSendCardBiggerButleast(List<Card> playerList, OneSendCard preOneSendCard) {
-        // TODO Auto-generated method stub
         ICardType cardType = CardTypeFactory.getCardTypeByCardTypeString(preOneSendCard.getCardType());
         OneSendCard ret = null;
         if (playerList.size() < cardType.getMinLength()) {
@@ -287,7 +271,6 @@ public class CardTypeFactory {
 
     /**
      * 电脑自主出牌
-     *
      * @param playerList
      * @return
      */
@@ -303,7 +286,6 @@ public class CardTypeFactory {
 
     /**
      * 获取自主出牌提示的出牌
-     *
      * @param list
      * @return
      */
@@ -319,12 +301,10 @@ public class CardTypeFactory {
 
     /**
      * 获取压牌的提示牌
-     *
      * @param list
      * @return
      */
     public static OneSendCard getBiggerPrompt(List<Card> list, OneSendCard preOneSendCard) {
-        // TODO Auto-generated method stub
         return getBiggerOneSendCard(list, preOneSendCard);
     }
 }

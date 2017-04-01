@@ -2,124 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4296dfb1-b4b9-42b0-8eff-3c8c0992263b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/out/production/AbstractFactory/AbstractFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/out/production/AbstractFactory/AbstractFactoryPatternDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/out/production/AbstractFactory/Blue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/out/production/AbstractFactory/Circle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/out/production/AbstractFactory/Color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/out/production/AbstractFactory/ColorFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/out/production/AbstractFactory/FactoryProducer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/out/production/AbstractFactory/Green.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/out/production/AbstractFactory/Rectangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/out/production/AbstractFactory/Red.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/out/production/AbstractFactory/Shape.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/out/production/AbstractFactory/ShapeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/out/production/AbstractFactory/Square.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/src/AbstractFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/src/AbstractFactoryPatternDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/src/Blue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/src/Circle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/src/Color.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/src/ColorFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/src/FactoryProducer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/src/Green.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/src/Rectangle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/src/Red.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/src/Shape.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/src/ShapeFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AbstractFactory/src/Square.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/FactoryPattern.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/out/production/FactoryPattern/Circle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/out/production/FactoryPattern/FactoryPattern.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/out/production/FactoryPattern/Rectangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/out/production/FactoryPattern/Shape.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/out/production/FactoryPattern/ShapeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/out/production/FactoryPattern/Square.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/src/Circle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/src/FactoryPattern.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/src/Rectangle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/src/Shape.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/src/ShapeFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern/src/Square.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/FactoryPattern2.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/AbstractFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/AbstractFactoryPatternDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/Blue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/Circle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/CircleFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/Color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/ColorFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/FactoryPattern.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/FactoryProducer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/Green.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/Rectangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/RectangleFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/Red.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/Shape.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/ShapeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/Square.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/SquareFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/thread/ComputerTimeThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/thread/TimeThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/CardUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/OneSendCard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/CardTypeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/ICardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/cardTypeImpl/CardTypeString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/cardTypeImpl/DoubleCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/cardTypeImpl/FourCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/cardTypeImpl/FourOneOneCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/cardTypeImpl/FourTwoTwoCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/cardTypeImpl/OneOneTwoTwoCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/cardTypeImpl/OneTwoThreeCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/cardTypeImpl/PlaneCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/cardTypeImpl/PlaneOneCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/cardTypeImpl/PlaneTwoCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/cardTypeImpl/SingleCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/cardTypeImpl/ThreeAndOneCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/cardTypeImpl/ThreeAndTwoCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/cardType/cardTypeImpl/ThreeCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/devided/DevidedCardSolution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/utils/devided/DevidedCardSolutionFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/view/Common$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/view/Common.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/view/Home$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/view/Home.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/out/production/FactoryPattern2/vo/Card.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/src/Circle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/src/CircleFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/src/FactoryPattern.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/src/Rectangle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/src/RectangleFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/src/Shape.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/src/ShapeFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/src/Square.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FactoryPattern2/src/SquareFactory.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/thread/TimeThread.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/thread/TimeThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Common$1.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Common$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Common.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Common.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$1.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/vo/Card.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/vo/Card.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/thread/ComputerTimeThread.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/thread/ComputerTimeThread.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thread/ComputerTimeThread.java" afterPath="$PROJECT_DIR$/src/thread/ComputerTimeThread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thread/TimeThread.java" afterPath="$PROJECT_DIR$/src/thread/TimeThread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/CardTypeFactory.java" afterPath="$PROJECT_DIR$/src/utils/cardType/CardTypeFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/Common.java" afterPath="$PROJECT_DIR$/src/view/Common.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/Home.java" afterPath="$PROJECT_DIR$/src/view/Home.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vo/Card.java" afterPath="$PROJECT_DIR$/src/vo/Card.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -154,16 +41,14 @@
       <file leaf-file-name="TimeThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thread/TimeThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="99" column="16" lean-forward="true" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
+            <state relative-caret-position="76">
+              <caret line="270" column="77" lean-forward="false" selection-start-line="270" selection-start-column="54" selection-end-line="270" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#win#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#computerTimer#0;class#TimeThread#0" expanded="false" />
                 <element signature="method#clearTable#0;class#TimeThread#0" expanded="false" />
                 <element signature="method#clearTable#1;class#TimeThread#0" expanded="false" />
-                <element signature="method#showCard#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#computer0#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#isSelfSendCard#0;class#TimeThread#0" expanded="false" />
                 <element signature="method#isFriend#0;class#TimeThread#0" expanded="false" />
                 <element signature="method#turnOnLord#0;class#TimeThread#0" expanded="false" />
                 <element signature="method#timeWait#0;class#TimeThread#0" expanded="false" />
@@ -176,11 +61,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CardTypeFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/utils/cardType/CardTypeFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputerTimeThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thread/ComputerTimeThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/CardUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3611">
+              <caret line="116" column="22" lean-forward="false" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneSendCard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/OneSendCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="628">
+              <caret line="206" column="21" lean-forward="false" selection-start-line="206" selection-start-column="21" selection-end-line="206" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Common.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/Common.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2829">
-              <caret line="473" column="11" lean-forward="true" selection-start-line="473" selection-start-column="11" selection-end-line="473" selection-end-column="11" />
+            <state relative-caret-position="164">
+              <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Init#0;class#Home#0" expanded="false" />
@@ -225,6 +166,7 @@
       <find>computerTimer</find>
       <find>publishCard</find>
       <find>preChuPai</find>
+      <find>hasSend</find>
     </findStrings>
     <replaceStrings>
       <replace>game</replace>
@@ -276,13 +218,13 @@
         <option value="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/ThreeCardType.java" />
         <option value="$PROJECT_DIR$/src/utils/cardType/ICardType.java" />
         <option value="$PROJECT_DIR$/src/utils/CardUtil.java" />
-        <option value="$PROJECT_DIR$/src/thread/ComputerTimeThread.java" />
         <option value="$PROJECT_DIR$/src/view/Common.java" />
         <option value="$PROJECT_DIR$/src/vo/Card.java" />
         <option value="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/DoubleCardType.java" />
-        <option value="$PROJECT_DIR$/src/utils/cardType/CardTypeFactory.java" />
-        <option value="$PROJECT_DIR$/src/thread/TimeThread.java" />
         <option value="$PROJECT_DIR$/src/view/Home.java" />
+        <option value="$PROJECT_DIR$/src/thread/ComputerTimeThread.java" />
+        <option value="$PROJECT_DIR$/src/thread/TimeThread.java" />
+        <option value="$PROJECT_DIR$/src/utils/cardType/CardTypeFactory.java" />
       </list>
     </option>
   </component>
@@ -295,8 +237,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -316,8 +258,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -452,7 +394,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -965,6 +907,8 @@
       <workItem from="1490948567156" duration="237000" />
       <workItem from="1490949676107" duration="5586000" />
       <workItem from="1491007416321" duration="2216000" />
+      <workItem from="1491010542129" duration="47000" />
+      <workItem from="1491030557353" duration="2194000" />
     </task>
     <task id="LOCAL-00001" summary="NEW">
       <created>1489740484434</created>
@@ -984,7 +928,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26067000" />
+    <option name="totallyTimeSpent" value="28308000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -996,7 +940,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1009,20 +953,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23210412" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23180594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16577825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22851002" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6203905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41239893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23719676" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.361186" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1079,7 +1023,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/view/Home.java</url>
+          <line>406</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1408,7 +1360,7 @@
         <state relative-caret-position="-1472">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1425,7 +1377,7 @@
         <state relative-caret-position="-1149">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1435,7 +1387,7 @@
         <state relative-caret-position="-1200">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1468,7 +1420,7 @@
         <state relative-caret-position="-1744">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1478,7 +1430,7 @@
         <state relative-caret-position="-1132">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1513,34 +1465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Common.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/ComputerTimeThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/OneSendCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3196">
-          <caret line="206" column="21" lean-forward="false" selection-start-line="206" selection-start-column="21" selection-end-line="206" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/CardTypeString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1554,34 +1478,11 @@
         <state relative-caret-position="357">
           <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/TimeThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="99" column="16" lean-forward="true" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#win#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#clearTable#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#clearTable#1;class#TimeThread#0" expanded="false" />
-            <element signature="method#showCard#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#computer0#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#isSelfSendCard#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#isFriend#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#turnOnLord#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#timeWait#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#makeCanClick#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#turnOn#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#setlord#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#openlord#0;class#TimeThread#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#513#514#0" expanded="false" />
+            <element signature="e#557#558#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="false" />
+            <element signature="e#610#611#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1591,16 +1492,8 @@
         <state relative-caret-position="2244">
           <caret line="136" column="1" lean-forward="true" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/CardUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="116" column="22" lean-forward="false" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1620,18 +1513,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/cardType/CardTypeFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/CardUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="95" column="9" lean-forward="true" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+        <state relative-caret-position="-3611">
+          <caret line="116" column="22" lean-forward="false" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/OneSendCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="206" column="21" lean-forward="false" selection-start-line="206" selection-start-column="21" selection-end-line="206" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2829">
-          <caret line="473" column="11" lean-forward="true" selection-start-line="473" selection-start-column="11" selection-end-line="473" selection-end-column="11" />
+        <state relative-caret-position="164">
+          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Init#0;class#Home#0" expanded="false" />
@@ -1643,6 +1556,45 @@
             <element signature="method#run#0;class#Home#0" expanded="false" />
             <element signature="docComment;method#isFriend#0;class#Home#0" expanded="false" />
             <element signature="method#isFriend#0;class#Home#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/ComputerTimeThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/TimeThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="270" column="77" lean-forward="false" selection-start-line="270" selection-start-column="54" selection-end-line="270" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#win#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#computerTimer#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#clearTable#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#clearTable#1;class#TimeThread#0" expanded="false" />
+            <element signature="method#isFriend#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#turnOnLord#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#timeWait#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#makeCanClick#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#turnOn#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#setlord#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#openlord#0;class#TimeThread#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/cardType/CardTypeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
