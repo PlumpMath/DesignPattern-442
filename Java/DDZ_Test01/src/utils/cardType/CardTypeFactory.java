@@ -211,7 +211,6 @@ public class CardTypeFactory {
             // 最优方案中找不到大于pre OneSendCard的牌型，则继续调用getOneSendCardBiggerButleast
             return getOneSendCardBiggerButleast(playerList, preOneSendCard);
         } else {
-
             // 找到了大于
             if (biggerList.size() == 1) {
                 return biggerList.get(0);

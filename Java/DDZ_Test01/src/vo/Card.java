@@ -21,6 +21,13 @@ public class Card extends JLabel implements MouseListener, Comparable {
     private boolean canClick;
     public boolean clicked = false;
 
+    /**
+     * 构造函数，根据值和花色值进行选择图片的位置
+     * @param main
+     * @param value
+     * @param color
+     * @param isOn
+     */
     public Card(Home main, int value, int color, boolean isOn) {
         this.main = main;
         this.value = value;
@@ -40,6 +47,9 @@ public class Card extends JLabel implements MouseListener, Comparable {
         this.addMouseListener(this);
     }
 
+    /**
+     * 根据传入值选择花色和值
+     */
     private void initImagePath() {
         boolean realValue = false;
         if(this.value == 16) {
@@ -55,11 +65,17 @@ public class Card extends JLabel implements MouseListener, Comparable {
 
     }
 
+    /**
+     * 正面
+     */
     public void turnFront() {
         this.setIcon(new ImageIcon("images/" + this.imagePath + ".gif"));
         this.isOn = true;
     }
 
+    /**
+     * 背面
+     */
     public void turnRear() {
         this.setIcon(new ImageIcon("images/rear.png"));
         this.isOn = false;
@@ -85,6 +101,9 @@ public class Card extends JLabel implements MouseListener, Comparable {
 
     }
 
+    /**
+     * 牌被点击时，向上或者向下移动20像素
+     */
     public void move() {
         Point from = this.getLocation();
         byte step;
@@ -94,6 +113,7 @@ public class Card extends JLabel implements MouseListener, Comparable {
             step = 20;
         }
 
+        //点击状态翻转
         this.clicked = !this.clicked;
         Common.move(this, from, new Point(from.x, from.y - step));
     }

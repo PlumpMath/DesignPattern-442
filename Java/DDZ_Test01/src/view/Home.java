@@ -67,7 +67,11 @@ public class Home extends JFrame implements ActionListener, Runnable {
     public JLabel[] loseJLabel;
     int color = 0;
 
-    public Home() {
+    /**
+     * 初始化并将图像展示出
+     * @throws InterruptedException
+     */
+    public Home() throws InterruptedException {
         this.Init();
         this.container.repaint();
     }
@@ -75,7 +79,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
     /**
      * 初始化界面,并添加需要的监听器
      */
-    public void Init() {
+    public void Init() throws InterruptedException {
         this.setTitle("斗地主");
         this.setSize(830, 620);
         this.setResizable(false);
@@ -84,35 +88,36 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.container.setLayout((LayoutManager)null);
         this.setDefaultCloseOperation(3);
         this.setVisible(true);
-        this.logImage = new ImageIcon("images/log.png");
-        this.logJLabel = new JLabel(this.logImage);
-        this.logJLabel.setSize(this.logImage.getIconWidth(), this.logImage.getIconHeight());
-        this.logJLabel.setLocation((this.container.getWidth() - this.logImage.getIconWidth()) / 2, (this.container.getHeight() - this.logImage.getIconHeight()) / 4);
-        this.container.add(this.logJLabel);
-        this.startImage = new ImageIcon("images//startbtn.png");
-        this.startBtn = new JButton(this.startImage);
-        this.startBtn.setSize(this.startImage.getIconWidth(), this.startImage.getIconHeight());
-        this.startBtn.setLocation((this.container.getWidth() - this.startImage.getIconWidth()) / 2, 350);
-        this.startBtn.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent arg0) {
-                try {
-                    Home.this.startGame();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-        this.container.add(this.startBtn);
-        this.exitImage = new ImageIcon("images//exitGame.png");
-        this.exitBtn = new JButton(this.exitImage);
-        this.exitBtn.setSize(this.exitImage.getIconWidth(), this.exitImage.getIconHeight());
-        this.exitBtn.setLocation((this.container.getWidth() - this.exitImage.getIconWidth()) / 2, 400);
-        this.exitBtn.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                Home.this.dispose();
-            }
-        });
-        this.container.add(this.exitBtn);
+//        this.logImage = new ImageIcon("images/log.png");
+//        this.logJLabel = new JLabel(this.logImage);
+//        this.logJLabel.setSize(this.logImage.getIconWidth(), this.logImage.getIconHeight());
+//        this.logJLabel.setLocation((this.container.getWidth() - this.logImage.getIconWidth()) / 2, (this.container.getHeight() - this.logImage.getIconHeight()) / 4);
+//        this.container.add(this.logJLabel);
+//        this.startImage = new ImageIcon("images//startbtn.png");
+//        this.startBtn = new JButton(this.startImage);
+//        this.startBtn.setSize(this.startImage.getIconWidth(), this.startImage.getIconHeight());
+//        this.startBtn.setLocation((this.container.getWidth() - this.startImage.getIconWidth()) / 2, 350);
+//        this.startBtn.addActionListener(new ActionListener() {
+//            public void actionPerformed(ActionEvent arg0) {
+//                try {
+//                    Home.this.startGame();
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        });
+//        this.container.add(this.startBtn);
+//        this.exitImage = new ImageIcon("images//exitGame.png");
+//        this.exitBtn = new JButton(this.exitImage);
+//        this.exitBtn.setSize(this.exitImage.getIconWidth(), this.exitImage.getIconHeight());
+//        this.exitBtn.setLocation((this.container.getWidth() - this.exitImage.getIconWidth()) / 2, 400);
+//        this.exitBtn.addActionListener(new ActionListener() {
+//            public void actionPerformed(ActionEvent e) {
+//                Home.this.dispose();
+//            }
+//        });
+//        this.container.add(this.exitBtn);
+        startGame();
     }
 
     /**
@@ -129,6 +134,9 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.t.start();
     }
 
+    /**
+     * 抢地主按钮图标
+     */
     public void getLord() {
         for(int i = 0; i < 2; ++i) {
             this.landlord[i].setVisible(true);
@@ -168,6 +176,10 @@ public class Home extends JFrame implements ActionListener, Runnable {
             this.card[b] = k;
         }
 
+        /**
+         * 进行发牌操作
+         * 按照循环顺序进行发放，剩下的3张牌为地主牌
+         */
         for(t = 0; t < 3; ++t) {
             this.playerList[t] = new ArrayList();
         }
@@ -211,6 +223,10 @@ public class Home extends JFrame implements ActionListener, Runnable {
             Common.rePosition(this, this.playerList[i], i);
         }
 
+        /**
+         * 设置地主与农民的头像
+         * 并设置3个的大小与位置，但是并不显示
+         */
         this.dizhu = new JLabel(new ImageIcon("images/dizhu.gif"));
         this.farmer1 = new JLabel(new ImageIcon("images/farmer1.png"));
         this.farmer2 = new JLabel(new ImageIcon("images/farmer2.jpg"));
@@ -226,6 +242,9 @@ public class Home extends JFrame implements ActionListener, Runnable {
     }
 
     public void SetButton() {
+        /**
+         * 设置其中会用到的每个Button,加入图标，但是并不显示
+         */
         this.robImage = new ImageIcon("images/rob.png");//叫地主
         this.noImage = new ImageIcon("images/no.png");//不叫
         this.tipImage = new ImageIcon("images/tip.png");//提示
@@ -247,6 +266,9 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.publishCard[2].setSize(this.tipImage.getIconWidth(), this.tipImage.getIconHeight());
 
 
+        /**
+         * 将5种按钮添加到界面中，但是并不显示
+         */
         for(int i = 0; i < 2; ++i) {
             this.landlord[i].setLocation(320 + i * 100, 400);
             this.landlord[i].addActionListener(this);
@@ -264,6 +286,9 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.publishCard[2].setVisible(false);
         this.publishCard[2].addActionListener(this);
 
+        /**
+         * 添加倒计时Lable
+         */
         for(int i = 0; i < 3; ++i) {
             this.time[i] = new JLabel("倒计时:");
             this.time[i].setVisible(false);
@@ -274,10 +299,16 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.time[1].setBounds(374, 360, 60, 20);
         this.time[2].setBounds(620, 230, 60, 20);
 
+        /**
+         * 当前牌桌上的牌
+         */
         for(int i = 0; i < 3; ++i) {
             this.currentList[i] = new ArrayList();
         }
 
+        /**
+         * 设置最后输赢提示Label
+         */
         this.winOrLose = new JLabel("You win!");
         this.winOrLose.setSize(600, 100);
         this.winOrLose.setHorizontalAlignment(0);
@@ -287,6 +318,9 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.container.add(this.winOrLose);
 
 
+        /**
+         * 胜利动画
+         */
         this.winImage = new ImageIcon("images/win.gif");
         this.winJLabel = new JLabel[2];
         for(int i = 0; i < this.winJLabel.length; ++i) {
@@ -298,6 +332,9 @@ public class Home extends JFrame implements ActionListener, Runnable {
         }
 
 
+        /**
+         * 失败动画
+         */
         this.loseImage = new ImageIcon("images/lose.gif");
         this.loseJLabel = new JLabel[2];
         for(int i = 0; i < this.loseJLabel.length; ++i) {
@@ -308,6 +345,9 @@ public class Home extends JFrame implements ActionListener, Runnable {
             this.container.add(this.loseJLabel[i]);
         }
 
+        /**
+         * 一键改变背景颜色
+         */
         this.changeImage = new ImageIcon("images/change.png");
         this.changeBtn = new JButton(this.changeImage);
         this.changeBtn.setSize(this.changeImage.getIconWidth(), this.changeImage.getIconHeight());
@@ -343,17 +383,95 @@ public class Home extends JFrame implements ActionListener, Runnable {
     }
 
     public void actionPerformed(ActionEvent e) {
+        /**
+         * 抢地主
+         */
         if(e.getSource() == this.landlord[0]) {
             this.time[1].setText("抢地主");
             this.dizhuFlag = 1;
             this.turn = 1;
         }
 
+        /**
+         * 不抢
+         */
         if(e.getSource() == this.landlord[1]) {
             this.time[1].setText("不抢");
             this.dizhuFlag = Common.computeLord(this.playerList[0], this.playerList[2]);
             this.turn = this.dizhuFlag;
         }
+
+        /**
+         * 出牌
+         */
+        if(e.getSource() == this.publishCard[0]) {
+            ArrayList arrayListChoose = new ArrayList();
+
+            for(int i = 0; i < this.playerList[1].size(); ++i) {
+                Card card = (Card)this.playerList[1].get(i);
+                if(card.clicked) {
+                    arrayListChoose.add(card);
+                }
+            }
+
+            boolean var10 = false;
+            int len;
+            String cardType;
+            /**
+             * 当没有人
+             */
+            if(this.preChuPai != -1 && this.preChuPai != 1) {
+                /**
+                 * 判断牌的类型
+                 */
+                cardType = CardTypeFactory.getCardType(arrayListChoose);
+
+                if(!cardType.equals("c0")) {
+                    OneSendCard i = new OneSendCard(arrayListChoose, cardType);
+                    len = CardTypeFactory.compareOneSendCard(i, this.preOneSendCard);
+                    if(len > 0) {
+                        var10 = true;
+                        this.preOneSendCard = i;
+                        this.preChuPai = 1;
+                    } else {
+                        var10 = false;
+                    }
+                } else {
+                    var10 = false;
+                }
+            } else {
+                cardType = CardTypeFactory.getCardType(arrayListChoose);
+                if(!cardType.equals("c0")) {
+                    var10 = true;
+                    this.preOneSendCard = new OneSendCard(arrayListChoose, cardType);
+                    this.preChuPai = 1;
+                }
+            }
+
+            if(var10) {
+                this.currentList[1] = arrayListChoose;
+                this.hasSendList.addAll(arrayListChoose);
+                this.playerList[1].removeAll(this.currentList[1]);
+                Point var13 = new Point();
+                var13.x = 385 - (this.currentList[1].size() + 1) * 15 / 2;
+                var13.y = 300;
+                int var14 = 0;
+
+                for(len = this.currentList[1].size(); var14 < len; ++var14) {
+                    Card card = (Card)this.currentList[1].get(var14);
+                    Common.move(card, card.getLocation(), var13);
+                    var13.x += 15;
+                }
+
+                Common.rePosition(this, this.playerList[1], 1);
+                this.time[1].setVisible(false);
+                this.nextPlayer = true;
+            }
+        }
+
+        /**
+         * 不要
+         */
 
         if(e.getSource() == this.publishCard[1]) {
             this.nextPlayer = true;
@@ -361,6 +479,9 @@ public class Home extends JFrame implements ActionListener, Runnable {
             this.time[1].setText("不要");
         }
 
+        /**
+         * 提示
+         */
         if(e.getSource() == this.publishCard[2]) {
             OneSendCard c = null;
             if(this.preChuPai != 1 && this.preChuPai != -1) {
@@ -383,67 +504,12 @@ public class Home extends JFrame implements ActionListener, Runnable {
             }
         }
 
-        if(e.getSource() == this.publishCard[0]) {
-            ArrayList var8 = new ArrayList();
 
-            for(int var9 = 0; var9 < this.playerList[1].size(); ++var9) {
-                Card var11 = (Card)this.playerList[1].get(var9);
-                if(var11.clicked) {
-                    var8.add(var11);
-                }
-            }
 
-            boolean var10 = false;
-            int len;
-            String var12;
-            if(this.preChuPai != -1 && this.preChuPai != 1) {
-                var12 = CardTypeFactory.getCardType(var8);
-                if(!var12.equals("c0")) {
-                    OneSendCard i = new OneSendCard(var8, var12);
-                    len = CardTypeFactory.compareOneSendCard(i, this.preOneSendCard);
-                    if(len > 0) {
-                        var10 = true;
-                        this.preOneSendCard = i;
-                        this.preChuPai = 1;
-                    } else {
-                        var10 = false;
-                    }
-                } else {
-                    var10 = false;
-                }
-            } else {
-                var12 = CardTypeFactory.getCardType(var8);
-                if(!var12.equals("c0")) {
-                    var10 = true;
-                    this.preOneSendCard = new OneSendCard(var8, var12);
-                    this.preChuPai = 1;
-                }
-            }
-
-            if(var10) {
-                this.currentList[1] = var8;
-                this.hasSendList.addAll(var8);
-                this.playerList[1].removeAll(this.currentList[1]);
-                Point var13 = new Point();
-                var13.x = 385 - (this.currentList[1].size() + 1) * 15 / 2;
-                var13.y = 300;
-                int var14 = 0;
-
-                for(len = this.currentList[1].size(); var14 < len; ++var14) {
-                    Card card = (Card)this.currentList[1].get(var14);
-                    Common.move(card, card.getLocation(), var13);
-                    var13.x += 15;
-                }
-
-                Common.rePosition(this, this.playerList[1], 1);
-                this.time[1].setVisible(false);
-                this.nextPlayer = true;
-            }
-        }
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Home me = new Home();
         main = me;
         //(new Thread(me)).start();
@@ -452,6 +518,12 @@ public class Home extends JFrame implements ActionListener, Runnable {
     public void run() {
     }
 
+    /**
+     * 判断是友方还是敌方
+     * @param i1
+     * @param i2
+     * @return
+     */
     public boolean isFriend(int i1, int i2) {
         boolean b = true;
         if(i1 == this.dizhuFlag || i2 == this.dizhuFlag) {

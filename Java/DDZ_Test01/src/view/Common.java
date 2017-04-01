@@ -14,6 +14,12 @@ public class Common {
     public Common() {
     }
 
+    /**
+     * 移动牌的位置
+     * @param card
+     * @param from
+     * @param to
+     */
     public static void move(Card card, Point from, Point to) {
         if(to.x != from.x) {
             double k = 1.0D * (double)(to.y - from.y) / (double)(to.x - from.x);
@@ -41,6 +47,10 @@ public class Common {
         card.setLocation(to);
     }
 
+    /**
+     * 对牌进行排序
+     * @param list
+     */
     public static void order(List<Card> list) {
         Collections.sort(list, new Comparator<Card>() {
             @Override

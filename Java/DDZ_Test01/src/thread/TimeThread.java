@@ -42,9 +42,20 @@ public class TimeThread extends Thread implements Runnable {
                 break;
             }
         }
-        // 发地主牌时间段
+        /**
+         * 当自己没有抢地主，并且时间到时，进行电脑抢地主操作
+         */
+        if(main.dizhuFlag == -1){
+            main.dizhuFlag = Common.computeLord(main.playerList[0], main.playerList[2]);
+        }
+
+        /**
+         * 发地主牌阶段
+         */
         if (main.dizhuFlag == 1) {
-            // 自己是地主
+            /**
+             * 自己是地主
+             */
             main.playerList[1].addAll(main.lordList);
             openlord(true);
             this.sleepSeconds(2);// 等待2秒
@@ -53,7 +64,9 @@ public class TimeThread extends Thread implements Runnable {
             main.publishCard[1].setEnabled(false);
             setlord(1);
         } else {
-            // 电脑选地主
+            /**
+             * 电脑选到地主
+             */
             if (main.dizhuFlag == 2) {
                 main.time[2].setText("抢地主");
                 main.time[2].setVisible(true);
@@ -83,7 +96,9 @@ public class TimeThread extends Thread implements Runnable {
                 }
             }
         }
-        // 出牌时间段
+        /**
+         * 出牌时间段
+         */
         turnOn(false);
         for (int i = 0; i < 3; i++) {
             main.time[i].setText("不要");
@@ -92,7 +107,7 @@ public class TimeThread extends Thread implements Runnable {
         turnOnLord(false);// 让抢地主按钮掩藏
         while (true) {
 
-            if (main.turn == 1) // 我
+            if (main.turn == 1) // 自己
             {
                 turnOn(true);// 出牌按钮 --我出牌
                 // 如果我主动出牌关闭不要按钮
@@ -106,8 +121,9 @@ public class TimeThread extends Thread implements Runnable {
                 if (main.preChuPai == 1) {
                     clearTable();
                 }
-
-
+                /**
+                 * 使所有的牌可以点击
+                 */
                 this.makeCanClick(main.playerList[1], true);
                 timeWait(30, 1);// 我自己的定时器
                 turnOn(false);// 选完关闭
@@ -141,7 +157,6 @@ public class TimeThread extends Thread implements Runnable {
 
     /**
      * 判断输赢
-     *
      * @return
      */
     private boolean win() {
@@ -181,7 +196,6 @@ public class TimeThread extends Thread implements Runnable {
 
     /**
      * 电脑倒计时
-     *
      * @param computer
      */
     public void computerTimer(int computer) {
@@ -191,22 +205,16 @@ public class TimeThread extends Thread implements Runnable {
         main.time[computer].setVisible(true);
         for (int i = total; i >= 10; i--) {
             if (main.hasSend[computer] != 0) {
-                // 已经发完牌或者不要就退出
+                // 已经出完牌或者不要就退出
                 break;
             }
             main.time[computer].setText("倒计时:" + String.valueOf(i));
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
+            sleepSeconds(1);
         }
     }
 
     /**
      * 清理某人的桌面
-     *
      * @param i
      */
     private void clearTable(int i) {
@@ -229,7 +237,6 @@ public class TimeThread extends Thread implements Runnable {
 
     /**
      * 电脑2出牌 出牌分为（要牌和自主出牌） 要牌规则1 只要是敌人就要牌，只要友人就不要
-     *
      */
     private void computer2() {
         // TODO Auto-generated method stub
@@ -275,9 +282,7 @@ public class TimeThread extends Thread implements Runnable {
     }
 
     /**
-     *
      * 出牌效果
-     *
      * @param role
      * @param oneSendCard
      */
@@ -308,7 +313,6 @@ public class TimeThread extends Thread implements Runnable {
 
     /**
      * 电脑2出牌 出牌分为（要牌和自主出牌） 要牌规则1 只要是敌人就要牌，只要友人就不要
-     *
      */
     private void computer0() {
         // TODO Auto-generated method stub
@@ -379,7 +383,6 @@ public class TimeThread extends Thread implements Runnable {
 
     /**
      * 抢地主按钮显示，掩藏处理
-     *
      * @param b
      */
     private void turnOnLord(boolean b) {
@@ -389,7 +392,11 @@ public class TimeThread extends Thread implements Runnable {
         }
     }
 
-    // 延时，模拟时钟
+    /**
+     * 延时，模拟时钟
+     * @param n
+     * @param player
+     */
     public void timeWait(int n, int player) {
 
         if (main.currentList[player].size() > 0)
@@ -417,21 +424,31 @@ public class TimeThread extends Thread implements Runnable {
         main.time[player].setVisible(false);
     }
 
-    // 使全部牌变的是否可点击
+    /**
+     * 使全部牌变的是否可点击
+     * @param list
+     * @param b
+     */
     public void makeCanClick(List<Card> list, boolean b) {
         for (Card card : list) {
             card.setCanClick(b);
         }
     }
 
-    // 打开出牌按钮
+    /**
+     * 打开出牌按钮
+     * @param flag
+     */
     public void turnOn(boolean flag) {
-        main.publishCard[0].setVisible(flag);
-        main.publishCard[1].setVisible(flag);
-        main.publishCard[2].setVisible(flag);
+        main.publishCard[0].setVisible(flag);//出牌
+        main.publishCard[1].setVisible(flag);//不要
+        main.publishCard[2].setVisible(flag);//提示
     }
 
-    // 设定地主
+    /**
+     * 设定地主
+     * @param i
+     */
     public void setlord(int i) {
         Point point = new Point();
         Point point1 = new Point();
@@ -469,7 +486,10 @@ public class TimeThread extends Thread implements Runnable {
         main.farmer2.setVisible(true);
     }
 
-    // 地主牌翻看
+    /**
+     * 地主牌翻看
+     * @param is
+     */
     public void openlord(boolean is) {
         for (int i = 0; i < 3; i++) {
             if (is)
@@ -481,6 +501,10 @@ public class TimeThread extends Thread implements Runnable {
         }
     }
 
+    /**
+     * 线程睡眠second秒
+     * @param second
+     */
     public void sleepSeconds(int second) {
         try {
             Thread.sleep(second * 1000);
