@@ -19,7 +19,7 @@ import utils.cardType.cardTypeImpl.ThreeAndTwoCardType;
 import utils.cardType.cardTypeImpl.ThreeCardType;
 import utils.devided.DevidedCardSolution;
 import utils.devided.DevidedCardSolutionFactory;
-import vo.Card;
+import cardDesign.Card;
 
 /**
  * Created by DrownFish on 2017/3/10.
@@ -237,7 +237,7 @@ public class CardTypeFactory {
             // 创建一个不存在的炸弹，2222，让炸弹类型计算比它大的牌型
             List<Card> cardList = new ArrayList<Card>();
             for (int i = 0; i < 4; i++) {
-                Card bc = new Card(null, 2, 1, false);
+                Card bc = new Card(2, 1, false);
                 cardList.add(bc);
             }
             OneSendCard virtual = new OneSendCard(cardList, CardTypeString.FOUR_CARDTYPE);

@@ -1,6 +1,6 @@
 package view;
 
-import vo.Card;
+import cardDesign.Card;
 import java.awt.Point;
 import java.util.Collections;
 import java.util.Comparator;

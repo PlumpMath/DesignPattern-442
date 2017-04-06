@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/thread/TimeThread.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/CardTypeString.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/DoubleCardType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/FourCardType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/FourOneOneCardType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/FourTwoTwoCardType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/OneOneTwoTwoCardType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/OneTwoThreeCardType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/PlaneCardType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/PlaneOneCardType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/PlaneTwoCardType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/SingleCardType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/ThreeAndOneCardType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/ThreeAndTwoCardType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/ThreeCardType.java" charset="GBK" />
+  </component>
+</project>

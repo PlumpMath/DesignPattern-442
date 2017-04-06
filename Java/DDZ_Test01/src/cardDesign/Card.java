@@ -1,19 +1,16 @@
-package vo;
+package cardDesign;
 
 import view.Common;
-import view.Home;
 import java.awt.Point;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
+import javax.swing.*;
 
 /**
  * Created by DrownFish on 2017/3/10.
  */
 
-public class Card extends JLabel implements MouseListener, Comparable {
-    Home main;
+public class Card extends JLabel implements MouseListener, Comparable{
     private int value;
     private int color;
     private String imagePath;
@@ -23,13 +20,11 @@ public class Card extends JLabel implements MouseListener, Comparable {
 
     /**
      * 构造函数，根据值和花色值进行选择图片的位置
-     * @param main
      * @param value
      * @param color
      * @param isOn
      */
-    public Card(Home main, int value, int color, boolean isOn) {
-        this.main = main;
+    public Card( int value, int color, boolean isOn) {
         this.value = value;
         this.color = color;
         this.isOn = isOn;
@@ -173,5 +168,6 @@ public class Card extends JLabel implements MouseListener, Comparable {
         Card c2 = (Card)arg0;
         return this.getValue() > c2.getValue()?1:(this.getValue() < c2.getValue()?-1:0);
     }
+
 }
 

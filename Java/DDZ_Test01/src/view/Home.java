@@ -4,8 +4,10 @@ import thread.TimeThread;
 import utils.OneSendCard;
 import utils.cardType.CardTypeFactory;
 import utils.iniEdit.IniEditorAdapter;
-import utils.iniEdit.IniEditorTarget;
-import vo.Card;
+import utils.iniEdit.IniEditorInterface;
+import cardDesign.Card;
+import cardDesign.CardShare;
+
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Font;
@@ -69,7 +71,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
     public JLabel[] loseJLabel;
     int color = 0;
     public Color backgroundColor = null;
-    IniEditorTarget editorTarget = new IniEditorAdapter();
+    IniEditorInterface editorTarget = new IniEditorAdapter();
 
     /**
      * 初始化并将图像展示出
@@ -150,12 +152,17 @@ public class Home extends JFrame implements ActionListener, Runnable {
     public void CardInit() {
         int count = 0;
 
-        int t;
-        int i;
+
+        //使用享元模式获取创建的牌
+        CardShare cardShare = new CardShare().getCardShare();
         //初始化黑红梅花片四种牌的每种13张牌
-        for(t = 1; t <= 4; ++t) {
-            for(i = 3; i <= 15; ++i) {
-                this.card[count] = new Card(this, i, t, false);
+        for(int t = 1; t <= 4; ++t) {
+            for(int i = 3; i <= 15; ++i) {
+                if(i >= 14 && i <= 15){
+                    this.card[count]= (Card) cardShare.getCard(t + " " + (i-13));
+                }else{
+                    this.card[count]= (Card) cardShare.getCard(t + " " + i);
+                }
                 this.card[count].setLocation(350, 50);
                 this.container.add(this.card[count]);
                 ++count;
@@ -163,15 +170,16 @@ public class Home extends JFrame implements ActionListener, Runnable {
         }
 
         //初始化大王和小王
-        this.card[52] = new Card(this, 16, 5, false);
+        this.card[52] = (Card) cardShare.getCard("smallKing");
         this.card[52].setLocation(350, 50);
         this.container.add(this.card[52]);
-        this.card[53] = new Card(this, 17, 5, false);
+
+        this.card[53] = (Card) cardShare.getCard("bigKing");
         this.card[53].setLocation(350, 50);
         this.container.add(this.card[53]);
 
 //        打乱牌顺序
-        for(t = 0; t < 100; ++t) {
+        for(int t = 0; t < 100; ++t) {
             Random var7 = new Random();
             int a = var7.nextInt(54);
             int b = var7.nextInt(54);
@@ -184,14 +192,14 @@ public class Home extends JFrame implements ActionListener, Runnable {
          * 进行发牌操作
          * 按照循环顺序进行发放，剩下的3张牌为地主牌
          */
-        for(t = 0; t < 3; ++t) {
+        for(int t = 0; t < 3; ++t) {
             this.playerList[t] = new ArrayList();
         }
 
         this.lordList = new ArrayList();
-        t = 0;
+        int t = 0;
 
-        for(i = 0; i <= 53; ++i) {
+        for(int i = 0; i <= 53; ++i) {
             if(i >= 51) {
                 Common.move(this.card[i], this.card[i].getLocation(), new Point(380 + (i - 52) * 80, 10));
                 this.lordList.add(this.card[i]);
@@ -222,7 +230,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
             }
         }
 
-        for(i = 0; i < 3; ++i) {
+        for(int i = 0; i < 3; ++i) {
             Common.order(this.playerList[i]);
             Common.rePosition(this, this.playerList[i], i);
         }

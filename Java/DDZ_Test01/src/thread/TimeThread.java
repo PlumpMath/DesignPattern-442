@@ -4,7 +4,7 @@ import utils.OneSendCard;
 import utils.cardType.CardTypeFactory;
 import view.Common;
 import view.Home;
-import vo.Card;
+import cardDesign.Card;
 import java.awt.Color;
 import java.awt.Point;
 import java.util.List;

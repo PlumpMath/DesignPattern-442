@@ -1,7 +1,7 @@
 package utils.cardType;
 
 import utils.OneSendCard;
-import vo.Card;
+import cardDesign.Card;
 import java.util.List;
 
 /**

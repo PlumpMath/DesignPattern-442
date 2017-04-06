@@ -2,8 +2,7 @@ package utils.devided;
 
 import utils.CardUtil;
 import utils.OneSendCard;
-import utils.devided.DevidedCardSolution;
-import vo.Card;
+import cardDesign.Card;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;

@@ -3,7 +3,7 @@ package utils.cardType.cardTypeImpl;
 import utils.cardType.ICardType;
 import utils.CardUtil;
 import utils.OneSendCard;
-import vo.Card;
+import cardDesign.Card;
 
 import java.util.ArrayList;
 import java.util.List;
