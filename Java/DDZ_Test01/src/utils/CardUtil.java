@@ -18,10 +18,10 @@ public class CardUtil {
 
     public static Map<String, Integer> asValueStaticCount(List<Card> list) {
         HashMap map = new HashMap();
-        Iterator var3 = list.iterator();
+        Iterator cardIterator = list.iterator();
 
-        while(var3.hasNext()) {
-            Card c = (Card)var3.next();
+        while(cardIterator.hasNext()) {
+            Card c = (Card)cardIterator.next();
             String key = String.valueOf(c.getValue());
             if(map.containsKey(String.valueOf(c.getValue()))) {
                 map.put(key, Integer.valueOf(((Integer)map.get(key)).intValue() + 1));
@@ -63,11 +63,11 @@ public class CardUtil {
     public static int getBiggerButLeastFromList(List<Integer> list, int value) {
         Object[] objs = list.toArray();
         Arrays.sort(objs);
-        Object[] var6 = objs;
-        int var5 = objs.length;
+        Object[] objects = objs;
+        int size = objs.length;
 
-        for(int var4 = 0; var4 < var5; ++var4) {
-            Object o = var6[var4];
+        for(int j = 0; j < size; ++j) {
+            Object o = objects[j];
             int i = Integer.parseInt(o.toString());
             if(i > value) {
                 return i;
@@ -80,10 +80,10 @@ public class CardUtil {
     public static List<Card> getCardListByValueAndCount(List<Card> playerList, int value, int count) {
         ArrayList retList = new ArrayList();
         int has = 0;
-        Iterator var6 = playerList.iterator();
+        Iterator cardIterator = playerList.iterator();
 
-        while(var6.hasNext()) {
-            Card bc = (Card)var6.next();
+        while(cardIterator.hasNext()) {
+            Card bc = (Card)cardIterator.next();
             if(bc.getValue() == value) {
                 retList.add(bc);
                 ++has;
@@ -105,15 +105,15 @@ public class CardUtil {
 
     public static List<Card> getRestListByRemove(List<Card> playerList, List<Card> needList) {
         ArrayList retList = new ArrayList();
-        Iterator var4 = playerList.iterator();
+        Iterator cardIterator = playerList.iterator();
 
-        while(var4.hasNext()) {
-            Card bc = (Card)var4.next();
+        while(cardIterator.hasNext()) {
+            Card bc = (Card)cardIterator.next();
             boolean has = false;
-            Iterator var7 = needList.iterator();
+            Iterator iterator = needList.iterator();
 
-            while(var7.hasNext()) {
-                Card bc2 = (Card)var7.next();
+            while(iterator.hasNext()) {
+                Card bc2 = (Card)iterator.next();
                 if(bc.isEqual(bc2)) {
                     has = true;
                     break;
@@ -131,10 +131,10 @@ public class CardUtil {
     public static Card getLeastCardFromCardList(List<Card> restList) {
         int initValue = ((Card)restList.get(0)).getValue();
         Card bc = null;
-        Iterator var4 = restList.iterator();
+        Iterator cardIterator = restList.iterator();
 
-        while(var4.hasNext()) {
-            Card b = (Card)var4.next();
+        while(cardIterator.hasNext()) {
+            Card b = (Card)cardIterator.next();
             if(b.getValue() < initValue) {
                 initValue = b.getValue();
                 bc = b;
@@ -158,10 +158,10 @@ public class CardUtil {
 
     public static List<Integer> getLeastFromCardList(List<Card> cardList, int count) {
         ArrayList oneList = new ArrayList();
-        Iterator var4 = cardList.iterator();
+        Iterator cardIterator = cardList.iterator();
 
-        while(var4.hasNext()) {
-            Card bc = (Card)var4.next();
+        while(cardIterator.hasNext()) {
+            Card bc = (Card)cardIterator.next();
             oneList.add(Integer.valueOf(bc.getValue()));
         }
 
@@ -170,41 +170,41 @@ public class CardUtil {
 
     public static Integer[] sortCardList(List<Card> preList) {
         ArrayList list = new ArrayList();
-        Iterator arr = preList.iterator();
+        Iterator cardIterator = preList.iterator();
 
-        while(arr.hasNext()) {
-            Card objs = (Card)arr.next();
+        while(cardIterator.hasNext()) {
+            Card objs = (Card)cardIterator.next();
             list.add(Integer.valueOf(objs.getValue()));
         }
 
-        Object[] var5 = list.toArray();
-        Arrays.sort(var5);
-        Integer[] var6 = new Integer[var5.length];
+        Object[] objects = list.toArray();
+        Arrays.sort(objects);
+        Integer[] integers = new Integer[objects.length];
 
-        for(int i = 0; i < var5.length; ++i) {
-            var6[i] = Integer.valueOf(Integer.parseInt(var5[i].toString()));
+        for(int i = 0; i < objects.length; ++i) {
+            integers[i] = Integer.valueOf(Integer.parseInt(objects[i].toString()));
         }
 
-        return var6;
+        return integers;
     }
 
     public static List<Card> removeByCount(List<Card> list, int count) {
         ArrayList retList = new ArrayList();
         Map map = asValueStaticCount(list);
         ArrayList removeList = new ArrayList();
-        Iterator var6 = map.entrySet().iterator();
+        Iterator iterator = map.entrySet().iterator();
 
-        while(var6.hasNext()) {
-            Map.Entry b = (Map.Entry)var6.next();
+        while(iterator.hasNext()) {
+            Map.Entry b = (Map.Entry)iterator.next();
             if(((Integer)b.getValue()).intValue() == count) {
                 removeList.add((String)b.getKey());
             }
         }
 
-        var6 = list.iterator();
+        iterator = list.iterator();
 
-        while(var6.hasNext()) {
-            Card b1 = (Card)var6.next();
+        while(iterator.hasNext()) {
+            Card b1 = (Card)iterator.next();
             String str = String.valueOf(b1.getValue());
             if(!removeList.contains(str)) {
                 retList.add(b1);
@@ -230,23 +230,23 @@ public class CardUtil {
 
         int newRestList;
         List sortCardList;
-        Object[] var14;
+        Object[] objects;
         int var15;
         if(singleList.size() > count) {
-            var14 = singleList.toArray();
-            Arrays.sort(var14);
+            objects = singleList.toArray();
+            Arrays.sort(objects);
 
             for(var15 = 0; var15 < count; ++var15) {
-                newRestList = Integer.parseInt(var14[var15].toString());
-                sortCardList = getCardListByValueAndCount(restList, Integer.parseInt(var14[var15].toString()), 1);
+                newRestList = Integer.parseInt(objects[var15].toString());
+                sortCardList = getCardListByValueAndCount(restList, Integer.parseInt(objects[var15].toString()), 1);
                 retList.addAll(sortCardList);
             }
         } else {
-            var14 = singleList.toArray();
-            Arrays.sort(var14);
+            objects = singleList.toArray();
+            Arrays.sort(objects);
 
             for(var15 = 0; var15 < singleList.size(); ++var15) {
-                newRestList = Integer.parseInt(var14[var15].toString());
+                newRestList = Integer.parseInt(objects[var15].toString());
                 sortCardList = getCardListByValueAndCount(restList, ((Integer)singleList.get(var15)).intValue(), 1);
                 retList.addAll(sortCardList);
             }

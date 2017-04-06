@@ -3,6 +3,8 @@ package view;
 import thread.TimeThread;
 import utils.OneSendCard;
 import utils.cardType.CardTypeFactory;
+import utils.iniEdit.IniEditorAdapter;
+import utils.iniEdit.IniEditorTarget;
 import vo.Card;
 import java.awt.Color;
 import java.awt.Container;
@@ -11,6 +13,7 @@ import java.awt.LayoutManager;
 import java.awt.Point;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
@@ -19,7 +22,6 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-import static java.lang.Thread.sleep;
 
 /**
  * Created by DrownFish on 2017/3/10.
@@ -66,12 +68,14 @@ public class Home extends JFrame implements ActionListener, Runnable {
     public JLabel[] winJLabel;
     public JLabel[] loseJLabel;
     int color = 0;
+    public Color backgroundColor = null;
+    IniEditorTarget editorTarget = new IniEditorAdapter();
 
     /**
      * 初始化并将图像展示出
      * @throws InterruptedException
      */
-    public Home() throws InterruptedException {
+    public Home() throws InterruptedException, IOException {
         this.Init();
         this.container.repaint();
     }
@@ -79,7 +83,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
     /**
      * 初始化界面,并添加需要的监听器
      */
-    public void Init() throws InterruptedException {
+    public void Init() throws InterruptedException, IOException {
         this.setTitle("斗地主");
         this.setSize(830, 620);
         this.setResizable(false);
@@ -123,7 +127,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
     /**
      * 开始游戏，首先清除初始化界面的内容，之后添加Button、Card、
      */
-    void startGame() throws InterruptedException {
+    void startGame() throws InterruptedException, IOException {
         this.container.removeAll();
         //sleep(3000);
         this.SetButton();
@@ -241,7 +245,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.container.add(this.farmer2);
     }
 
-    public void SetButton() {
+    public void SetButton() throws IOException {
         /**
          * 设置其中会用到的每个Button,加入图标，但是并不显示
          */
@@ -353,29 +357,53 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.changeBtn.setSize(this.changeImage.getIconWidth(), this.changeImage.getIconHeight());
         this.changeBtn.setOpaque(true);
         this.changeBtn.setLocation(690, 520);
+
+
+        int colorR = Integer.parseInt(editorTarget.getValue("myInterface","myColorR"));
+        int colorG = Integer.parseInt(editorTarget.getValue("myInterface","myColorG"));
+        int colorB = Integer.parseInt(editorTarget.getValue("myInterface","myColorB"));
+
+        Home.this.container.setBackground(new Color(colorR, colorG, colorB));
+
+
         this.changeBtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 switch(Home.this.color % 6) {
                     case 0:
-                        Home.this.container.setBackground(new Color(221, 221, 221));
+                        backgroundColor = new Color(221, 221, 221);
+                        Home.this.container.setBackground(backgroundColor);
+
                         break;
                     case 1:
-                        Home.this.container.setBackground(new Color(176, 255, 176));
+                        backgroundColor = new Color(176, 255, 176);
+                        Home.this.container.setBackground(backgroundColor);
                         break;
                     case 2:
-                        Home.this.container.setBackground(new Color(167, 223, 237));
+                        backgroundColor = new Color(167,223,237);
+                        Home.this.container.setBackground(backgroundColor);
                         break;
                     case 3:
-                        Home.this.container.setBackground(new Color(255, 206, 231));
+                        backgroundColor = new Color(255,206,231);
+                        Home.this.container.setBackground(backgroundColor);
                         break;
                     case 4:
-                        Home.this.container.setBackground(new Color(200, 191, 231));
+                        backgroundColor = new Color(200, 191, 231);
+                        Home.this.container.setBackground(backgroundColor);
                         break;
                     case 5:
-                        Home.this.container.setBackground(new Color(238, 238, 238));
+                        backgroundColor = new Color(238, 238, 238);
+                        Home.this.container.setBackground(backgroundColor);
                 }
 
                 Home.this.container.repaint();
+                try {
+                    editorTarget.setValue("myInterface","myColorR",backgroundColor.getRed()+"");
+                    editorTarget.setValue("myInterface","myColorG",backgroundColor.getGreen()+"");
+                    editorTarget.setValue("myInterface","myColorB",backgroundColor.getBlue()+"");
+
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                }
                 ++Home.this.color;
             }
         });
@@ -509,7 +537,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
 
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, IOException {
         Home me = new Home();
         main = me;
         //(new Thread(me)).start();
