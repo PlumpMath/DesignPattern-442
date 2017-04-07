@@ -2,40 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4296dfb1-b4b9-42b0-8eff-3c8c0992263b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cardDesign/CardShare.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditorTarget.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/ConcreteControlCenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/ControlCenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/Observer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/Player.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/vo/Card.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/vo/CardShare.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/thread/TimeThread.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/thread/TimeThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/CardUtil.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/CardUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/OneSendCard.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/OneSendCard.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/CardTypeFactory.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/CardTypeFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditorAdapter.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditorAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/ICardType.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/ICardType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/DoubleCardType.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/DoubleCardType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/FourCardType.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/FourCardType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/FourOneOneCardType.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/FourOneOneCardType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/FourTwoTwoCardType.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/FourTwoTwoCardType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/OneOneTwoTwoCardType.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/OneOneTwoTwoCardType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/OneTwoThreeCardType.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/OneTwoThreeCardType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/PlaneCardType.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/PlaneCardType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/PlaneOneCardType.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/PlaneOneCardType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/PlaneTwoCardType.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/PlaneTwoCardType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/SingleCardType.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/SingleCardType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/ThreeAndOneCardType.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/ThreeAndOneCardType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/ThreeAndTwoCardType.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/ThreeAndTwoCardType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/ThreeCardType.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/ThreeCardType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/devided/DevidedCardSolutionFactory.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/devided/DevidedCardSolutionFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Common$1.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Common$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Common.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Common.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$1.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/vo/Card.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/vo/Card.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myInterface.ini" afterPath="$PROJECT_DIR$/myInterface.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thread/TimeThread.java" afterPath="$PROJECT_DIR$/src/thread/TimeThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/CardUtil.java" afterPath="$PROJECT_DIR$/src/utils/CardUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/OneSendCard.java" afterPath="$PROJECT_DIR$/src/utils/OneSendCard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/CardTypeFactory.java" afterPath="$PROJECT_DIR$/src/utils/cardType/CardTypeFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/ICardType.java" afterPath="$PROJECT_DIR$/src/utils/cardType/ICardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/DoubleCardType.java" afterPath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/DoubleCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/FourCardType.java" afterPath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/FourCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/FourOneOneCardType.java" afterPath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/FourOneOneCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/FourTwoTwoCardType.java" afterPath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/FourTwoTwoCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/OneOneTwoTwoCardType.java" afterPath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/OneOneTwoTwoCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/OneTwoThreeCardType.java" afterPath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/OneTwoThreeCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/PlaneCardType.java" afterPath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/PlaneCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/PlaneOneCardType.java" afterPath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/PlaneOneCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/PlaneTwoCardType.java" afterPath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/PlaneTwoCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/SingleCardType.java" afterPath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/SingleCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/ThreeAndOneCardType.java" afterPath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/ThreeAndOneCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/ThreeAndTwoCardType.java" afterPath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/ThreeAndTwoCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/ThreeCardType.java" afterPath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/ThreeCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/devided/DevidedCardSolutionFactory.java" afterPath="$PROJECT_DIR$/src/utils/devided/DevidedCardSolutionFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/iniEdit/IniEditorAdapter.java" afterPath="$PROJECT_DIR$/src/utils/iniEdit/IniEditorAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/Common.java" afterPath="$PROJECT_DIR$/src/view/Common.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/Home.java" afterPath="$PROJECT_DIR$/src/view/Home.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/iniEdit/IniEditorTarget.java" afterPath="$PROJECT_DIR$/src/utils/iniEdit/IniEditorInterface.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/vo/Card.java" afterPath="$PROJECT_DIR$/src/cardDesign/Card.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,23 +65,121 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TimeThread.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/Home.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+              <folding>
+                <element signature="e#2907#2965#0" expanded="false" />
+                <element signature="docComment;method#startGame#0;class#Home#0" expanded="false" />
+                <element signature="docComment;method#isFriend#0;class#Home#0" expanded="false" />
+                <element signature="method#isFriend#0;class#Home#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thread/TimeThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="270" column="77" lean-forward="false" selection-start-line="270" selection-start-column="54" selection-end-line="270" selection-end-column="77" />
+            <state relative-caret-position="4628">
+              <caret line="409" column="51" lean-forward="true" selection-start-line="409" selection-start-column="51" selection-end-line="409" selection-end-column="51" />
               <folding>
-                <element signature="method#win#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#computerTimer#0;class#TimeThread#0" expanded="false" />
                 <element signature="method#clearTable#0;class#TimeThread#0" expanded="false" />
                 <element signature="method#clearTable#1;class#TimeThread#0" expanded="false" />
                 <element signature="method#isFriend#0;class#TimeThread#0" expanded="false" />
                 <element signature="method#turnOnLord#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#timeWait#0;class#TimeThread#0" expanded="false" />
                 <element signature="method#makeCanClick#0;class#TimeThread#0" expanded="false" />
                 <element signature="method#turnOn#0;class#TimeThread#0" expanded="false" />
                 <element signature="method#setlord#0;class#TimeThread#0" expanded="false" />
                 <element signature="method#openlord#0;class#TimeThread#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControlCenter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/ControlCenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <folding>
+                <element signature="e#184#194#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteControlCenter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/ConcreteControlCenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputerTimeThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thread/ComputerTimeThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cardDesign/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardShare.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cardDesign/CardShare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="e#945#946#0" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,10 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Util/Devided/DevidedCardSolutionFactory.java" />
-        <option value="$PROJECT_DIR$/src/Util/CardType/ICardType.java" />
-        <option value="$PROJECT_DIR$/src/Util/CardType/CardTypeFactory.java" />
-        <option value="$PROJECT_DIR$/src/util/cardType/cardTypeImpl/CardTypeString.java" />
         <option value="$PROJECT_DIR$/src/util/cardType/DoubleCardType.java" />
         <option value="$PROJECT_DIR$/src/util/cardType/cardTypeImpl/FourOneOneCardType.java" />
         <option value="$PROJECT_DIR$/src/utils/devided/DevidedCardSolution.java" />
@@ -164,7 +256,6 @@
         <option value="$PROJECT_DIR$/src/view/Common.java" />
         <option value="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/DoubleCardType.java" />
         <option value="$PROJECT_DIR$/src/thread/ComputerTimeThread.java" />
-        <option value="$PROJECT_DIR$/src/thread/TimeThread.java" />
         <option value="$PROJECT_DIR$/src/utils/CardUtil.java" />
         <option value="$PROJECT_DIR$/src/utils/vhvh.java" />
         <option value="$PROJECT_DIR$/src/utils/dhsg.java" />
@@ -184,8 +275,13 @@
         <option value="$PROJECT_DIR$/src/vo/Card.java" />
         <option value="$PROJECT_DIR$/src/vo/CardFactory.java" />
         <option value="$PROJECT_DIR$/src/vo/CardShare.java" />
-        <option value="$PROJECT_DIR$/src/cardDesign/CardShare.java" />
+        <option value="$PROJECT_DIR$/src/thread/TimeThread.java" />
         <option value="$PROJECT_DIR$/src/view/Home.java" />
+        <option value="$PROJECT_DIR$/src/cardDesign/CardShare.java" />
+        <option value="$PROJECT_DIR$/src/view/ControlCenter.java" />
+        <option value="$PROJECT_DIR$/src/view/Observer.java" />
+        <option value="$PROJECT_DIR$/src/view/Player.java" />
+        <option value="$PROJECT_DIR$/src/view/ConcreteControlCenter.java" />
       </list>
     </option>
   </component>
@@ -196,10 +292,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1452" />
-    <option name="height" value="912" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -219,6 +314,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,12 +394,15 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cardDesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -834,7 +933,8 @@
       <workItem from="1491393915774" duration="10896000" />
       <workItem from="1491476502275" duration="41000" />
       <workItem from="1491476595811" duration="394000" />
-      <workItem from="1491477928454" duration="6418000" />
+      <workItem from="1491477928454" duration="8660000" />
+      <workItem from="1491532269681" duration="2929000" />
     </task>
     <task id="LOCAL-00001" summary="NEW">
       <created>1489740484434</created>
@@ -854,7 +954,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46649000" />
+    <option name="totallyTimeSpent" value="51820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -866,7 +966,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1452" height="912" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -879,20 +979,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18508998" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1577218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18031609" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27680525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33161953" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36117136" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19305857" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -902,6 +1001,7 @@
       <window_info id="Analyze Dataflow from" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39899713" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33161953" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -951,7 +1051,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/view/Home.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -960,190 +1068,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/thread.TimeThread">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>thread.TimeThread</OriginalElement>
-          <nodes>
-            <node x="" y="">java.lang.FunctionalInterface</node>
-            <node x="" y="">thread.TimeThread</node>
-            <node x="" y="">java.lang.Thread</node>
-            <node x="" y="">java.lang.Runnable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="71.0" y="56.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/view.Common">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>view.Common</OriginalElement>
-          <nodes>
-            <node x="" y="">view.Common</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="15.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/vo.Card">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>vo.Card</OriginalElement>
-          <nodes>
-            <node x="387.5" y="240.0">javax.swing.JComponent</node>
-            <node x="208.0" y="160.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
-            <node x="379.5" y="0.0">java.awt.MenuContainer</node>
-            <node x="275.5" y="240.0">javax.accessibility.Accessible</node>
-            <node x="390.0" y="80.0">java.awt.Component</node>
-            <node x="132.5" y="240.0">javax.swing.SwingConstants</node>
-            <node x="236.5" y="0.0">java.awt.image.ImageObserver</node>
-            <node x="520.5" y="0.0">java.io.Serializable</node>
-            <node x="4.5" y="240.0">java.util.EventListener</node>
-            <node x="172.25" y="400.0">vo.Card</node>
-            <node x="287.5" y="320.0">javax.swing.JLabel</node>
-            <node x="150.25" y="320.0">java.lang.Comparable</node>
-            <node x="396.0" y="160.0">java.awt.Container</node>
-            <node x="0.0" y="320.0">java.awt.event.MouseListener</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="javax.swing.JComponent" target="javax.swing.TransferHandler.HasGetTransferHandler">
-              <point x="-35.0" y="-15.0" />
-              <point x="405.0" y="215.0" />
-              <point x="292.0" y="215.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="javax.swing.JComponent" target="java.awt.Container">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="vo.Card" target="java.lang.Comparable">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.awt.Component" target="java.awt.MenuContainer">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="javax.swing.JLabel" target="javax.swing.JComponent">
-              <point x="22.666666666666686" y="-15.0" />
-              <point x="344.1666666666667" y="295.0" />
-              <point x="440.0" y="295.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
-              <point x="-33.33333333333337" y="-15.0" />
-              <point x="406.66666666666663" y="55.0" />
-              <point x="298.0" y="55.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.awt.Component" target="java.io.Serializable">
-              <point x="33.333333333333314" y="-15.0" />
-              <point x="473.3333333333333" y="55.0" />
-              <point x="545.0" y="55.0" />
-              <point x="-24.5" y="15.0" />
-            </edge>
-            <edge source="vo.Card" target="javax.swing.JLabel">
-              <point x="20.0" y="-15.0" />
-              <point x="222.25" y="375.0" />
-              <point x="321.5" y="375.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="vo.Card" target="java.awt.event.MouseListener">
-              <point x="-20.0" y="-15.0" />
-              <point x="182.25" y="375.0" />
-              <point x="58.5" y="375.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.awt.event.MouseListener" target="java.util.EventListener">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="javax.swing.JLabel" target="javax.accessibility.Accessible">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.awt.Container" target="java.awt.Component">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="javax.swing.JLabel" target="javax.swing.SwingConstants">
-              <point x="-22.666666666666686" y="-15.0" />
-              <point x="298.8333333333333" y="295.0" />
-              <point x="194.0" y="295.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="javax.swing.JComponent" target="java.io.Serializable">
-              <point x="35.0" y="-15.0" />
-              <point x="475.0" y="215.0" />
-              <point x="594.0" y="215.0" />
-              <point x="24.5" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="30.0" y="152.0" />
-          <SelectedNodes>
-            <node>vo.Card</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/view.Home">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>view.Home</OriginalElement>
-          <nodes>
-            <node x="" y="">java.awt.Frame</node>
-            <node x="" y="">java.awt.event.ActionListener</node>
-            <node x="" y="">java.awt.Window</node>
-            <node x="" y="">javax.swing.TransferHandler.HasGetTransferHandler</node>
-            <node x="" y="">javax.swing.RootPaneContainer</node>
-            <node x="" y="">java.awt.MenuContainer</node>
-            <node x="" y="">javax.accessibility.Accessible</node>
-            <node x="" y="">java.awt.Component</node>
-            <node x="" y="">java.lang.Runnable</node>
-            <node x="" y="">java.awt.image.ImageObserver</node>
-            <node x="" y="">java.io.Serializable</node>
-            <node x="" y="">java.lang.FunctionalInterface</node>
-            <node x="" y="">java.util.EventListener</node>
-            <node x="" y="">java.awt.Container</node>
-            <node x="" y="">javax.swing.JFrame</node>
-            <node x="" y="">javax.swing.WindowConstants</node>
-            <node x="" y="">view.Home</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="504.0" y="255.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/win.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/5-1.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1250,14 +1174,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/ComputerTimeThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/FourCardType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1356,7 +1272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1386,14 +1301,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vo/CardInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vo/CardInterface.java" />
     <entry file="file://$PROJECT_DIR$/images/2-6.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1418,7 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1434,58 +1341,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vo/CardAbstrct.java">
+    <entry file="file://$PROJECT_DIR$/src/vo/CardAbstrct.java" />
+    <entry file="uml://JAVA/view.Home">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>view.Home</OriginalElement>
+          <nodes>
+            <node x="" y="">java.awt.Frame</node>
+            <node x="" y="">java.awt.event.ActionListener</node>
+            <node x="" y="">java.awt.Window</node>
+            <node x="" y="">java.awt.MenuContainer</node>
+            <node x="" y="">javax.swing.RootPaneContainer</node>
+            <node x="" y="">javax.swing.TransferHandler.HasGetTransferHandler</node>
+            <node x="" y="">javax.accessibility.Accessible</node>
+            <node x="" y="">java.awt.Component</node>
+            <node x="" y="">java.lang.Runnable</node>
+            <node x="" y="">java.awt.image.ImageObserver</node>
+            <node x="" y="">java.io.Serializable</node>
+            <node x="" y="">java.lang.FunctionalInterface</node>
+            <node x="" y="">java.util.EventListener</node>
+            <node x="" y="">java.awt.Container</node>
+            <node x="" y="">javax.swing.JFrame</node>
+            <node x="" y="">javax.swing.WindowConstants</node>
+            <node x="" y="">view.Home</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="560.5" y="255.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/ComputerTimeThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cardDesign/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
+        <state relative-caret-position="17">
           <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1842#1843#0" expanded="true" />
-            <element signature="e#1933#1934#0" expanded="true" />
-            <element signature="e#2644#2645#0" expanded="true" />
-            <element signature="e#2677#2678#0" expanded="true" />
-            <element signature="e#2716#2717#0" expanded="true" />
-            <element signature="e#2750#2751#0" expanded="true" />
-            <element signature="e#2779#2780#0" expanded="true" />
-            <element signature="e#2812#2813#0" expanded="true" />
-            <element signature="e#2851#2852#0" expanded="true" />
-            <element signature="e#2885#2886#0" expanded="true" />
-            <element signature="e#2921#2922#0" expanded="true" />
-            <element signature="e#2958#2959#0" expanded="true" />
-            <element signature="e#3008#3009#0" expanded="true" />
-            <element signature="e#3050#3051#0" expanded="true" />
-            <element signature="e#3079#3080#0" expanded="true" />
-            <element signature="e#3111#3112#0" expanded="true" />
-            <element signature="e#3150#3151#0" expanded="true" />
-            <element signature="e#3182#3183#0" expanded="true" />
-            <element signature="e#3217#3218#0" expanded="true" />
-            <element signature="e#3253#3254#0" expanded="true" />
-            <element signature="e#3302#3303#0" expanded="true" />
-            <element signature="e#3342#3343#0" expanded="true" />
-            <element signature="e#3376#3377#0" expanded="true" />
-            <element signature="e#3411#3412#0" expanded="true" />
-            <element signature="e#3458#3459#0" expanded="true" />
-            <element signature="e#3496#3497#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cardDesign/CardShare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        <state relative-caret-position="374">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="e#945#946#0" expanded="true" />
             <element signature="e#994#995#0" expanded="true" />
@@ -1493,37 +1408,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/TimeThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4628">
+          <caret line="409" column="51" lean-forward="true" selection-start-line="409" selection-start-column="51" selection-end-line="409" selection-end-column="51" />
+          <folding>
+            <element signature="method#clearTable#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#clearTable#1;class#TimeThread#0" expanded="false" />
+            <element signature="method#isFriend#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#turnOnLord#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#makeCanClick#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#turnOn#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#setlord#0;class#TimeThread#0" expanded="false" />
+            <element signature="method#openlord#0;class#TimeThread#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="155" column="22" lean-forward="false" selection-start-line="155" selection-start-column="22" selection-end-line="155" selection-end-column="22" />
+        <state relative-caret-position="239">
+          <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
           <folding>
             <element signature="e#2907#2965#0" expanded="false" />
             <element signature="docComment;method#startGame#0;class#Home#0" expanded="false" />
-            <element signature="method#run#0;class#Home#0" expanded="false" />
             <element signature="docComment;method#isFriend#0;class#Home#0" expanded="false" />
             <element signature="method#isFriend#0;class#Home#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/TimeThread.java">
+    <entry file="file://$PROJECT_DIR$/src/view/ControlCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="270" column="77" lean-forward="false" selection-start-line="270" selection-start-column="54" selection-end-line="270" selection-end-column="77" />
+        <state relative-caret-position="221">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding>
-            <element signature="method#win#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#computerTimer#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#clearTable#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#clearTable#1;class#TimeThread#0" expanded="false" />
-            <element signature="method#isFriend#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#turnOnLord#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#timeWait#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#makeCanClick#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#turnOn#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#setlord#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#openlord#0;class#TimeThread#0" expanded="false" />
+            <element signature="e#184#194#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ConcreteControlCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -104,6 +104,7 @@ public class TimeThread extends Thread implements Runnable {
             main.time[i].setVisible(false);
         }
         turnOnLord(false);// 让抢地主按钮掩藏
+
         while (true) {
 
             if (main.turn == 1) // 自己
@@ -120,14 +121,12 @@ public class TimeThread extends Thread implements Runnable {
                 if (main.preChuPai == 1) {
                     clearTable();
                 }
-                /**
-                 * 使所有的牌可以点击
-                 */
+
+                //使所有的牌可以点击
                 this.makeCanClick(main.playerList[1], true);
                 timeWait(30, 1);// 我自己的定时器
                 turnOn(false);// 选完关闭
                 main.turn = (main.turn + 1) % 3;
-                // main.preChuPai=1;
 
             }
             if (main.turn == 0) {
