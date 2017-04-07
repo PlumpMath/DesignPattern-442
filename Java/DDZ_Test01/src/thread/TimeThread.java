@@ -13,7 +13,6 @@ import java.util.List;
  * Created by DrownFish on 2017/3/10.
  */
 
-
 /**
  * 出牌线程
  *
@@ -126,6 +125,11 @@ public class TimeThread extends Thread implements Runnable {
                 this.makeCanClick(main.playerList[1], true);
                 timeWait(30, 1);// 我自己的定时器
                 turnOn(false);// 选完关闭
+
+                if(main.playerList[1].size() <= 8){
+                    main.players[1].notifyCenter(main.controlCenter);
+                }
+
                 main.turn = (main.turn + 1) % 3;
 
             }
@@ -135,6 +139,11 @@ public class TimeThread extends Thread implements Runnable {
                 computerTimer(0);
                 clearTable(0);
                 computer0();
+
+                if(main.playerList[0].size() <= 8){
+                    main.players[0].notifyCenter(main.controlCenter);
+                }
+
                 main.turn = (main.turn + 1) % 3;
 
             }
@@ -144,6 +153,12 @@ public class TimeThread extends Thread implements Runnable {
                 main.hasSend[2] = 0;// 表示没有出牌完成
                 computerTimer(2);
                 computer2();
+
+
+                if(main.playerList[2].size() <= 8){
+                    main.players[2].notifyCenter(main.controlCenter);
+                }
+
                 main.turn = (main.turn + 1) % 3;
             }
 

@@ -15,5 +15,5 @@ public interface Observer {
     /**
      * 当要出完时通知控制中心
      */
-    public void notifyCenter();
+    public void notifyCenter(ControlCenter controlCenter);
 }

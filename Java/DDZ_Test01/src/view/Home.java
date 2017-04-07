@@ -45,6 +45,9 @@ public class Home extends JFrame implements ActionListener, Runnable {
     public java.util.List<Card> hasSendList = new ArrayList();
     public Card[] card = new Card[54];
     public JLabel[] time = new JLabel[3];
+    //public JLabel[] tips = new JLabel[3];
+    public Player[] players = new Player[3];
+    public ControlCenter controlCenter = new ConcreteControlCenter();
     TimeThread t;
     public boolean nextPlayer = false;
     public static boolean debug = true;
@@ -94,36 +97,37 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.container.setLayout((LayoutManager)null);
         this.setDefaultCloseOperation(3);
         this.setVisible(true);
-//        this.logImage = new ImageIcon("images/log.png");
-//        this.logJLabel = new JLabel(this.logImage);
-//        this.logJLabel.setSize(this.logImage.getIconWidth(), this.logImage.getIconHeight());
-//        this.logJLabel.setLocation((this.container.getWidth() - this.logImage.getIconWidth()) / 2, (this.container.getHeight() - this.logImage.getIconHeight()) / 4);
-//        this.container.add(this.logJLabel);
-//        this.startImage = new ImageIcon("images//startbtn.png");
-//        this.startBtn = new JButton(this.startImage);
-//        this.startBtn.setSize(this.startImage.getIconWidth(), this.startImage.getIconHeight());
-//        this.startBtn.setLocation((this.container.getWidth() - this.startImage.getIconWidth()) / 2, 350);
-//        this.startBtn.addActionListener(new ActionListener() {
-//            public void actionPerformed(ActionEvent arg0) {
-//                try {
-//                    Home.this.startGame();
-//                } catch (InterruptedException e) {
-//                    e.printStackTrace();
-//                }
-//            }
-//        });
-//        this.container.add(this.startBtn);
-//        this.exitImage = new ImageIcon("images//exitGame.png");
-//        this.exitBtn = new JButton(this.exitImage);
-//        this.exitBtn.setSize(this.exitImage.getIconWidth(), this.exitImage.getIconHeight());
-//        this.exitBtn.setLocation((this.container.getWidth() - this.exitImage.getIconWidth()) / 2, 400);
-//        this.exitBtn.addActionListener(new ActionListener() {
-//            public void actionPerformed(ActionEvent e) {
-//                Home.this.dispose();
-//            }
-//        });
-//        this.container.add(this.exitBtn);
-        startGame();
+        this.logImage = new ImageIcon("images/log.png");
+        this.logJLabel = new JLabel(this.logImage);
+        this.logJLabel.setSize(this.logImage.getIconWidth(), this.logImage.getIconHeight());
+        this.logJLabel.setLocation((this.container.getWidth() - this.logImage.getIconWidth()) / 2, (this.container.getHeight() - this.logImage.getIconHeight()) / 4);
+        this.container.add(this.logJLabel);
+        this.startImage = new ImageIcon("images//startbtn.png");
+        this.startBtn = new JButton(this.startImage);
+        this.startBtn.setSize(this.startImage.getIconWidth(), this.startImage.getIconHeight());
+        this.startBtn.setLocation((this.container.getWidth() - this.startImage.getIconWidth()) / 2, 350);
+        this.startBtn.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) {
+                try {
+                    Home.this.startGame();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+        this.container.add(this.startBtn);
+        this.exitImage = new ImageIcon("images//exitGame.png");
+        this.exitBtn = new JButton(this.exitImage);
+        this.exitBtn.setSize(this.exitImage.getIconWidth(), this.exitImage.getIconHeight());
+        this.exitBtn.setLocation((this.container.getWidth() - this.exitImage.getIconWidth()) / 2, 400);
+        this.exitBtn.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                Home.this.dispose();
+            }
+        });
+        this.container.add(this.exitBtn);
+
+        //startGame();
     }
 
     /**
@@ -306,6 +310,23 @@ public class Home extends JFrame implements ActionListener, Runnable {
             this.time[i].setVisible(false);
             this.container.add(this.time[i]);
         }
+
+        /**
+         * 添加牌少提示
+         */
+        for(int i=0;i<3;i++){
+//            this.tips[i] = new JLabel("tips");
+//            this.tips[i].setVisible(true);
+//            this.container.add(this.tips[i]);
+            players[i] = new Player();
+            players[i].setName("player" + i);
+            players[i].setjLabel(time[i]);
+            controlCenter.join(players[i]);
+        }
+
+//        this.time[0].setBounds(140, 40, 100, 20);
+//        this.time[1].setBounds(50, 500, 100, 20);
+//        this.time[2].setBounds(580, 40, 100, 20);
 
         this.time[0].setBounds(140, 230, 60, 20);
         this.time[1].setBounds(374, 360, 60, 20);
@@ -503,6 +524,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
                 this.time[1].setVisible(false);
                 this.nextPlayer = true;
             }
+
         }
 
         /**
