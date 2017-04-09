@@ -1,4 +1,4 @@
-package view;
+package observer;
 
 /**
  * Created by DrownFish on 2017/4/7.

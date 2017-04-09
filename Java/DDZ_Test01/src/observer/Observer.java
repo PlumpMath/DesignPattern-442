@@ -1,6 +1,4 @@
-package view;
-
-import javax.swing.*;
+package observer;
 
 /**
  * Created by DrownFish on 2017/4/7.

@@ -1,6 +1,9 @@
 package view;
 
 import login.*;
+import observer.ConcreteControlCenter;
+import observer.ControlCenter;
+import observer.Player;
 import thread.TimeThread;
 import utils.OneSendCard;
 import utils.cardType.CardTypeFactory;
@@ -32,6 +35,7 @@ import javax.swing.JLabel;
  */
 
 public class Home extends JFrame implements ActionListener, Runnable {
+    public CareTaker careTaker = new CareTaker();
     public User user;
     public static String playerName = null;
     public static Home main = null;
@@ -43,13 +47,17 @@ public class Home extends JFrame implements ActionListener, Runnable {
     public JLabel dizhu;
     public JLabel farmer1;
     public JLabel farmer2;
+
+    /**
+     * 需要添加备忘录模式的主要操作对象
+     */
     public java.util.List<Card>[] currentList = new ArrayList[3];
     public java.util.List<Card>[] playerList = new ArrayList[3];
-    public java.util.List<Card> lordList;
     public java.util.List<Card> hasSendList = new ArrayList();
+
+    public java.util.List<Card> lordList;
     public Card[] card = new Card[54];
     public JLabel[] time = new JLabel[3];
-    //public JLabel[] tips = new JLabel[3];
     public Player[] players = new Player[3];
     public ControlCenter controlCenter = new ConcreteControlCenter();
     TimeThread t;
@@ -68,12 +76,16 @@ public class Home extends JFrame implements ActionListener, Runnable {
     public ImageIcon disImage;
     public ImageIcon doImage;
     public ImageIcon changeImage;
+    public ImageIcon lastStepImage;
+    public ImageIcon saveStepImage;
     public JLabel logJLabel;
     public JLabel winOrLose;
     public JButton startBtn;
     public JButton exitBtn;
     public JButton checkBtn;
     public JButton changeBtn;
+    public JButton lastStepBtn;//悔步按钮
+    public JButton saveStepBtn;
     public ImageIcon winImage;
     public ImageIcon loseImage;
     public JLabel[] winJLabel;
@@ -107,6 +119,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.user = user;
     }
 
+
     /**
      * 初始化界面,并添加需要的监听器
      */
@@ -124,7 +137,6 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.logJLabel.setSize(this.logImage.getIconWidth(), this.logImage.getIconHeight());
         this.logJLabel.setLocation((this.container.getWidth() - this.logImage.getIconWidth()) / 2, (this.container.getHeight() - this.logImage.getIconHeight()) / 4);
         this.container.add(this.logJLabel);
-
 
         /**
          * startGameBtn
@@ -235,7 +247,6 @@ public class Home extends JFrame implements ActionListener, Runnable {
 
     public void CardInit() {
         int count = 0;
-
 
         //使用享元模式获取创建的牌
         CardShare cardShare = new CardShare().getCardShare();
@@ -458,6 +469,9 @@ public class Home extends JFrame implements ActionListener, Runnable {
             this.container.add(this.loseJLabel[i]);
         }
 
+
+        careTaker.saveArrayList(playerList,hasSendList);
+
         /**
          * 一键改变背景颜色
          */
@@ -517,6 +531,43 @@ public class Home extends JFrame implements ActionListener, Runnable {
             }
         });
         this.container.add(this.changeBtn);
+
+
+        this.lastStepImage = new ImageIcon("images/lastStep.png");
+        this.lastStepBtn = new JButton(this.lastStepImage);
+        this.lastStepBtn.setSize(this.lastStepImage.getIconWidth(), this.lastStepImage.getIconHeight());
+        this.lastStepBtn.setOpaque(true);
+        this.lastStepBtn.setLocation(690, 490);
+        this.lastStepBtn.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("悔步操作");
+                java.util.List<Card>[] arr = new ArrayList[4];
+                arr = careTaker.getArrayList();
+                for(int i=0;i<3;i++){
+                    main.playerList[i] = arr[i];
+                }
+                main.hasSendList = arr[3];
+
+                for(int i = 0; i < 3; ++i) {
+                    Common.order(main.playerList[i]);
+                    Common.rePosition(main, main.playerList[i], i);
+                }
+            }
+        });
+        this.container.add(this.lastStepBtn);
+
+        this.saveStepImage = new ImageIcon("images/saveStep.png");
+        this.saveStepBtn = new JButton(this.saveStepImage);
+        this.saveStepBtn.setSize(this.saveStepImage.getIconWidth(), this.saveStepImage.getIconHeight());
+        this.saveStepBtn.setOpaque(true);
+        this.saveStepBtn.setLocation(690, 460);
+        this.saveStepBtn.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("保存操作");
+                main.careTaker.saveArrayList(main.playerList,main.hasSendList);
+            }
+        });
+        this.container.add(this.saveStepBtn);
     }
 
     public void actionPerformed(ActionEvent e) {
@@ -641,12 +692,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
                 }
             }
         }
-
-
-
-
     }
-
 
     public void run() {
     }

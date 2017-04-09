@@ -91,9 +91,11 @@ public class LoginView extends JFrame {
                                 if(type.equals("1")){
                                     //用户登录，进行游戏
                                     System.out.println("right player");
+
                                     User normalUser = new NormalUser();
                                     normalUser.setName(name);
                                     normalUser.setPassword(password);
+
                                     Home me = new Home();
                                     me.setMain(me);
                                     me.setPlayerName(name);
@@ -110,7 +112,6 @@ public class LoginView extends JFrame {
                                     me.setMain(me);
                                     me.setPlayerName(name);
                                     me.setUser(adminUser);
-
                                 }
                             }else{
                                 //密码错误
