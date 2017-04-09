@@ -1,5 +1,6 @@
 package view;
 
+import login.*;
 import thread.TimeThread;
 import utils.OneSendCard;
 import utils.cardType.CardTypeFactory;
@@ -16,6 +17,7 @@ import java.awt.Point;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
@@ -30,6 +32,8 @@ import javax.swing.JLabel;
  */
 
 public class Home extends JFrame implements ActionListener, Runnable {
+    public User user;
+    public static String playerName = null;
     public static Home main = null;
     public Container container = null;
     public JButton[] landlord = new JButton[2];
@@ -57,6 +61,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
     public ImageIcon logImage;
     public ImageIcon startImage;
     public ImageIcon exitImage;
+    public ImageIcon checkImage;
     public ImageIcon robImage;
     public ImageIcon noImage;
     public ImageIcon tipImage;
@@ -67,6 +72,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
     public JLabel winOrLose;
     public JButton startBtn;
     public JButton exitBtn;
+    public JButton checkBtn;
     public JButton changeBtn;
     public ImageIcon winImage;
     public ImageIcon loseImage;
@@ -83,6 +89,22 @@ public class Home extends JFrame implements ActionListener, Runnable {
     public Home() throws InterruptedException, IOException {
         this.Init();
         this.container.repaint();
+    }
+
+    public void setMain(Home main) {
+        Home.main = main;
+    }
+
+    public void setPlayerName(String playerName) {
+        Home.playerName = playerName;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 
     /**
@@ -102,6 +124,11 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.logJLabel.setSize(this.logImage.getIconWidth(), this.logImage.getIconHeight());
         this.logJLabel.setLocation((this.container.getWidth() - this.logImage.getIconWidth()) / 2, (this.container.getHeight() - this.logImage.getIconHeight()) / 4);
         this.container.add(this.logJLabel);
+
+
+        /**
+         * startGameBtn
+         */
         this.startImage = new ImageIcon("images//startbtn.png");
         this.startBtn = new JButton(this.startImage);
         this.startBtn.setSize(this.startImage.getIconWidth(), this.startImage.getIconHeight());
@@ -109,13 +136,25 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.startBtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent arg0) {
                 try {
-                    Home.this.startGame();
+                    if(user.getName().contains("player")) {
+                        LoginInterface loginInterface = new LoginAction();
+                        loginInterface.visitNormalUser((NormalUser) user);
+                        Home.this.startGame();
+                    }else{
+                        LoginInterface loginInterface = new LoginAction();
+                        loginInterface.visitAdminUser((AdminUser) user);
+                    }
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
             }
         });
         this.container.add(this.startBtn);
+
+
+        /**
+         * exit Game Buttton
+         */
         this.exitImage = new ImageIcon("images//exitGame.png");
         this.exitBtn = new JButton(this.exitImage);
         this.exitBtn.setSize(this.exitImage.getIconWidth(), this.exitImage.getIconHeight());
@@ -126,6 +165,47 @@ public class Home extends JFrame implements ActionListener, Runnable {
             }
         });
         this.container.add(this.exitBtn);
+
+
+        /**
+         *check result button
+         */
+        this.checkImage = new ImageIcon("images//checkResult.png");
+        this.checkBtn = new JButton(this.checkImage);
+        this.checkBtn.setSize(this.checkImage.getIconWidth(), this.checkImage.getIconHeight());
+        this.checkBtn.setLocation((this.container.getWidth() - this.checkImage.getIconWidth()) / 2, 450);
+        this.checkBtn.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                /**
+                 * check class
+                 */
+                if(user.getName().contains("player")){
+                    LoginInterface loginInterface = new CheckAction();
+                    try {
+                        loginInterface.visitNormalUser((NormalUser) user);
+
+                    } catch (SQLException e1) {
+                        e1.printStackTrace();
+                    } catch (IOException e1) {
+                        e1.printStackTrace();
+                    } catch (InterruptedException e1) {
+                        e1.printStackTrace();
+                    }
+                }else{
+                    LoginInterface loginInterface = new CheckAction();
+                    try {
+                        loginInterface.visitAdminUser((AdminUser) user);
+                    } catch (IOException e1) {
+                        e1.printStackTrace();
+                    } catch (InterruptedException e1) {
+                        e1.printStackTrace();
+                    } catch (SQLException e1) {
+                        e1.printStackTrace();
+                    }
+                }
+            }
+        });
+        this.container.add(this.checkBtn);
 
         //startGame();
     }
@@ -567,11 +647,6 @@ public class Home extends JFrame implements ActionListener, Runnable {
 
     }
 
-    public static void main(String[] args) throws InterruptedException, IOException {
-        Home me = new Home();
-        main = me;
-        //(new Thread(me)).start();
-    }
 
     public void run() {
     }
