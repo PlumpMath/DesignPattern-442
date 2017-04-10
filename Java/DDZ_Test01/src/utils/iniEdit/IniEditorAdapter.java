@@ -6,7 +6,7 @@ import java.util.HashMap;
 /**
  * Created by DrownFish on 2017/4/5.
  */
-public class IniEditorAdapter implements IniEditorInterface {
+public class IniEditorAdapter implements IniEditorInterface,Serializable {
 
     //使用单例模式，避免多次调用读取配置文件
     private static IniEditorAdapter iniEditorAdapter = null;

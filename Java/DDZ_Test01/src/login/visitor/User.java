@@ -1,4 +1,4 @@
-package login;
+package login.visitor;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -6,13 +6,10 @@ import java.sql.SQLException;
 /**
  * Created by DrownFish on 2017/4/9.
  */
-public class NormalUser extends User {
+public abstract class User {
     private String name;
     private String password;
-    @Override
-    public void accept(LoginInterface loginInterface) throws SQLException, IOException, InterruptedException {
-       loginInterface.visitNormalUser(this);
-    }
+    public abstract void accept(LoginInterface loginInterface) throws SQLException, IOException, InterruptedException;
 
     public String getName() {
         return name;

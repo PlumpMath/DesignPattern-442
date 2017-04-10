@@ -1,11 +1,13 @@
 package view;
 
-import login.*;
+import login.visitor.*;
 import observer.ConcreteControlCenter;
 import observer.ControlCenter;
 import observer.Player;
 import thread.TimeThread;
 import utils.OneSendCard;
+import utils.SaveScore.Caretaker;
+import utils.SaveScore.Originator;
 import utils.cardType.CardTypeFactory;
 import utils.iniEdit.IniEditorAdapter;
 import utils.iniEdit.IniEditorInterface;
@@ -19,7 +21,7 @@ import java.awt.LayoutManager;
 import java.awt.Point;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.IOException;
+import java.io.*;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -34,38 +36,36 @@ import javax.swing.JLabel;
  * Created by DrownFish on 2017/3/10.
  */
 
-public class Home extends JFrame implements ActionListener, Runnable {
-    public CareTaker careTaker = new CareTaker();
+public class Home extends JFrame implements ActionListener, Runnable,Serializable {
+    public Originator originator = new Originator();
+    public Caretaker caretaker =new Caretaker();
     public User user;
-    public static String playerName = null;
+    public String playerName = null;
     public static Home main = null;
     public Container container = null;
     public JButton[] landlord = new JButton[2];
     public JButton[] publishCard = new JButton[3];
-    public int dizhuFlag = -1;
-    public int turn;
     public JLabel dizhu;
     public JLabel farmer1;
     public JLabel farmer2;
-
-    /**
-     * 需要添加备忘录模式的主要操作对象
-     */
     public java.util.List<Card>[] currentList = new ArrayList[3];
     public java.util.List<Card>[] playerList = new ArrayList[3];
     public java.util.List<Card> hasSendList = new ArrayList();
-
-    public java.util.List<Card> lordList;
-    public Card[] card = new Card[54];
-    public JLabel[] time = new JLabel[3];
-    public Player[] players = new Player[3];
-    public ControlCenter controlCenter = new ConcreteControlCenter();
     TimeThread t;
     public boolean nextPlayer = false;
     public static boolean debug = true;
     public int preChuPai = -1;
     public OneSendCard preOneSendCard;
     public int[] hasSend = new int[3];
+    public int dizhuFlag = -1;
+    public int turn;
+
+    public java.util.List<Card> lordList;
+    public Card[] card = new Card[54];
+    public JLabel[] time = new JLabel[3];
+    public Player[] players = new Player[3];
+    public ControlCenter controlCenter = new ConcreteControlCenter();
+
     public ImageIcon logImage;
     public ImageIcon startImage;
     public ImageIcon exitImage;
@@ -108,7 +108,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
     }
 
     public void setPlayerName(String playerName) {
-        Home.playerName = playerName;
+        this.playerName = playerName;
     }
 
     public User getUser() {
@@ -470,7 +470,7 @@ public class Home extends JFrame implements ActionListener, Runnable {
         }
 
 
-        careTaker.saveArrayList(playerList,hasSendList);
+        //careTaker.saveArrayList(playerList,hasSendList);
 
         /**
          * 一键改变背景颜色
@@ -540,17 +540,11 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.lastStepBtn.setLocation(690, 490);
         this.lastStepBtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println("悔步操作");
-                java.util.List<Card>[] arr = new ArrayList[4];
-                arr = careTaker.getArrayList();
-                for(int i=0;i<3;i++){
-                    main.playerList[i] = arr[i];
-                }
-                main.hasSendList = arr[3];
-
-                for(int i = 0; i < 3; ++i) {
-                    Common.order(main.playerList[i]);
-                    Common.rePosition(main, main.playerList[i], i);
+                System.out.println("恢复成绩操作");
+                try {
+                    originator.saveScore(caretaker.reCoverScore(),playerName);
+                } catch (SQLException e1) {
+                    e1.printStackTrace();
                 }
             }
         });
@@ -563,8 +557,12 @@ public class Home extends JFrame implements ActionListener, Runnable {
         this.saveStepBtn.setLocation(690, 460);
         this.saveStepBtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println("保存操作");
-                main.careTaker.saveArrayList(main.playerList,main.hasSendList);
+                System.out.println("保存成绩操作");
+                try {
+                    caretaker.saveScore(originator.getScore(playerName));
+                } catch (SQLException e1) {
+                    e1.printStackTrace();
+                }
             }
         });
         this.container.add(this.saveStepBtn);
@@ -710,6 +708,17 @@ public class Home extends JFrame implements ActionListener, Runnable {
         }
 
         return b;
+    }
+
+    public  <T extends Serializable> T copy(T input) throws IOException, ClassNotFoundException {
+        //将对象写到流里
+        ByteArrayOutputStream bo=new ByteArrayOutputStream();
+        ObjectOutputStream oo=new ObjectOutputStream(bo);
+        oo.writeObject(this);
+//从流里读出来
+        ByteArrayInputStream bi=new ByteArrayInputStream(bo.toByteArray());
+        ObjectInputStream oi=new ObjectInputStream(bi);
+        return (T) oi.readObject();
     }
 }
 

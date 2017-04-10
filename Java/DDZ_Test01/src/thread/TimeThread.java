@@ -7,6 +7,7 @@ import view.Home;
 import cardDesign.Card;
 import java.awt.Color;
 import java.awt.Point;
+import java.sql.SQLException;
 import java.util.List;
 
 /**
@@ -162,8 +163,27 @@ public class TimeThread extends Thread implements Runnable {
                 main.turn = (main.turn + 1) % 3;
             }
 
-            if (win()) // 判断输赢
+            if (win()) { // 判断输赢
+                if(main.winOrLose.getText().equals("You win!")){
+                    try {
+                        int[] score = main.originator.getScore(main.playerName);
+                        score[0] += 1;
+                        main.originator.saveScore(score,main.playerName);
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                } else{
+                    try {
+                        int[] score = main.originator.getScore(main.playerName);
+                        score[1] += 1;
+                        main.originator.saveScore(score,main.playerName);
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                }
                 break;
+            }
+
         }
 
     }

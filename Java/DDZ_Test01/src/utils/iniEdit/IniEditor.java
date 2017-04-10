@@ -110,7 +110,7 @@ import java.util.*;
  * @author Nik Haldimann, nhaldimann at gmail dot com
  * @version r5 (3/4/2013)
  */
-public class IniEditor {
+public class IniEditor implements Serializable {
 
     private static boolean DEFAULT_CASE_SENSITIVITY = false;
 

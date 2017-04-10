@@ -1,6 +1,4 @@
-package login;
-
-import view.Home;
+package login.visitor;
 
 import javax.swing.*;
 import java.io.IOException;
