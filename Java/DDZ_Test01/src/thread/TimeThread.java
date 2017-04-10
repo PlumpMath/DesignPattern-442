@@ -1,5 +1,6 @@
 package thread;
 
+import DBManager.UpdateMoney;
 import utils.OneSendCard;
 import utils.cardType.CardTypeFactory;
 import view.Common;
@@ -169,6 +170,9 @@ public class TimeThread extends Thread implements Runnable {
                         int[] score = main.originator.getScore(main.playerName);
                         score[0] += 1;
                         main.originator.saveScore(score,main.playerName);
+                        UpdateMoney updateMoney = new UpdateMoney();
+                        int money = updateMoney.getMoney(main.playerName);
+                        updateMoney.saveMoney(money+100,main.playerName);
                     } catch (SQLException e) {
                         e.printStackTrace();
                     }
@@ -177,6 +181,9 @@ public class TimeThread extends Thread implements Runnable {
                         int[] score = main.originator.getScore(main.playerName);
                         score[1] += 1;
                         main.originator.saveScore(score,main.playerName);
+                        UpdateMoney updateMoney = new UpdateMoney();
+                        int money = updateMoney.getMoney(main.playerName);
+                        updateMoney.saveMoney(money-100,main.playerName);
                     } catch (SQLException e) {
                         e.printStackTrace();
                     }

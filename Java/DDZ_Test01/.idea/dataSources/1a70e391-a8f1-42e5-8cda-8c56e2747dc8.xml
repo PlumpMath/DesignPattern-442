@@ -45,7 +45,11 @@
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <key id="18" parent="10" name="PRIMARY">
+    <column id="18" parent="10" name="Money">
+      <Position>4</Position>
+      <DataType>int(255)|0</DataType>
+    </column>
+    <key id="19" parent="10" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>name</ColNames>
       <Primary>1</Primary>

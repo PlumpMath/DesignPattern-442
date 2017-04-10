@@ -13,7 +13,7 @@ import java.sql.Statement;
  */
 public class CheckAction implements LoginInterface {
     @Override
-    public void visitNormalUser(NormalUser normalUser) throws SQLException {
+    public int visitNormalUser(NormalUser normalUser) throws SQLException {
         DBConnection dbConnection = new DBConnection();
         Connection connection = dbConnection.getConn();
         String name = normalUser.getName();
@@ -29,6 +29,7 @@ public class CheckAction implements LoginInterface {
                     "获胜次数："+ winTime + " 失败次数: " + failTime,
                     "成绩",JOptionPane.INFORMATION_MESSAGE);
         }
+        return 0;
     }
 
     @Override

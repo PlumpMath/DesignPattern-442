@@ -18,8 +18,8 @@ public class Originator {
         if(resultSet!=null){
             resultSet.first();
             int score[] = new int[2];
-            score[0] = Integer.parseInt(resultSet.getString("winTime"));
-            score[1] = Integer.parseInt(resultSet.getString("failTime"));
+            score[0] = resultSet.getInt("winTime");
+            score[1] = resultSet.getInt("failTime");
             return score;
         }
         return null;

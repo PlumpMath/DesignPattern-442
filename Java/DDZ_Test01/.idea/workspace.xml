@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4296dfb1-b4b9-42b0-8eff-3c8c0992263b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/login/state/ConcreteStateEnoughMoney.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/login/state/State.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/SaveScore/Caretaker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/SaveScore/Originator.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/view/CareTaker.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/observer/ConcreteControlCenter.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/observer/ConcreteControlCenter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DBManager/UpdateMoney.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/login/state/ConcreteStateLittleMoney.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/login/state/ConcreteStateNoMoney.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/AdminUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/CheckAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/LoginAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/LoginInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/LoginView$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/LoginView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/NormalUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/CareTaker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Originator.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/thread/TimeThread.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/thread/TimeThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditor.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditorAdapter.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditorAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/CareTaker.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/CareTaker.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$1.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$2.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$3.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$3.class" />
@@ -19,20 +23,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$5.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$6.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/1a70e391-a8f1-42e5-8cda-8c56e2747dc8.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/1a70e391-a8f1-42e5-8cda-8c56e2747dc8.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myInterface.ini" afterPath="$PROJECT_DIR$/myInterface.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/observer/ConcreteControlCenter.java" afterPath="$PROJECT_DIR$/src/observer/ConcreteControlCenter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/login/state/ConcreteStateEnoughMoney.java" afterPath="$PROJECT_DIR$/src/login/state/ConcreteStateEnoughMoney.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/login/visitor/CheckAction.java" afterPath="$PROJECT_DIR$/src/login/visitor/CheckAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/login/visitor/LoginAction.java" afterPath="$PROJECT_DIR$/src/login/visitor/LoginAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/login/visitor/LoginInterface.java" afterPath="$PROJECT_DIR$/src/login/visitor/LoginInterface.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thread/TimeThread.java" afterPath="$PROJECT_DIR$/src/thread/TimeThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/iniEdit/IniEditor.java" afterPath="$PROJECT_DIR$/src/utils/iniEdit/IniEditor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/iniEdit/IniEditorAdapter.java" afterPath="$PROJECT_DIR$/src/utils/iniEdit/IniEditorAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/SaveScore/Originator.java" afterPath="$PROJECT_DIR$/src/utils/SaveScore/Originator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/Home.java" afterPath="$PROJECT_DIR$/src/view/Home.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/AdminUser.java" afterPath="$PROJECT_DIR$/src/login/visitor/AdminUser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/CheckAction.java" afterPath="$PROJECT_DIR$/src/login/visitor/CheckAction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/LoginAction.java" afterPath="$PROJECT_DIR$/src/login/visitor/LoginAction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/LoginInterface.java" afterPath="$PROJECT_DIR$/src/login/visitor/LoginInterface.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/LoginView.java" afterPath="$PROJECT_DIR$/src/login/visitor/LoginView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/NormalUser.java" afterPath="$PROJECT_DIR$/src/login/visitor/NormalUser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/User.java" afterPath="$PROJECT_DIR$/src/login/visitor/User.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,6 +80,28 @@
         <option name="myItemId" value="ddz" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="user" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="DDZ@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="ddz" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="result" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -89,12 +110,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Common.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/Common.java">
+      <file leaf-file-name="Home.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1666">
+              <caret line="143" column="22" lean-forward="false" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="22" />
+              <folding>
+                <element signature="docComment;class#Home#0" expanded="false" />
+                <element signature="docComment;method#Home#0;class#Home#0" expanded="false" />
+                <element signature="method#Home#0;class#Home#0" expanded="false" />
+                <element signature="docComment;method#startGame#0;class#Home#0" expanded="false" />
+                <element signature="method#startGame#0;class#Home#0" expanded="false" />
+                <element signature="method#getLord#0;class#Home#0" expanded="false" />
+                <element signature="method#CardInit#0;class#Home#0" expanded="false" />
+                <element signature="e#14427#14475#0" expanded="false" />
+                <element signature="e#14752#14803#0" expanded="false" />
+                <element signature="class#17504:19354" expanded="false" />
+                <element signature="class#19772:20122" expanded="false" />
+                <element signature="class#20541:20886" expanded="false" />
+                <element signature="docComment;method#isFriend#0;class#Home#0" expanded="false" />
+                <element signature="method#isFriend#0;class#Home#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thread/TimeThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="185" column="73" lean-forward="true" selection-start-line="185" selection-start-column="73" selection-end-line="185" selection-end-column="73" />
+              <folding>
+                <element signature="docComment;method#win#0;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#computerTimer#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#computerTimer#0;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#clearTable#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#clearTable#0;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#clearTable#1;class#TimeThread#0" expanded="false" />
+                <element signature="method#clearTable#1;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#computer2#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#computer2#0;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#showCard#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#showCard#0;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#computer0#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#computer0#0;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#isSelfSendCard#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#isSelfSendCard#0;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#isFriend#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#isFriend#0;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#turnOnLord#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#turnOnLord#0;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#timeWait#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#timeWait#0;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#makeCanClick#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#makeCanClick#0;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#turnOn#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#turnOn#0;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#setlord#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#setlord#0;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#openlord#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#openlord#0;class#TimeThread#0" expanded="false" />
+                <element signature="docComment;method#sleepSeconds#0;class#TimeThread#0" expanded="false" />
+                <element signature="method#sleepSeconds#0;class#TimeThread#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Originator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/SaveScore/Originator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="37" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1491793783698" expanded="true" signature="407:487" ph="SELECT Playe... result" />
+                <marker date="1491793783698" expanded="true" signature="1061:1087" ph="UPDATE resul... " />
+                <marker date="1491793783698" expanded="true" signature="1061:1118" ph="UPDATE resul... " />
+                <marker date="1491793783698" expanded="true" signature="1061:1120" ph="UPDATE resul... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateMoney.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DBManager/UpdateMoney.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <folding>
+                <marker date="1491793783680" expanded="true" signature="372:394" ph="SELECT Playe... " />
+                <marker date="1491793783680" expanded="true" signature="372:437" ph="SELECT Playe... WHERE" />
+                <marker date="1491793783680" expanded="true" signature="913:955" ph="UPDATE SET w... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,9 +210,15 @@
       <file leaf-file-name="LoginAction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/login/visitor/LoginAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="442">
+              <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1491794158428" expanded="true" signature="697:719" ph="SELECT Playe... " />
+                <marker date="1491794158428" expanded="true" signature="697:720" ph="SELECT Playe... result" />
+                <marker date="1491794158428" expanded="true" signature="697:724" ph="SELECT Playe... user" />
+                <marker date="1491794158428" expanded="true" signature="697:737" ph="SELECT name,... user" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,71 +226,8 @@
       <file leaf-file-name="LoginInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/login/visitor/LoginInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/login/visitor/LoginView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <marker date="1491791402866" expanded="true" signature="2323:2368" ph="SELECT passw... user" />
-                <marker date="1491791402866" expanded="true" signature="2323:2377" ph="SELECT passw... user" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NormalUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/login/visitor/NormalUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/login/visitor/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/login/state/State.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcreteStateEnoughMoney.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/login/state/ConcreteStateEnoughMoney.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/login/visitor/AdminUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -185,12 +236,45 @@
       <file leaf-file-name="CheckAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/login/visitor/CheckAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="595">
+              <caret line="41" column="48" lean-forward="false" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
               <folding>
-                <marker date="1491791403042" expanded="true" signature="624:687" ph="SELECT winTi... result" />
-                <marker date="1491791403042" expanded="true" signature="1433:1479" ph="SELECT Playe... result" />
+                <marker date="1491792682729" expanded="true" signature="623:686" ph="SELECT winTi... result" />
+                <marker date="1491792682729" expanded="true" signature="1450:1496" ph="SELECT Playe... result" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/login/visitor/LoginView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="101" column="59" lean-forward="false" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
+              <folding>
+                <marker date="1491791402866" expanded="true" signature="2323:2368" ph="SELECT passw... user" />
+                <marker date="1491791402866" expanded="true" signature="2323:2377" ph="SELECT passw... user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteStateLittleMoney.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/login/state/ConcreteStateLittleMoney.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteStateNoMoney.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/login/state/ConcreteStateNoMoney.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -244,13 +328,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/DoubleCardType.java" />
-        <option value="$PROJECT_DIR$/src/thread/ComputerTimeThread.java" />
-        <option value="$PROJECT_DIR$/src/utils/CardUtil.java" />
-        <option value="$PROJECT_DIR$/src/utils/vhvh.java" />
-        <option value="$PROJECT_DIR$/src/utils/dhsg.java" />
-        <option value="$PROJECT_DIR$/src/utils/UnicodeReader.java" />
-        <option value="$PROJECT_DIR$/test.ini" />
         <option value="$PROJECT_DIR$/src/utils/IniWrite.java" />
         <option value="$PROJECT_DIR$/myInterface.ini" />
         <option value="$PROJECT_DIR$/src/utils/IniRead.java" />
@@ -288,13 +365,20 @@
         <option value="$PROJECT_DIR$/src/view/Store.java" />
         <option value="$PROJECT_DIR$/src/view/Caretaker.java" />
         <option value="$PROJECT_DIR$/src/view/Originator.java" />
-        <option value="$PROJECT_DIR$/src/view/Home.java" />
-        <option value="$PROJECT_DIR$/src/thread/TimeThread.java" />
         <option value="$PROJECT_DIR$/src/utils/SaveScore/Caretaker.java" />
         <option value="$PROJECT_DIR$/src/login/User.java" />
         <option value="$PROJECT_DIR$/src/login/visitor/User.java" />
         <option value="$PROJECT_DIR$/src/login/state/State.java" />
         <option value="$PROJECT_DIR$/src/login/state/ConcreteStateEnoughMoney.java" />
+        <option value="$PROJECT_DIR$/src/login/state/ConcreteStateLittleMoney.java" />
+        <option value="$PROJECT_DIR$/src/login/state/ConcreteStateNoMoney.java" />
+        <option value="$PROJECT_DIR$/src/login/visitor/LoginInterface.java" />
+        <option value="$PROJECT_DIR$/src/login/visitor/CheckAction.java" />
+        <option value="$PROJECT_DIR$/src/view/Home.java" />
+        <option value="$PROJECT_DIR$/src/utils/SaveScore/Originator.java" />
+        <option value="$PROJECT_DIR$/src/DBManager/UpdateMoney.java" />
+        <option value="$PROJECT_DIR$/src/thread/TimeThread.java" />
+        <option value="$PROJECT_DIR$/src/login/visitor/LoginAction.java" />
       </list>
     </option>
   </component>
@@ -303,6 +387,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -356,6 +443,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -372,6 +463,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDZ_Test01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDZ_Test01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SaveScore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDZ_Test01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDZ_Test01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDZ_Test01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDZ_Test01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,6 +561,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="state" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDZ_Test01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDZ_Test01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBManager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -981,7 +1144,7 @@
       <workItem from="1491577504405" duration="662000" />
       <workItem from="1491698798713" duration="10831000" />
       <workItem from="1491732484896" duration="5020000" />
-      <workItem from="1491787192974" duration="4087000" />
+      <workItem from="1491787192974" duration="6769000" />
     </task>
     <task id="LOCAL-00001" summary="NEW">
       <created>1489740484434</created>
@@ -1001,7 +1164,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83683000" />
+    <option name="totallyTimeSpent" value="86365000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1019,20 +1182,20 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24010915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23989218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21418338" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37601078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44884038" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2034384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51862466" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46587536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36795253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33151433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1065,25 +1228,25 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51862466" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36795253" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56207365" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Analyze Dataflow from" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24123989" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24010915" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38062757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37601078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39899713" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12859195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33161953" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.421365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33151433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -1109,27 +1272,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/FourCardType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="136" column="1" lean-forward="true" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/CardTypeString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/cardType/ICardType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/DoubleCardType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1355,10 +1497,161 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/SaveScore/Caretaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/visitor/AdminUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/visitor/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/visitor/NormalUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/state/ConcreteStateEnoughMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="56" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/state/ConcreteStateLittleMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/state/ConcreteStateNoMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/visitor/LoginInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/visitor/LoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="101" column="59" lean-forward="false" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
+          <folding>
+            <marker date="1491791402866" expanded="true" signature="2323:2368" ph="SELECT passw... user" />
+            <marker date="1491791402866" expanded="true" signature="2323:2377" ph="SELECT passw... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/visitor/CheckAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="41" column="48" lean-forward="false" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding>
+            <marker date="1491792682729" expanded="true" signature="623:686" ph="SELECT winTi... result" />
+            <marker date="1491792682729" expanded="true" signature="1450:1496" ph="SELECT Playe... result" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="143" column="22" lean-forward="false" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="22" />
+          <folding>
+            <element signature="docComment;class#Home#0" expanded="false" />
+            <element signature="docComment;method#Home#0;class#Home#0" expanded="false" />
+            <element signature="method#Home#0;class#Home#0" expanded="false" />
+            <element signature="docComment;method#startGame#0;class#Home#0" expanded="false" />
+            <element signature="method#startGame#0;class#Home#0" expanded="false" />
+            <element signature="method#getLord#0;class#Home#0" expanded="false" />
+            <element signature="method#CardInit#0;class#Home#0" expanded="false" />
+            <element signature="e#14427#14475#0" expanded="false" />
+            <element signature="e#14752#14803#0" expanded="false" />
+            <element signature="class#17504:19354" expanded="false" />
+            <element signature="class#19772:20122" expanded="false" />
+            <element signature="class#20541:20886" expanded="false" />
+            <element signature="docComment;method#isFriend#0;class#Home#0" expanded="false" />
+            <element signature="method#isFriend#0;class#Home#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBManager/UpdateMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <marker date="1491793783680" expanded="true" signature="372:394" ph="SELECT Playe... " />
+            <marker date="1491793783680" expanded="true" signature="372:437" ph="SELECT Playe... WHERE" />
+            <marker date="1491793783680" expanded="true" signature="913:955" ph="UPDATE SET w... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/SaveScore/Originator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1491793783698" expanded="true" signature="407:487" ph="SELECT Playe... result" />
+            <marker date="1491793783698" expanded="true" signature="1061:1087" ph="UPDATE resul... " />
+            <marker date="1491793783698" expanded="true" signature="1061:1118" ph="UPDATE resul... " />
+            <marker date="1491793783698" expanded="true" signature="1061:1120" ph="UPDATE resul... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/TimeThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="181" column="21" lean-forward="true" selection-start-line="181" selection-start-column="21" selection-end-line="181" selection-end-column="21" />
+        <state relative-caret-position="562">
+          <caret line="185" column="73" lean-forward="true" selection-start-line="185" selection-start-column="73" selection-end-line="185" selection-end-column="73" />
           <folding>
             <element signature="docComment;method#win#0;class#TimeThread#0" expanded="false" />
             <element signature="docComment;method#computerTimer#0;class#TimeThread#0" expanded="false" />
@@ -1395,132 +1688,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/SaveScore/Originator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1491790139578" expanded="true" signature="407:487" ph="SELECT Playe... result" />
-            <marker date="1491790139578" expanded="true" signature="1103:1129" ph="UPDATE resul... " />
-            <marker date="1491790139578" expanded="true" signature="1103:1160" ph="UPDATE resul... " />
-            <marker date="1491790139578" expanded="true" signature="1103:1162" ph="UPDATE resul... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/SaveScore/Caretaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1547">
-          <caret line="69" column="32" lean-forward="true" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
-          <folding>
-            <element signature="docComment;class#Home#0" expanded="false" />
-            <element signature="docComment;method#Home#0;class#Home#0" expanded="false" />
-            <element signature="method#Home#0;class#Home#0" expanded="false" />
-            <element signature="e#3298#3299#0" expanded="true" />
-            <element signature="e#3342#3343#0" expanded="true" />
-            <element signature="method#Init#0;class#Home#0" expanded="false" />
-            <element signature="docComment;method#startGame#0;class#Home#0" expanded="false" />
-            <element signature="e#14189#14237#0" expanded="false" />
-            <element signature="e#14514#14565#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#Home#0" expanded="false" />
-            <element signature="docComment;method#isFriend#0;class#Home#0" expanded="false" />
-            <element signature="method#isFriend#0;class#Home#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Common.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/visitor/AdminUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/visitor/CheckAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <marker date="1491791403042" expanded="true" signature="624:687" ph="SELECT winTi... result" />
-            <marker date="1491791403042" expanded="true" signature="1433:1479" ph="SELECT Playe... result" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/visitor/LoginInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/visitor/LoginView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <marker date="1491791402866" expanded="true" signature="2323:2368" ph="SELECT passw... user" />
-            <marker date="1491791402866" expanded="true" signature="2323:2377" ph="SELECT passw... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/visitor/NormalUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/visitor/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/state/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/state/ConcreteStateEnoughMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/login/visitor/LoginAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="442">
+          <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1491794158428" expanded="true" signature="697:719" ph="SELECT Playe... " />
+            <marker date="1491794158428" expanded="true" signature="697:720" ph="SELECT Playe... result" />
+            <marker date="1491794158428" expanded="true" signature="697:724" ph="SELECT Playe... user" />
+            <marker date="1491794158428" expanded="true" signature="697:737" ph="SELECT name,... user" />
+          </folding>
         </state>
       </provider>
     </entry>

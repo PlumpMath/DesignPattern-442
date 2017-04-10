@@ -137,7 +137,6 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
         this.logJLabel.setSize(this.logImage.getIconWidth(), this.logImage.getIconHeight());
         this.logJLabel.setLocation((this.container.getWidth() - this.logImage.getIconWidth()) / 2, (this.container.getHeight() - this.logImage.getIconHeight()) / 4);
         this.container.add(this.logJLabel);
-
         /**
          * startGameBtn
          */
@@ -150,8 +149,17 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
                 try {
                     if(user.getName().contains("player")) {
                         LoginInterface loginInterface = new LoginAction();
-                        loginInterface.visitNormalUser((NormalUser) user);
-                        Home.this.startGame();
+
+                        int flag = loginInterface.visitNormalUser((NormalUser) user);
+
+                        if(flag == 1){
+                            Home.this.startGame();
+                        }else if(flag == 0){
+                            //no action
+                        }else{
+                            //no action
+                        }
+
                     }else{
                         LoginInterface loginInterface = new LoginAction();
                         loginInterface.visitAdminUser((AdminUser) user);
@@ -273,7 +281,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
         this.card[53].setLocation(350, 50);
         this.container.add(this.card[53]);
 
-//        打乱牌顺序
+        //打乱牌顺序
         for(int t = 0; t < 100; ++t) {
             Random var7 = new Random();
             int a = var7.nextInt(54);
@@ -469,8 +477,6 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
             this.container.add(this.loseJLabel[i]);
         }
 
-
-        //careTaker.saveArrayList(playerList,hasSendList);
 
         /**
          * 一键改变背景颜色
