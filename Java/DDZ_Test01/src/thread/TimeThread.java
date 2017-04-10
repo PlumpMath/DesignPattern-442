@@ -128,7 +128,7 @@ public class TimeThread extends Thread implements Runnable {
                 timeWait(30, 1);// 我自己的定时器
                 turnOn(false);// 选完关闭
 
-                if(main.playerList[1].size() <= 8){
+                if(main.playerList[1].size() <= 2){
                     main.players[1].notifyCenter(main.controlCenter);
                 }
 
@@ -142,7 +142,7 @@ public class TimeThread extends Thread implements Runnable {
                 clearTable(0);
                 computer0();
 
-                if(main.playerList[0].size() <= 8){
+                if(main.playerList[0].size() <= 2){
                     main.players[0].notifyCenter(main.controlCenter);
                 }
 
@@ -157,7 +157,7 @@ public class TimeThread extends Thread implements Runnable {
                 computer2();
 
 
-                if(main.playerList[2].size() <= 8){
+                if(main.playerList[2].size() <= 2){
                     main.players[2].notifyCenter(main.controlCenter);
                 }
 

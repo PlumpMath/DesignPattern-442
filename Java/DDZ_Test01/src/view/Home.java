@@ -13,6 +13,9 @@ import utils.iniEdit.IniEditorAdapter;
 import utils.iniEdit.IniEditorInterface;
 import cardDesign.Card;
 import cardDesign.CardShare;
+import utils.strategy.Strategy;
+import utils.strategy.StrategygetAuto;
+import utils.strategy.StrategygetBigger;
 
 import java.awt.Color;
 import java.awt.Container;
@@ -677,10 +680,15 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
          */
         if(e.getSource() == this.publishCard[2]) {
             OneSendCard c = null;
+            Strategy strategy;
             if(this.preChuPai != 1 && this.preChuPai != -1) {
-                c = CardTypeFactory.getBiggerPrompt(this.playerList[1], this.preOneSendCard);
+                strategy = new StrategygetBigger();
+                c = strategy.getPrompt(this.playerList[1], this.preOneSendCard);
+                //c = CardTypeFactory.getBiggerPrompt(this.playerList[1], this.preOneSendCard);
             } else {
-                c = CardTypeFactory.getAutoPrompt(this.playerList[1]);
+                strategy = new StrategygetAuto();
+                c = strategy.getPrompt(this.playerList[1], this.preOneSendCard);
+                //c = CardTypeFactory.getAutoPrompt(this.playerList[1]);
             }
 
             if(c == null) {
