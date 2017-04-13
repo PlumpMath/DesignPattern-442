@@ -2,19 +2,135 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4296dfb1-b4b9-42b0-8eff-3c8c0992263b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/strategy/Strategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/strategy/StrategygetAuto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/strategy/StrategygetBigger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/iterator/AbstractIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/iterator/AbstractObjectList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/iterator/CardIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/iterator/CardList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../code/IteratorPattern/.idea/kotlinc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../code/IteratorPattern/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../code/IteratorPattern/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../code/IteratorPattern/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../code/IteratorPattern/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../code/IteratorPattern/IteratorPattern.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../code/IteratorPattern/src/AbstractIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../code/IteratorPattern/src/AbstractObjectList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../code/IteratorPattern/src/CardIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../code/IteratorPattern/src/CardList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../code/IteratorPattern/src/Client.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/DBManager/DBConnection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/DBManager/UpdateMoney.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/cardDesign/Card.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/cardDesign/CardShare.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/state/ConcreteStateEnoughMoney.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/state/ConcreteStateLittleMoney.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/state/ConcreteStateNoMoney.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/state/State.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/visitor/AdminUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/visitor/CheckAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/visitor/LoginAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/visitor/LoginInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/visitor/LoginView$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/visitor/LoginView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/visitor/NormalUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/login/visitor/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/observer/ConcreteControlCenter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/observer/ControlCenter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/observer/Observer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/observer/Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/SaveScore/Caretaker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/SaveScore/Originator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/CardTypeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/ICardType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/CardTypeString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/DoubleCardType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/FourCardType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/FourOneOneCardType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/FourTwoTwoCardType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/OneOneTwoTwoCardType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/OneTwoThreeCardType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/PlaneCardType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/PlaneOneCardType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/PlaneTwoCardType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/SingleCardType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/ThreeAndOneCardType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/ThreeAndTwoCardType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/cardType/cardTypeImpl/ThreeCardType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditor$Comment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditor$Line.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditor$NoSuchSectionException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditor$Option.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditor$OptionFormat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditor$Section.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditorAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/iniEdit/IniEditorInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/strategy/Strategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/strategy/StrategygetAuto.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/strategy/StrategygetBigger.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/thread/TimeThread.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/thread/TimeThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/CardUtil.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/CardUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/OneSendCard.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/OneSendCard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/devided/DevidedCardSolutionFactory.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/devided/DevidedCardSolutionFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Common$1.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Common$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Common.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Common.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$1.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$2.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$3.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$4.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$5.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$6.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thread/TimeThread.java" afterPath="$PROJECT_DIR$/src/thread/TimeThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/CardUtil.java" afterPath="$PROJECT_DIR$/src/utils/CardUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/OneSendCard.java" afterPath="$PROJECT_DIR$/src/utils/OneSendCard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/devided/DevidedCardSolutionFactory.java" afterPath="$PROJECT_DIR$/src/utils/devided/DevidedCardSolutionFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/Common.java" afterPath="$PROJECT_DIR$/src/view/Common.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/Home.java" afterPath="$PROJECT_DIR$/src/view/Home.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DBManager/DBConnection.java" afterPath="$PROJECT_DIR$/src/DesignPattern/DBManager/DBConnection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DBManager/UpdateMoney.java" afterPath="$PROJECT_DIR$/src/DesignPattern/DBManager/UpdateMoney.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cardDesign/Card.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardDesign/Card.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cardDesign/CardShare.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardDesign/CardFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/state/ConcreteStateEnoughMoney.java" afterPath="$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateEnoughMoney.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/state/ConcreteStateLittleMoney.java" afterPath="$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateLittleMoney.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/state/ConcreteStateNoMoney.java" afterPath="$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateNoMoney.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/state/State.java" afterPath="$PROJECT_DIR$/src/DesignPattern/state/State.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/visitor/AdminUser.java" afterPath="$PROJECT_DIR$/src/DesignPattern/visitor/AdminUser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/visitor/CheckAction.java" afterPath="$PROJECT_DIR$/src/DesignPattern/visitor/CheckAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/visitor/LoginAction.java" afterPath="$PROJECT_DIR$/src/DesignPattern/visitor/LoginAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/visitor/LoginInterface.java" afterPath="$PROJECT_DIR$/src/DesignPattern/visitor/LoginInterface.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/visitor/LoginView.java" afterPath="$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/visitor/NormalUser.java" afterPath="$PROJECT_DIR$/src/DesignPattern/visitor/NormalUser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/login/visitor/User.java" afterPath="$PROJECT_DIR$/src/DesignPattern/visitor/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/observer/ConcreteControlCenter.java" afterPath="$PROJECT_DIR$/src/DesignPattern/observer/ConcreteControlCenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/observer/ControlCenter.java" afterPath="$PROJECT_DIR$/src/DesignPattern/observer/ControlCenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/observer/Observer.java" afterPath="$PROJECT_DIR$/src/DesignPattern/observer/Observer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/observer/Player.java" afterPath="$PROJECT_DIR$/src/DesignPattern/observer/Player.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/SaveScore/Caretaker.java" afterPath="$PROJECT_DIR$/src/DesignPattern/SaveScore/Caretaker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/SaveScore/Originator.java" afterPath="$PROJECT_DIR$/src/DesignPattern/SaveScore/Originator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/CardTypeFactory.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/CardTypeFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/ICardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/ICardType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/CardTypeString.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/CardTypeString.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/DoubleCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/DoubleCardType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/FourCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourCardType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/FourOneOneCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourOneOneCardType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/FourTwoTwoCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourTwoTwoCardType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/OneOneTwoTwoCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/OneOneTwoTwoCardType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/OneTwoThreeCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/OneTwoThreeCardType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/PlaneCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneCardType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/PlaneOneCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneOneCardType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/PlaneTwoCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneTwoCardType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/SingleCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/SingleCardType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/ThreeAndOneCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeAndOneCardType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/ThreeAndTwoCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeAndTwoCardType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/cardType/cardTypeImpl/ThreeCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeCardType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/iniEdit/IniEditor.java" afterPath="$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/iniEdit/IniEditorAdapter.java" afterPath="$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditorAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/iniEdit/IniEditorInterface.java" afterPath="$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditorInterface.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/strategy/Strategy.java" afterPath="$PROJECT_DIR$/src/DesignPattern/strategy/Strategy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/strategy/StrategygetAuto.java" afterPath="$PROJECT_DIR$/src/DesignPattern/strategy/StrategygetAuto.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/strategy/StrategygetBigger.java" afterPath="$PROJECT_DIR$/src/DesignPattern/strategy/StrategygetBigger.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,18 +212,28 @@
       <file leaf-file-name="Home.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="688" column="48" lean-forward="false" selection-start-line="688" selection-start-column="48" selection-end-line="688" selection-end-column="48" />
+            <state relative-caret-position="3349">
+              <caret line="262" column="8" lean-forward="false" selection-start-line="262" selection-start-column="8" selection-end-line="262" selection-end-column="8" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="docComment;class#Home#0" expanded="false" />
                 <element signature="docComment;method#Home#0;class#Home#0" expanded="false" />
                 <element signature="method#Home#0;class#Home#0" expanded="false" />
+                <element signature="e#3484#3485#0" expanded="false" />
+                <element signature="e#3516#3517#0" expanded="false" />
+                <element signature="e#3568#3569#0" expanded="false" />
+                <element signature="e#3612#3613#0" expanded="false" />
+                <element signature="e#3641#3642#0" expanded="false" />
+                <element signature="e#3668#3669#0" expanded="false" />
+                <element signature="e#3706#3707#0" expanded="false" />
+                <element signature="e#3738#3739#0" expanded="false" />
+                <element signature="e#6444#6445#0" expanded="false" />
+                <element signature="e#6495#6496#0" expanded="false" />
                 <element signature="docComment;method#startGame#0;class#Home#0" expanded="false" />
                 <element signature="method#startGame#0;class#Home#0" expanded="false" />
                 <element signature="method#getLord#0;class#Home#0" expanded="false" />
-                <element signature="method#CardInit#0;class#Home#0" expanded="false" />
-                <element signature="e#14539#14587#0" expanded="false" />
-                <element signature="e#14864#14915#0" expanded="false" />
+                <element signature="e#14713#14761#0" expanded="false" />
+                <element signature="e#15038#15089#0" expanded="false" />
                 <element signature="docComment;method#isFriend#0;class#Home#0" expanded="false" />
                 <element signature="method#isFriend#0;class#Home#0" expanded="false" />
               </folding>
@@ -115,119 +241,156 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcreteControlCenter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/observer/ConcreteControlCenter.java">
+      <file leaf-file-name="ConcreteStateNoMoney.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateNoMoney.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="80" lean-forward="false" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+              <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeThread.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/thread/TimeThread.java">
+      <file leaf-file-name="Caretaker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/SaveScore/Caretaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="130" column="49" lean-forward="false" selection-start-line="130" selection-start-column="49" selection-end-line="130" selection-end-column="49" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
-                <element signature="docComment;method#win#0;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#computerTimer#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#computerTimer#0;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#clearTable#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#clearTable#0;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#clearTable#1;class#TimeThread#0" expanded="false" />
-                <element signature="method#clearTable#1;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#computer2#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#computer2#0;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#showCard#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#showCard#0;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#computer0#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#computer0#0;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#isSelfSendCard#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#isSelfSendCard#0;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#isFriend#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#isFriend#0;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#turnOnLord#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#turnOnLord#0;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#timeWait#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#timeWait#0;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#makeCanClick#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#makeCanClick#0;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#turnOn#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#turnOn#0;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#setlord#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#setlord#0;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#openlord#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#openlord#0;class#TimeThread#0" expanded="false" />
-                <element signature="docComment;method#sleepSeconds#0;class#TimeThread#0" expanded="false" />
-                <element signature="method#sleepSeconds#0;class#TimeThread#0" expanded="false" />
+                <element signature="e#289#290#0" expanded="false" />
+                <element signature="e#322#323#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControlCenter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/observer/ControlCenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/observer/Observer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/observer/Player.java">
+      <file leaf-file-name="CardIterator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/iterator/CardIterator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="e#622#623#0" expanded="false" />
+                <element signature="e#671#672#0" expanded="false" />
+                <element signature="e#826#827#0" expanded="false" />
+                <element signature="e#862#863#0" expanded="false" />
+                <element signature="e#911#912#0" expanded="false" />
+                <element signature="e#955#956#0" expanded="false" />
+                <element signature="e#1008#1009#0" expanded="false" />
+                <element signature="e#1052#1053#0" expanded="false" />
+                <element signature="e#1089#1090#0" expanded="false" />
+                <element signature="e#1120#1121#0" expanded="false" />
+                <element signature="e#1170#1171#0" expanded="false" />
+                <element signature="e#1210#1211#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/AdminUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#435#436#0" expanded="false" />
+                <element signature="e#462#463#0" expanded="false" />
+                <element signature="e#502#503#0" expanded="false" />
+                <element signature="e#534#535#0" expanded="false" />
+                <element signature="e#569#570#0" expanded="false" />
+                <element signature="e#600#601#0" expanded="false" />
+                <element signature="e#648#649#0" expanded="false" />
+                <element signature="e#688#689#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1326">
+              <caret line="84" column="5" lean-forward="false" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1906#1907#0" expanded="false" />
+                <element signature="e#1997#1998#0" expanded="false" />
+                <element signature="e#2708#2709#0" expanded="false" />
+                <element signature="e#2741#2742#0" expanded="false" />
+                <element signature="e#2780#2781#0" expanded="false" />
+                <element signature="e#2814#2815#0" expanded="false" />
+                <element signature="e#2843#2844#0" expanded="false" />
+                <element signature="e#2876#2877#0" expanded="false" />
+                <element signature="e#2915#2916#0" expanded="false" />
+                <element signature="e#2949#2950#0" expanded="false" />
+                <element signature="e#2985#2986#0" expanded="false" />
+                <element signature="e#3022#3023#0" expanded="false" />
+                <element signature="e#3072#3073#0" expanded="false" />
+                <element signature="e#3114#3115#0" expanded="false" />
+                <element signature="e#3143#3144#0" expanded="false" />
+                <element signature="e#3175#3176#0" expanded="false" />
+                <element signature="e#3214#3215#0" expanded="false" />
+                <element signature="e#3246#3247#0" expanded="false" />
+                <element signature="e#3281#3282#0" expanded="false" />
+                <element signature="e#3317#3318#0" expanded="false" />
+                <element signature="e#3366#3367#0" expanded="false" />
+                <element signature="e#3406#3407#0" expanded="false" />
+                <element signature="e#3440#3441#0" expanded="false" />
+                <element signature="e#3475#3476#0" expanded="false" />
+                <element signature="e#3522#3523#0" expanded="false" />
+                <element signature="e#3560#3561#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/CardFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+              <folding>
+                <element signature="e#1035#1036#0" expanded="false" />
+                <element signature="e#1084#1085#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateMoney.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/DBManager/UpdateMoney.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <folding>
+                <marker date="1492085487093" expanded="true" signature="386:408" ph="SELECT Playe... " />
+                <marker date="1492085487093" expanded="true" signature="386:451" ph="SELECT Playe... WHERE" />
+                <marker date="1492085487093" expanded="true" signature="927:969" ph="UPDATE SET w... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/DBManager/DBConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Strategy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/strategy/Strategy.java">
+      <file leaf-file-name="Originator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/SaveScore/Originator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="289">
+              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrategygetBigger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/strategy/StrategygetBigger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrategygetAuto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/strategy/StrategygetAuto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <marker date="1492085487060" expanded="true" signature="429:509" ph="SELECT Playe... result" />
+                <marker date="1492085487060" expanded="true" signature="1083:1140" ph="UPDATE resul... " />
               </folding>
             </state>
           </provider>
@@ -245,11 +408,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>com.must.game</find>
-      <find>com.must.game.</find>
-      <find>SetButton</find>
-      <find>winImage</find>
-      <find>winJLabel</find>
       <find>time</find>
       <find>rePosition</find>
       <find>sleepSeconds</find>
@@ -266,6 +424,20 @@
       <find>new JLabel</find>
       <find>main</find>
       <find>TimeThread</find>
+      <find>cA</find>
+      <find>cARD</find>
+      <find>cAR</find>
+      <find>c</find>
+      <find>C</find>
+      <find>Ca</find>
+      <find>Car</find>
+      <find>Cardsh</find>
+      <find>Cards</find>
+      <find>Card</find>
+      <find>CardS</find>
+      <find>CardSh</find>
+      <find>CardSha</find>
+      <find>CardShare</find>
     </findStrings>
     <replaceStrings>
       <replace>game</replace>
@@ -282,14 +454,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/IniEditorAdapter.java" />
-        <option value="$PROJECT_DIR$/src/utils/iniEdit/IniEditorTarget.java" />
-        <option value="$PROJECT_DIR$/src/vo/CardInterface.java" />
-        <option value="$PROJECT_DIR$/src/vo/CardAbstrct.java" />
-        <option value="$PROJECT_DIR$/src/utils/cardType/CardTypeFactory.java" />
-        <option value="$PROJECT_DIR$/src/vo/Card.java" />
-        <option value="$PROJECT_DIR$/src/vo/CardFactory.java" />
-        <option value="$PROJECT_DIR$/src/vo/CardShare.java" />
         <option value="$PROJECT_DIR$/src/cardDesign/CardShare.java" />
         <option value="$PROJECT_DIR$/src/view/ControlCenter.java" />
         <option value="$PROJECT_DIR$/src/view/ConcreteControlCenter.java" />
@@ -333,6 +497,14 @@
         <option value="$PROJECT_DIR$/src/utils/strategy/StrategygetAuto.java" />
         <option value="$PROJECT_DIR$/src/view/Home.java" />
         <option value="$PROJECT_DIR$/src/thread/TimeThread.java" />
+        <option value="$PROJECT_DIR$/src/utils/cardType/CardTypeFactory.java" />
+        <option value="$PROJECT_DIR$/src/utils/iterator.java" />
+        <option value="$PROJECT_DIR$/src/utils/iterator/CardList.java" />
+        <option value="$PROJECT_DIR$/src/view/Common.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/cardDesign/CardShare.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/cardDesign/Card.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/cardDesign/CardFactory.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/DBManager/DBConnection.java" />
       </list>
     </option>
   </component>
@@ -346,10 +518,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="-7" />
+    <option name="width" value="734" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -369,8 +540,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -384,22 +553,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,11 +572,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\DesignPattern\Java\DDZ_Test01\src\utils\iterator" />
       <recent name="E:\DesignPattern\Java\DDZ_Test01\images" />
       <recent name="E:\DesignPattern\Java\DDZ_Test01\lib" />
       <recent name="E:\DesignPattern\Java\DDZ_Test01\src\utils" />
       <recent name="E:\DesignPattern\Java\DDZ_Test01\src\util\cardType\cardTypeImpl" />
-      <recent name="E:\DesignPattern\Java\DDZ_Test01" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -438,7 +595,7 @@
     <configuration default="false" name="Home" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="login.visitor.*" />
+          <option name="PATTERN" value="DesignPattern.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -458,11 +615,11 @@
     <configuration default="false" name="IniEditorAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="utils.iniEdit.*" />
+          <option name="PATTERN" value="DesignPattern.iniEditAdapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="utils.iniEdit.IniEditorAdapter" />
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.iniEditAdapter.IniEditorAdapter" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -478,7 +635,7 @@
     <configuration default="false" name="IniWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="utils.iniEdit.*" />
+          <option name="PATTERN" value="DesignPattern.iniEditAdapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -498,11 +655,11 @@
     <configuration default="false" name="LoginView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="login.visitor.*" />
+          <option name="PATTERN" value="DesignPattern.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="login.visitor.LoginView" />
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.visitor.LoginView" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -846,6 +1003,44 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -900,6 +1095,25 @@
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
       <method />
     </configuration>
     <list size="4">
@@ -960,7 +1174,11 @@
       <workItem from="1491577504405" duration="662000" />
       <workItem from="1491698798713" duration="10831000" />
       <workItem from="1491732484896" duration="5020000" />
-      <workItem from="1491787192974" duration="8272000" />
+      <workItem from="1491787192974" duration="10078000" />
+      <workItem from="1491813202790" duration="618000" />
+      <workItem from="1491831854343" duration="2742000" />
+      <workItem from="1492083135291" duration="2355000" />
+      <workItem from="1492085527601" duration="660000" />
     </task>
     <task id="LOCAL-00001" summary="NEW">
       <created>1489740484434</created>
@@ -980,7 +1198,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87868000" />
+    <option name="totallyTimeSpent" value="96049000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -992,26 +1210,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-7" y="0" width="734" height="867" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23989218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21418338" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18733154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31536388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3051576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4198813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36795253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33151433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1025,9 +1241,11 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13207547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Analyze Dataflow from" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23989218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39899713" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33151433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1036,7 +1254,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21418338" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Analyze Dataflow to" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28167117" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13207547" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1050,17 +1268,17 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56207365" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Analyze Dataflow from" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24010915" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23989218" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31401616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37601078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39899713" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.421365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16257995" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33151433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1087,38 +1305,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/UnicodeInputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/utils/IniWrite.java" />
-    <entry file="file://$PROJECT_DIR$/myInterface.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/iniEdit/IniEditorInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vo/CardInterface.java" />
-    <entry file="file://$PROJECT_DIR$/images/2-6.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/3-7.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/1-1.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/vo/CardAbstrct.java" />
     <entry file="uml://JAVA/view.Home">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -1184,14 +1370,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBManager/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1a70e391-a8f1-42e5-8cda-8c56e2747dc8/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1199,173 +1377,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/SaveScore/Caretaker.java" />
-    <entry file="file://$PROJECT_DIR$/src/utils/iniEdit/IniEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="112" column="46" lean-forward="false" selection-start-line="112" selection-start-column="46" selection-end-line="112" selection-end-column="46" />
-          <folding>
-            <element signature="e#29212#29213#0" expanded="false" />
-            <element signature="e#29276#29277#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/iniEdit/IniEditorAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="8" column="72" lean-forward="false" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/SaveScore/Caretaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/visitor/AdminUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/visitor/User.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/SaveScore/Caretaker.java" />
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/state/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/visitor/NormalUser.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/NormalUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/state/ConcreteStateEnoughMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="56" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/state/ConcreteStateLittleMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/state/ConcreteStateNoMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/visitor/LoginInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="101" column="59" lean-forward="false" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/visitor/LoginView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="101" column="59" lean-forward="false" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
-          <folding>
-            <marker date="1491791402866" expanded="true" signature="2323:2368" ph="SELECT passw... user" />
-            <marker date="1491791402866" expanded="true" signature="2323:2377" ph="SELECT passw... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/visitor/CheckAction.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/CheckAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="41" column="48" lean-forward="false" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-          <folding>
-            <marker date="1491792682729" expanded="true" signature="623:686" ph="SELECT winTi... result" />
-            <marker date="1491792682729" expanded="true" signature="1450:1496" ph="SELECT Playe... result" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBManager/UpdateMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding>
-            <marker date="1491793783680" expanded="true" signature="372:394" ph="SELECT Playe... " />
-            <marker date="1491793783680" expanded="true" signature="372:437" ph="SELECT Playe... WHERE" />
-            <marker date="1491793783680" expanded="true" signature="913:955" ph="UPDATE SET w... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/SaveScore/Originator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="37" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1491793783698" expanded="true" signature="407:487" ph="SELECT Playe... result" />
-            <marker date="1491793783698" expanded="true" signature="1061:1087" ph="UPDATE resul... " />
-            <marker date="1491793783698" expanded="true" signature="1061:1118" ph="UPDATE resul... " />
-            <marker date="1491793783698" expanded="true" signature="1061:1120" ph="UPDATE resul... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/visitor/LoginAction.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1491794158428" expanded="true" signature="697:719" ph="SELECT Playe... " />
-            <marker date="1491794158428" expanded="true" signature="697:720" ph="SELECT Playe... result" />
-            <marker date="1491794158428" expanded="true" signature="697:724" ph="SELECT Playe... user" />
-            <marker date="1491794158428" expanded="true" signature="697:737" ph="SELECT name,... user" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cardDesign/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-935">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cardDesign/CardShare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1373,7 +1428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2771">
           <caret line="233" column="17" lean-forward="false" selection-start-line="233" selection-start-column="12" selection-end-line="233" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1381,7 +1435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,153 +1442,329 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-289">
           <caret line="93" column="23" lean-forward="false" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/OneSendCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="116" column="20" lean-forward="false" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="479">
+          <caret line="120" column="64" lean-forward="true" selection-start-line="120" selection-start-column="64" selection-end-line="120" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardType/ICardType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourCardType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-734">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/iterator.java" />
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iterator/AbstractObjectList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iterator/CardList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iterator/AbstractIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardType/CardTypeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1490">
+          <caret line="159" column="17" lean-forward="true" selection-start-line="159" selection-start-column="17" selection-end-line="159" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/strategy/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/Common.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="101" column="34" lean-forward="false" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/strategy/StrategygetAuto.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditorInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/cardType/CardTypeFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditorAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="306" column="89" lean-forward="false" selection-start-line="306" selection-start-column="46" selection-end-line="306" selection-end-column="89" />
-          <folding />
+        <state relative-caret-position="87">
+          <caret line="8" column="72" lean-forward="false" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/strategy/Strategy.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="112" column="46" lean-forward="false" selection-start-line="112" selection-start-column="46" selection-end-line="112" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/TimeThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1181">
+          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateLittleMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateEnoughMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/strategy/StrategygetAuto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/observer/ConcreteControlCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="80" lean-forward="false" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/observer/ControlCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/observer/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/strategy/StrategygetBigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateNoMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iterator/CardIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#671#672#0" expanded="false" />
+            <element signature="e#826#827#0" expanded="false" />
+            <element signature="e#862#863#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
+            <element signature="e#955#956#0" expanded="false" />
+            <element signature="e#1008#1009#0" expanded="false" />
+            <element signature="e#1052#1053#0" expanded="false" />
+            <element signature="e#1089#1090#0" expanded="false" />
+            <element signature="e#1120#1121#0" expanded="false" />
+            <element signature="e#1170#1171#0" expanded="false" />
+            <element signature="e#1210#1211#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/strategy/StrategygetBigger.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/AdminUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+        <state relative-caret-position="119">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#462#463#0" expanded="false" />
+            <element signature="e#502#503#0" expanded="false" />
+            <element signature="e#534#535#0" expanded="false" />
+            <element signature="e#569#570#0" expanded="false" />
+            <element signature="e#600#601#0" expanded="false" />
+            <element signature="e#648#649#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/SaveScore/Originator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1492085487060" expanded="true" signature="429:509" ph="SELECT Playe... result" />
+            <marker date="1492085487060" expanded="true" signature="1083:1140" ph="UPDATE resul... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/SaveScore/Caretaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#289#290#0" expanded="false" />
+            <element signature="e#322#323#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/DBManager/UpdateMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <marker date="1492085487093" expanded="true" signature="386:408" ph="SELECT Playe... " />
+            <marker date="1492085487093" expanded="true" signature="386:451" ph="SELECT Playe... WHERE" />
+            <marker date="1492085487093" expanded="true" signature="927:969" ph="UPDATE SET w... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="84" column="5" lean-forward="false" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1906#1907#0" expanded="false" />
+            <element signature="e#1997#1998#0" expanded="false" />
+            <element signature="e#2708#2709#0" expanded="false" />
+            <element signature="e#2741#2742#0" expanded="false" />
+            <element signature="e#2780#2781#0" expanded="false" />
+            <element signature="e#2814#2815#0" expanded="false" />
+            <element signature="e#2843#2844#0" expanded="false" />
+            <element signature="e#2876#2877#0" expanded="false" />
+            <element signature="e#2915#2916#0" expanded="false" />
+            <element signature="e#2949#2950#0" expanded="false" />
+            <element signature="e#2985#2986#0" expanded="false" />
+            <element signature="e#3022#3023#0" expanded="false" />
+            <element signature="e#3072#3073#0" expanded="false" />
+            <element signature="e#3114#3115#0" expanded="false" />
+            <element signature="e#3143#3144#0" expanded="false" />
+            <element signature="e#3175#3176#0" expanded="false" />
+            <element signature="e#3214#3215#0" expanded="false" />
+            <element signature="e#3246#3247#0" expanded="false" />
+            <element signature="e#3281#3282#0" expanded="false" />
+            <element signature="e#3317#3318#0" expanded="false" />
+            <element signature="e#3366#3367#0" expanded="false" />
+            <element signature="e#3406#3407#0" expanded="false" />
+            <element signature="e#3440#3441#0" expanded="false" />
+            <element signature="e#3475#3476#0" expanded="false" />
+            <element signature="e#3522#3523#0" expanded="false" />
+            <element signature="e#3560#3561#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="688" column="48" lean-forward="false" selection-start-line="688" selection-start-column="48" selection-end-line="688" selection-end-column="48" />
+        <state relative-caret-position="3349">
+          <caret line="262" column="8" lean-forward="false" selection-start-line="262" selection-start-column="8" selection-end-line="262" selection-end-column="8" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Home#0" expanded="false" />
             <element signature="docComment;method#Home#0;class#Home#0" expanded="false" />
             <element signature="method#Home#0;class#Home#0" expanded="false" />
+            <element signature="e#3484#3485#0" expanded="false" />
+            <element signature="e#3516#3517#0" expanded="false" />
+            <element signature="e#3568#3569#0" expanded="false" />
+            <element signature="e#3612#3613#0" expanded="false" />
+            <element signature="e#3641#3642#0" expanded="false" />
+            <element signature="e#3668#3669#0" expanded="false" />
+            <element signature="e#3706#3707#0" expanded="false" />
+            <element signature="e#3738#3739#0" expanded="false" />
+            <element signature="e#6444#6445#0" expanded="false" />
+            <element signature="e#6495#6496#0" expanded="false" />
             <element signature="docComment;method#startGame#0;class#Home#0" expanded="false" />
             <element signature="method#startGame#0;class#Home#0" expanded="false" />
             <element signature="method#getLord#0;class#Home#0" expanded="false" />
-            <element signature="method#CardInit#0;class#Home#0" expanded="false" />
-            <element signature="e#14539#14587#0" expanded="false" />
-            <element signature="e#14864#14915#0" expanded="false" />
+            <element signature="e#14713#14761#0" expanded="false" />
+            <element signature="e#15038#15089#0" expanded="false" />
             <element signature="docComment;method#isFriend#0;class#Home#0" expanded="false" />
             <element signature="method#isFriend#0;class#Home#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/CardFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/ControlCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/ConcreteControlCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="80" lean-forward="false" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/TimeThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="130" column="49" lean-forward="false" selection-start-line="130" selection-start-column="49" selection-end-line="130" selection-end-column="49" />
+        <state relative-caret-position="272">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
           <folding>
-            <element signature="docComment;method#win#0;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#computerTimer#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#computerTimer#0;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#clearTable#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#clearTable#0;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#clearTable#1;class#TimeThread#0" expanded="false" />
-            <element signature="method#clearTable#1;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#computer2#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#computer2#0;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#showCard#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#showCard#0;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#computer0#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#computer0#0;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#isSelfSendCard#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#isSelfSendCard#0;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#isFriend#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#isFriend#0;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#turnOnLord#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#turnOnLord#0;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#timeWait#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#timeWait#0;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#makeCanClick#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#makeCanClick#0;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#turnOn#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#turnOn#0;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#setlord#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#setlord#0;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#openlord#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#openlord#0;class#TimeThread#0" expanded="false" />
-            <element signature="docComment;method#sleepSeconds#0;class#TimeThread#0" expanded="false" />
-            <element signature="method#sleepSeconds#0;class#TimeThread#0" expanded="false" />
+            <element signature="e#1035#1036#0" expanded="false" />
+            <element signature="e#1084#1085#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/DBManager/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

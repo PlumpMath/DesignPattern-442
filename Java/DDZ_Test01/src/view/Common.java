@@ -1,6 +1,10 @@
 package view;
 
-import cardDesign.Card;
+import DesignPattern.cardDesign.Card;
+import DesignPattern.iterator.AbstractIterator;
+import DesignPattern.iterator.AbstractObjectList;
+import DesignPattern.iterator.CardList;
+
 import java.awt.Point;
 import java.util.Collections;
 import java.util.Comparator;
@@ -89,10 +93,14 @@ public class Common {
             p.y = 225 - (list.size() + 1) * 15 / 2;
         }
 
-        int len = list.size();
 
-        for(int i = 0; i < len; ++i) {
-            Card card = (Card)list.get(i);
+        AbstractObjectList objectList;
+        AbstractIterator iterator;
+        objectList = new CardList(list);
+        iterator = objectList.createrIterator();
+        //System.out.println("正向遍历");
+        while(!iterator.isLast()){
+            Card card = (Card) iterator.getNextItem();
             move(card, card.getLocation(), p);
             m.container.setComponentZOrder(card, 0);
             if(flag == 1) {
@@ -100,8 +108,8 @@ public class Common {
             } else {
                 p.y += 15;
             }
+            iterator.next();
         }
-
     }
 
     public static int computeLord(java.util.List<Card> playerList, java.util.List<Card> playerList2) {
