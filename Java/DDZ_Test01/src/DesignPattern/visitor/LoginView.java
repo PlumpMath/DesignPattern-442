@@ -63,9 +63,7 @@ public class LoginView extends JFrame {
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
-                DBConnection dbConnection = new DBConnection();
-                Connection connection = dbConnection.getConn();
+                Connection connection = DBConnection.getConn();
                 try {
                     String name = jTextFieldName.getText();
                     String password = jPasswordFieldPwd.getText();

@@ -20,8 +20,7 @@ public class LoginAction implements LoginInterface {
         /**
          * 连接数据库，查询成绩，判断应该调用的状态
          */
-        DBConnection dbConnection = new DBConnection();
-        Connection connection = dbConnection.getConn();
+        Connection connection = DBConnection.getConn();
         String sql = "SELECT name,Money FROM user WHERE name=?";
         System.out.println(sql);
         PreparedStatement preparedStatement = connection.prepareStatement(sql);

@@ -6,7 +6,7 @@ import java.util.Hashtable;
  * Created by DrownFish on 2017/4/6.
  */
 public class CardFactory {
-    //使用享元模式和单例模式，避免相同的牌重复的创建，能够节省内存资源
+    //使用享元模式，避免相同的牌重复的创建，能够节省内存资源
     private static CardFactory cardFactory = new CardFactory();
     private static Hashtable<String,Card> hashtable;
     public CardFactory(){

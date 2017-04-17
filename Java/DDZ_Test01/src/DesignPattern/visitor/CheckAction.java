@@ -14,8 +14,7 @@ import java.sql.Statement;
 public class CheckAction implements LoginInterface {
     @Override
     public int visitNormalUser(NormalUser normalUser) throws SQLException {
-        DBConnection dbConnection = new DBConnection();
-        Connection connection = dbConnection.getConn();
+        Connection connection = DBConnection.getConn();
         String name = normalUser.getName();
         Statement statement = connection.createStatement();
         String sql = "SELECT winTime,failTime FROM result WHERE PlayerName='"+name+"'";
@@ -34,8 +33,7 @@ public class CheckAction implements LoginInterface {
 
     @Override
     public void visitAdminUser(AdminUser adminUser) throws SQLException {
-        DBConnection dbConnection = new DBConnection();
-        Connection connection = dbConnection.getConn();
+        Connection connection = DBConnection.getConn();
         Statement statement = connection.createStatement();
         String sql = "SELECT PlayerName,winTime,failTime FROM result ";
         System.out.println(sql);

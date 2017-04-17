@@ -7,10 +7,9 @@ import java.sql.*;
  */
 public class UpdateMoney {
     public int getMoney(String playerName) throws SQLException {
-        DBConnection dbConnection = new DBConnection();
-        Connection connection = dbConnection.getConn();
+        Connection connection = DBConnection.getConn();
         Statement statement = connection.createStatement();
-        String sql = "SELECT name,Money FROM user WHERE PlayerName = '" + playerName+"'";
+        String sql = "SELECT name,Money FROM user WHERE name = '" + playerName+"'";
         System.out.println(sql);
         ResultSet resultSet = statement.executeQuery(sql);
         if(resultSet!=null){
@@ -21,9 +20,8 @@ public class UpdateMoney {
         return 0;
     }
     public int saveMoney(int money,String playerName) throws SQLException {
-        DBConnection dbConnection = new DBConnection();
-        Connection connection = dbConnection.getConn();
-        String sql = "UPDATE user SET Money=? WHERE PlayerName=?  ";
+        Connection connection = DBConnection.getConn();
+        String sql = "UPDATE user SET Money=? WHERE name=?  ";
         PreparedStatement preparedStatement = connection.prepareStatement(sql);
         System.out.println(sql);
         preparedStatement.setInt(1,money);
