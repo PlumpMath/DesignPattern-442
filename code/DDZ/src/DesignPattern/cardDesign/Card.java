@@ -1,23 +1,23 @@
 package DesignPattern.cardDesign;
 
 import view.Common;
-import java.awt.Point;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import javax.swing.*;
 
 /**
  * Created by DrownFish on 2017/3/10.
  */
 
-public class Card extends JLabel implements MouseListener, Comparable{
+public class Card extends JLabel implements MouseListener, Comparable,CardInterface {
     private int value;
     private int color;
     private String imagePath;
     private boolean isOn;
     private boolean canClick;
     public boolean clicked = false;
-    private static String rearPNG = "images/rear.png";
 
     /**
      * 构造函数，根据值和花色值进行选择图片的位置
@@ -64,6 +64,7 @@ public class Card extends JLabel implements MouseListener, Comparable{
     /**
      * 正面
      */
+    @Override
     public void turnFront() {
         this.setIcon(new ImageIcon("images/" + this.imagePath + ".gif"));
         this.isOn = true;
@@ -72,6 +73,7 @@ public class Card extends JLabel implements MouseListener, Comparable{
     /**
      * 背面
      */
+    @Override
     public void turnRear() {
         this.setIcon(new ImageIcon(this.rearPNG));
         this.isOn = false;
@@ -100,6 +102,7 @@ public class Card extends JLabel implements MouseListener, Comparable{
     /**
      * 牌被点击时，向上或者向下移动20像素
      */
+    @Override
     public void move() {
         Point from = this.getLocation();
         byte step;

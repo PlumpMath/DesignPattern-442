@@ -9,8 +9,7 @@ import java.sql.*;
  */
 public class Originator {
     public int[] getScore(String player) throws SQLException {
-        DBConnection dbConnection = new DBConnection();
-        Connection connection = dbConnection.getConn();
+        Connection connection = DBConnection.getConn();
         Statement statement = connection.createStatement();
         String sql = "SELECT PlayerName,winTime,failTime FROM result WHERE PlayerName = '" + player+"'";
         System.out.println(sql);
@@ -25,8 +24,7 @@ public class Originator {
         return null;
     }
     public void saveScore(int score[],String playerName) throws SQLException {
-        DBConnection dbConnection = new DBConnection();
-        Connection connection = dbConnection.getConn();
+        Connection connection = DBConnection.getConn();
         String sql = "UPDATE result SET winTime=?,failTime=? WHERE PlayerName=?  ";
         PreparedStatement preparedStatement = connection.prepareStatement(sql);
         System.out.println(sql);

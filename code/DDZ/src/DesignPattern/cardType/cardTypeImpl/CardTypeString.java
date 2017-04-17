@@ -5,25 +5,25 @@ package DesignPattern.cardType.cardTypeImpl;
  */
 
 /**
- * æ‰€æœ‰ç‰Œå‹çš„å­—ç¬¦ä¸²
+ * ËùÓĞÅÆĞÍµÄ×Ö·û´®
  * @author Administrator
  *
  */
 public class CardTypeString {
-	public static final String SINGLE_CARDTYPE="c1";//å•ç‰Œã€‚
-	public static final String DOUBLE_CARDTYPE="c2";//å¯¹å­ã€‚
-	public static final String THREE_CARDTYPE="c3";//3ä¸å¸¦ã€‚
-	public static final String FOUR_CARDTYPE="c4";//ç‚¸å¼¹ã€‚
-	public static final String THREEANDONE_CARDTYPE="c31";//3å¸¦1ã€‚
-	public static final String THREEANTWO_CARDTYPE="c32";//3å¸¦2ã€‚
-	public static final String FOURONEONE_CARDTYPE="c411";//4å¸¦2ä¸ªå•ï¼Œæˆ–è€…ä¸€å¯¹
-	public static final String FOURTWOTWO_CARDTYPE="c422";//4å¸¦2å¯¹
-	public static final String ONETWOTHREE_CARDTYPE="c123";//è¿å­ã€‚
-	public static final String ONEONETWOTWO_CARDTYPE="c112233";//è¿é˜Ÿã€‚
-	public static final String PLANE_CARDTYPE="c111222";//é£æœºã€‚
-	public static final String PLANEONE_CARDTYPE="c11122234";//é£æœºå¸¦å•æ’.
-	public static final String PLANETWO_CARDTYPE="c1112223344";//é£æœºå¸¦å¯¹å­.
-	public static final String NONE_CARDTYPE="c0";//ä¸èƒ½å‡ºç‰Œ
+	public static final String SINGLE_CARDTYPE="c1";//µ¥ÅÆ¡£
+	public static final String DOUBLE_CARDTYPE="c2";//¶Ô×Ó¡£
+	public static final String THREE_CARDTYPE="c3";//3²»´ø¡£
+	public static final String FOUR_CARDTYPE="c4";//Õ¨µ¯¡£
+	public static final String THREEANDONE_CARDTYPE="c31";//3´ø1¡£
+	public static final String THREEANTWO_CARDTYPE="c32";//3´ø2¡£
+	public static final String FOURONEONE_CARDTYPE="c411";//4´ø2¸öµ¥£¬»òÕßÒ»¶Ô
+	public static final String FOURTWOTWO_CARDTYPE="c422";//4´ø2¶Ô
+	public static final String ONETWOTHREE_CARDTYPE="c123";//Á¬×Ó¡£
+	public static final String ONEONETWOTWO_CARDTYPE="c112233";//Á¬¶Ó¡£
+	public static final String PLANE_CARDTYPE="c111222";//·É»ú¡£
+	public static final String PLANEONE_CARDTYPE="c11122234";//·É»ú´øµ¥ÅÅ.
+	public static final String PLANETWO_CARDTYPE="c1112223344";//·É»ú´ø¶Ô×Ó.
+	public static final String NONE_CARDTYPE="c0";//²»ÄÜ³öÅÆ
 
 
 }

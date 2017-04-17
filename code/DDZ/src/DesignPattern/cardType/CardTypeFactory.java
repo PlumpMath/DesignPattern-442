@@ -1,25 +1,13 @@
 package DesignPattern.cardType;
 
-import java.util.ArrayList;
-import java.util.List;
+import DesignPattern.cardDesign.Card;
+import DesignPattern.cardType.cardTypeImpl.*;
 import utils.OneSendCard;
-import DesignPattern.cardType.cardTypeImpl.CardTypeString;
-import DesignPattern.cardType.cardTypeImpl.DoubleCardType;
-import DesignPattern.cardType.cardTypeImpl.FourCardType;
-import DesignPattern.cardType.cardTypeImpl.FourOneOneCardType;
-import DesignPattern.cardType.cardTypeImpl.FourTwoTwoCardType;
-import DesignPattern.cardType.cardTypeImpl.OneOneTwoTwoCardType;
-import DesignPattern.cardType.cardTypeImpl.OneTwoThreeCardType;
-import DesignPattern.cardType.cardTypeImpl.PlaneCardType;
-import DesignPattern.cardType.cardTypeImpl.PlaneOneCardType;
-import DesignPattern.cardType.cardTypeImpl.PlaneTwoCardType;
-import DesignPattern.cardType.cardTypeImpl.SingleCardType;
-import DesignPattern.cardType.cardTypeImpl.ThreeAndOneCardType;
-import DesignPattern.cardType.cardTypeImpl.ThreeAndTwoCardType;
-import DesignPattern.cardType.cardTypeImpl.ThreeCardType;
 import utils.devided.DevidedCardSolution;
 import utils.devided.DevidedCardSolutionFactory;
-import DesignPattern.cardDesign.Card;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by DrownFish on 2017/3/10.

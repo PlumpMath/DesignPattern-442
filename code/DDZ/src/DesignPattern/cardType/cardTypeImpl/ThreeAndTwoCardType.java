@@ -1,8 +1,9 @@
 package DesignPattern.cardType.cardTypeImpl;
 
+import DesignPattern.cardDesign.Card;
 import utils.CardUtil;
 import utils.OneSendCard;
-import DesignPattern.cardDesign.Card;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -12,7 +13,7 @@ import java.util.Map;
  */
 
 /**
- * ä¸‰å¸¦2çš„ç‰Œå‹
+ * Èı´ø2µÄÅÆĞÍ
  * 
  * @author Administrator
  *
@@ -80,7 +81,7 @@ public class ThreeAndTwoCardType implements DesignPattern.cardType.ICardType {
 	@Override
 	public OneSendCard getOneSendCardBiggerButleast(List<Card> playerList, OneSendCard preOneSendCard) {
 		OneSendCard osc = null;
-		// ä¸‰å¸¦ä¸€ä¸­ï¼Œä¸‰ä¸ªçš„é‚£ä¸ªå€¼
+		// Èı´øÒ»ÖĞ£¬Èı¸öµÄÄÇ¸öÖµ
 		int preValue = 0;
 		Map<String, Integer> mapPre = CardUtil.asValueStaticCount(preOneSendCard.getOneSendCardList());
 		for (Map.Entry<String, Integer> entry : mapPre.entrySet()) {
@@ -102,27 +103,27 @@ public class ThreeAndTwoCardType implements DesignPattern.cardType.ICardType {
 			}
 		}
 		if (threeList.size() == 0) {
-			// å¦‚æœæ²¡æœ‰3å¼ ç›¸åŒç‰Œ
+			// Èç¹ûÃ»ÓĞ3ÕÅÏàÍ¬ÅÆ
 			return null;
 		} else {
-			// å¦‚æœæœ‰3å¼ ç›¸åŒç‰Œï¼Œæ‰¾å‡ºç‰Œä¸­æœ€å°ä¸€ä¸ªï¼Œä½†æ˜¯æ¯”bçš„å€¼å¤§çš„é‚£ä¸ª
+			// Èç¹ûÓĞ3ÕÅÏàÍ¬ÅÆ£¬ÕÒ³öÅÆÖĞ×îĞ¡Ò»¸ö£¬µ«ÊÇ±ÈbµÄÖµ´óµÄÄÇ¸ö
 			int biggerButLeast = CardUtil.getBiggerButLeastFromList(threeList, preValue);
 			if (biggerButLeast > 0) {
-				// æ‰¾åˆ°ä¸”å¤§äºç‰Œå€¼
+				// ÕÒµ½ÇÒ´óÓÚÅÆÖµ
 				if (twoList.size() > 0) {
 					List<Card> needList = CardUtil.getCardListByValueAndCount(playerList, biggerButLeast, 3);
-					// å¦‚æœæœ‰å°±æ‰¾æœ€å°çš„ä¸€å¯¹åŒç‰Œ
+					// Èç¹ûÓĞ¾ÍÕÒ×îĞ¡µÄÒ»¶ÔË«ÅÆ
 					int least = CardUtil.getLeastFromList(twoList);
 					List<Card> twoCardList = CardUtil.getCardListByValueAndCount(playerList, least, 2);
 					needList.addAll(twoCardList);
 					osc = new OneSendCard(needList, CardTypeString.THREEANTWO_CARDTYPE);
 					return osc;
 				} else {
-					// å¦‚æœæ²¡æœ‰åŒç‰Œï¼Œå°±ä»å‰©ä½™ä¸‰å¼ ç‰Œçš„ç±»å‹ä¸­æ‰¾
+					// Èç¹ûÃ»ÓĞË«ÅÆ£¬¾Í´ÓÊ£ÓàÈıÕÅÅÆµÄÀàĞÍÖĞÕÒ
 					if (threeList.size() == 1) {
 						return null;
 					} else {
-						// æœ‰é™¤è¦å‡ºçš„è¿™ä¸ªå€¼ä¹‹å¤–çš„ä¸‰å¼ ç‰Œ
+						// ÓĞ³ıÒª³öµÄÕâ¸öÖµÖ®ÍâµÄÈıÕÅÅÆ
 						int moreBiggerButLeast = CardUtil.getBiggerButLeastFromList(threeList, biggerButLeast);
 						List<Card> needList = CardUtil.getCardListByValueAndCount(playerList, moreBiggerButLeast, 3);
 						List<Card> needList2 = CardUtil.getCardListByValueAndCount(playerList, biggerButLeast, 2);
@@ -132,7 +133,7 @@ public class ThreeAndTwoCardType implements DesignPattern.cardType.ICardType {
 					}
 				}
 			} else {
-				// æ‰¾åˆ°ä½†æ˜¯æ²¡æœ‰æ‰¾åˆ°ç‰Œå€¼å¤§çš„
+				// ÕÒµ½µ«ÊÇÃ»ÓĞÕÒµ½ÅÆÖµ´óµÄ
 				return null;
 			}
 		}

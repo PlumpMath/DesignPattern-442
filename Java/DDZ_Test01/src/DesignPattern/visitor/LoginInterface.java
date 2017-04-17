@@ -1,5 +1,7 @@
 package DesignPattern.visitor;
 
+import DesignPattern.state.State;
+
 import java.io.IOException;
 import java.sql.SQLException;
 

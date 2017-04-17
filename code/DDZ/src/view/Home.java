@@ -1,27 +1,24 @@
 package view;
 
-import DesignPattern.visitor.*;
-import DesignPattern.observer.ConcreteControlCenter;
-import DesignPattern.observer.ControlCenter;
-import DesignPattern.observer.Player;
-import thread.TimeThread;
-import utils.OneSendCard;
 import DesignPattern.SaveScore.Caretaker;
 import DesignPattern.SaveScore.Originator;
+import DesignPattern.cardDesign.Card;
+import DesignPattern.cardDesign.CardFactory;
 import DesignPattern.cardType.CardTypeFactory;
 import DesignPattern.iniEditAdapter.IniEditorAdapter;
 import DesignPattern.iniEditAdapter.IniEditorInterface;
-import DesignPattern.cardDesign.Card;
-import DesignPattern.cardDesign.CardFactory;
+import DesignPattern.observer.ConcreteControlCenter;
+import DesignPattern.observer.ControlCenter;
+import DesignPattern.observer.Player;
 import DesignPattern.strategy.Strategy;
 import DesignPattern.strategy.StrategygetAuto;
 import DesignPattern.strategy.StrategygetBigger;
+import DesignPattern.visitor.*;
+import thread.TimeThread;
+import utils.OneSendCard;
 
-import java.awt.Color;
-import java.awt.Container;
-import java.awt.Font;
-import java.awt.LayoutManager;
-import java.awt.Point;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
@@ -29,10 +26,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
 
 
 /**
@@ -40,6 +33,7 @@ import javax.swing.JLabel;
  */
 
 public class Home extends JFrame implements ActionListener, Runnable,Serializable {
+    public Strategy strategy;
     public Originator originator = new Originator();
     public Caretaker caretaker =new Caretaker();
     public User user;
@@ -133,7 +127,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
         this.setLocationRelativeTo(this.getOwner());
         this.container = this.getContentPane();
         this.container.setLayout((LayoutManager)null);
-        this.setDefaultCloseOperation(3);
+        this.setDefaultCloseOperation(2);
         this.setVisible(true);
         this.logImage = new ImageIcon("images/log.png");
         this.logJLabel = new JLabel(this.logImage);
@@ -680,7 +674,6 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
          */
         if(e.getSource() == this.publishCard[2]) {
             OneSendCard c = null;
-            Strategy strategy;
             if(this.preChuPai != 1 && this.preChuPai != -1) {
                 strategy = new StrategygetBigger();
                 c = strategy.getPrompt(this.playerList[1], this.preOneSendCard);

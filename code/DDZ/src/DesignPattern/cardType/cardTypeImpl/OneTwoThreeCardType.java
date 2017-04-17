@@ -1,8 +1,9 @@
 package DesignPattern.cardType.cardTypeImpl;
 
+import DesignPattern.cardDesign.Card;
 import utils.CardUtil;
 import utils.OneSendCard;
-import DesignPattern.cardDesign.Card;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -13,7 +14,7 @@ import java.util.Map;
  */
 
 /**
- * è¿å­ç‰Œçš„ç‰Œå‹
+ * Á¬×ÓÅÆµÄÅÆĞÍ
  * 
  * @author Administrator
  *
@@ -24,10 +25,10 @@ public class OneTwoThreeCardType implements DesignPattern.cardType.ICardType {
 	public int compare(List<Card> a, List<Card> b) {
 		// TODO Auto-generated method stub
 		if (a.size() != b.size()) {
-			// è¿å­çš„æ•°é‡ä¸ä¸€æ ·
+			// Á¬×ÓµÄÊıÁ¿²»Ò»Ñù
 			return -1;
 		} else {
-			// å¦‚æœaçš„æœ€å¤§ç‰Œå¤§äºbçš„æœ€å¤§ç‰Œå°±è¿”å›1
+			// Èç¹ûaµÄ×î´óÅÆ´óÓÚbµÄ×î´óÅÆ¾Í·µ»Ø1
 			int[] arr1 = new int[a.size()];
 			int[] arr2 = new int[b.size()];
 			int i = 0;
@@ -81,11 +82,11 @@ public class OneTwoThreeCardType implements DesignPattern.cardType.ICardType {
 					Card c1 = (Card) cards[i - 1];
 					Card c2 = (Card) cards[i];
 					if (c2.getValue() != c1.getValue() + 1) {
-						// æœ‰ä¸€ä¸ªä¸ç­‰äºå‰é¢çš„å€¼+1;
+						// ÓĞÒ»¸ö²»µÈÓÚÇ°ÃæµÄÖµ+1;
 						b = false;
 					}
 				}
-				// å¦‚æœæœ€åä¸€å¼ ç‰Œæ˜¯>=2,ä¹Ÿä¸æ˜¯è¿å­
+				// Èç¹û×îºóÒ»ÕÅÅÆÊÇ>=2,Ò²²»ÊÇÁ¬×Ó
 				Card card = (Card) cards[cards.length - 1];
 				if (card.getValue() >= 15) {
 					b = false;
@@ -107,7 +108,7 @@ public class OneTwoThreeCardType implements DesignPattern.cardType.ICardType {
 		// TODO Auto-generated method stub
 		List<Card> preList = preOneSendCard.getOneSendCardList();
 		Integer[] intArr = CardUtil.sortCardList(preList);
-		// è·å–é¾™çš„æœ€å¤§çš„é‚£ä¸ªå€¼
+		// »ñÈ¡ÁúµÄ×î´óµÄÄÇ¸öÖµ
 		int preMaxValue = intArr[intArr.length - 1];
 		int preMinValue = intArr[0];
 		int preCount = intArr.length;
@@ -115,33 +116,33 @@ public class OneTwoThreeCardType implements DesignPattern.cardType.ICardType {
 		if (preMaxValue >= 14) {
 			return null;
 		} else {
-			// è¿ç»­ç‰Œå€¼çš„ä¸ªæ•°
+			// Á¬ĞøÅÆÖµµÄ¸öÊı
 			int count = 0;
 			int start = 0;
-			// 14æ˜¯ A
+			// 14ÊÇ A
 			for (int i = preMinValue + 1; i <= 14; i++) {
 				// int
 				Integer o = map.get(String.valueOf(i));
 				if (o != null && o > 0) {
-					// å¦‚æœæœ‰è¿™å¼ ç‰Œ
+					// Èç¹ûÓĞÕâÕÅÅÆ
 					if (start == 0) {
-						// å¦‚æœstartè¢«ç½®é›¶ï¼Œç»™startèµ‹å€¼
+						// Èç¹ûstart±»ÖÃÁã£¬¸østart¸³Öµ
 						start = i;
 					}
 					count++;
 				} else {
-					// æ–­æ‰ä¸€å¼ ç‰Œè¦é‡æ–°å¼€å§‹
+					// ¶ÏµôÒ»ÕÅÅÆÒªÖØĞÂ¿ªÊ¼
 					count = 0;
 					start = 0;
 				}
 				if (count == preCount) {
-					// æ•°é‡å·²ç»å¤Ÿäº†ï¼Œå°±è¿”å›
+					// ÊıÁ¿ÒÑ¾­¹»ÁË£¬¾Í·µ»Ø
 					break;
 				}
 			}
 			List<Card> needList = new ArrayList<Card>();
 			if (count >= preCount) {
-				// æ‰¾åˆ°è¿å­—
+				// ÕÒµ½Á¬×Ö
 				for (int i = start; i < start + preCount; i++) {
 					List<Card> list = CardUtil.getCardListByValueAndCount(playerList, i, 1);
 					needList.add(list.get(0));
@@ -149,7 +150,7 @@ public class OneTwoThreeCardType implements DesignPattern.cardType.ICardType {
 				OneSendCard osc = new OneSendCard(needList, CardTypeString.ONETWOTHREE_CARDTYPE);
 				return osc;
 			} else {
-				// æ²¡æœ‰æ‰¾åˆ°åˆé€‚çš„ç‰Œ
+				// Ã»ÓĞÕÒµ½ºÏÊÊµÄÅÆ
 				return null;
 			}
 		}

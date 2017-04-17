@@ -1,8 +1,9 @@
 package DesignPattern.cardType.cardTypeImpl;
 
+import DesignPattern.cardDesign.Card;
 import utils.CardUtil;
 import utils.OneSendCard;
-import DesignPattern.cardDesign.Card;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -13,7 +14,7 @@ import java.util.Map;
  */
 
 /**
- * è¿å¯¹ç‰Œçš„ç‰Œå‹
+ * Á¬¶ÔÅÆµÄÅÆĞÍ
  * 
  * @author Administrator
  *
@@ -83,7 +84,7 @@ public class OneOneTwoTwoCardType implements DesignPattern.cardType.ICardType {
 	public OneSendCard getOneSendCardBiggerButleast(List<Card> playerList, OneSendCard preOneSendCard) {
 		List<Card> preList = preOneSendCard.getOneSendCardList();
 		Integer[] intArr = CardUtil.sortCardList(preList);
-		// è·å–è¿é˜Ÿçš„æœ€å¤§çš„é‚£ä¸ªå€¼
+		// »ñÈ¡Á¬¶ÓµÄ×î´óµÄÄÇ¸öÖµ
 		int preMaxValue = intArr[intArr.length - 1];
 		int preMinValue = intArr[0];
 		int preCount = intArr.length / 2;
@@ -91,31 +92,31 @@ public class OneOneTwoTwoCardType implements DesignPattern.cardType.ICardType {
 		if (preMaxValue >= 14) {
 			return null;
 		} else {
-			// è¿ç»­ç‰Œå€¼çš„ä¸ªæ•°
+			// Á¬ĞøÅÆÖµµÄ¸öÊı
 			int count = 0, start = 0;
-			// 14æ˜¯A
+			// 14ÊÇA
 			for (int i = preMinValue + 1; i <= 14; i++) {
 				Integer o = map.get(String.valueOf(i));
 				if (o != null && o > 1) {
-					// å¦‚æœæœ‰è¿™å¼ ç‰Œä¸”ä¸ªæ•°å¤§äºç­‰äº2
+					// Èç¹ûÓĞÕâÕÅÅÆÇÒ¸öÊı´óÓÚµÈÓÚ2
 					if (start == 0) {
-						// å¦‚æœstartè¢«ç½®é›¶ï¼Œç»™startèµ‹å€¼
+						// Èç¹ûstart±»ÖÃÁã£¬¸østart¸³Öµ
 						start = i;
 					}
 					count++;
 				} else {
-					// æ–­æ‰ä¸€å¼ ç‰Œè¦é‡æ–°å¼€å§‹
+					// ¶ÏµôÒ»ÕÅÅÆÒªÖØĞÂ¿ªÊ¼
 					count = 0;
 					start = 0;
 				}
 				if (count == preCount) {
-					// æ•°é‡å·²ç»å¤Ÿäº†ï¼Œå°±è¿”å›
+					// ÊıÁ¿ÒÑ¾­¹»ÁË£¬¾Í·µ»Ø
 					break;
 				}
 			}
 			List<Card> needList = new ArrayList<Card>();
 			if (count >= preCount) {
-				// æ‰¾åˆ°è¿å­—
+				// ÕÒµ½Á¬×Ö
 				for (int i = start; i < start + preCount; i++) {
 					List<Card> list = CardUtil.getCardListByValueAndCount(playerList, i, 2);
 					needList.addAll(list);
@@ -123,7 +124,7 @@ public class OneOneTwoTwoCardType implements DesignPattern.cardType.ICardType {
 				OneSendCard osc = new OneSendCard(needList, CardTypeString.ONEONETWOTWO_CARDTYPE);
 				return osc;
 			} else {
-				// æ²¡æœ‰æ‰¾åˆ°åˆé€‚çš„ç‰Œ
+				// Ã»ÓĞÕÒµ½ºÏÊÊµÄÅÆ
 				return null;
 			}
 		}

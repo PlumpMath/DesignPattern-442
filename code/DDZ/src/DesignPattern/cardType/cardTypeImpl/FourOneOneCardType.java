@@ -1,9 +1,9 @@
 package DesignPattern.cardType.cardTypeImpl;
 
+import DesignPattern.cardDesign.Card;
 import DesignPattern.cardType.ICardType;
 import utils.CardUtil;
 import utils.OneSendCard;
-import DesignPattern.cardDesign.Card;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ import java.util.Map;
  */
 
 /**
- * ç‚¸å¼¹å¸¦ä¸¤å¼ å•ç‰Œç‰Œçš„ç‰Œå‹
+ * Õ¨µ¯´øÁ½ÕÅµ¥ÅÆÅÆµÄÅÆĞÍ
  * 
  * @author Administrator
  *
@@ -82,7 +82,7 @@ public class FourOneOneCardType implements ICardType {
 	public OneSendCard getOneSendCardBiggerButleast(List<Card> playerList, OneSendCard preOneSendCard) {
 		// TODO Auto-generated method stub
 		OneSendCard osc = null;
-		// 4å¸¦2ä¸­ï¼Œ4ä¸ªçš„é‚£ä¸ªç‰Œå€¼
+		// 4´ø2ÖĞ£¬4¸öµÄÄÇ¸öÅÆÖµ
 		int preValue = 0;
 		Map<String, Integer> mapPre = CardUtil.asValueStaticCount(preOneSendCard.getOneSendCardList());
 		for (Map.Entry<String, Integer> entry : mapPre.entrySet()) {
@@ -104,31 +104,31 @@ public class FourOneOneCardType implements ICardType {
 			}
 		}
 		if (fourList.size() == 0) {
-			// å¦‚æœæ²¡æœ‰4å¼ ç›¸åŒç‰Œ
+			// Èç¹ûÃ»ÓĞ4ÕÅÏàÍ¬ÅÆ
 			return null;
 		} else {
-			// å¦‚æœæœ‰4å¼ ç›¸åŒç‰Œï¼Œæ‰¾å‡ºç‰Œä¸­æœ€å°ä¸€ä¸ªï¼Œä½†æ˜¯æ¯”bçš„å€¼å¤§çš„é‚£ä¸ª
+			// Èç¹ûÓĞ4ÕÅÏàÍ¬ÅÆ£¬ÕÒ³öÅÆÖĞ×îĞ¡Ò»¸ö£¬µ«ÊÇ±ÈbµÄÖµ´óµÄÄÇ¸ö
 			int biggerButLeast = CardUtil.getBiggerButLeastFromList(fourList, preValue);
 			if (biggerButLeast > 0) {
-				// æ‰¾åˆ°ä¸”å¤§äºç‰Œå€¼
+				// ÕÒµ½ÇÒ´óÓÚÅÆÖµ
 				List<Card> needList = CardUtil.getCardListByValueAndCount(playerList, biggerButLeast, 4);
 				if (oneList.size() > 1) {
-					// å¦‚æœæœ‰ä¸¤å¼ å•ç‰Œå°±å¸¦ä¸¤å¼ æœ€å°çš„å•ç‰Œ
+					// Èç¹ûÓĞÁ½ÕÅµ¥ÅÆ¾Í´øÁ½ÕÅ×îĞ¡µÄµ¥ÅÆ
 					List<Integer> leastList = CardUtil.getLeastFromList(oneList, 2);
 					for (int i : leastList) {
 						List<Card> oneCardList = CardUtil.getCardListByValueAndCount(playerList, i, 1);
 						needList.add(oneCardList.get(0));
 					}
 				} else {
-					// å¦‚æœæ²¡æœ‰ä¸¤å¼ å•ç‰Œï¼Œå°±ä»å‰©ä½™ç‰Œä¸­æ‰¾ä¸¤å¼ å¼ æœ€å°çš„ç‰Œ
+					// Èç¹ûÃ»ÓĞÁ½ÕÅµ¥ÅÆ£¬¾Í´ÓÊ£ÓàÅÆÖĞÕÒÁ½ÕÅÕÅ×îĞ¡µÄÅÆ
 					List<Card> restList = CardUtil.getRestListByRemove(playerList, needList);
 					if (restList.size() == 0) {
 						return null;
 					}
-					// æ‰¾åˆ°ç¬¬ä¸€å¼ 
+					// ÕÒµ½µÚÒ»ÕÅ
 					Card bc = CardUtil.getLeastCardFromCardList(restList);
 					needList.add(bc);
-					// æ‰¾åˆ°ç¬¬2å¼ 
+					// ÕÒµ½µÚ2ÕÅ
 					List<Card> aList = new ArrayList<Card>();
 					aList.add(bc);
 					List<Card> restList2 = CardUtil.getRestListByRemove(restList, aList);
@@ -138,7 +138,7 @@ public class FourOneOneCardType implements ICardType {
 				osc = new OneSendCard(needList, CardTypeString.THREE_CARDTYPE);
 				return osc;
 			} else {
-				// æ‰¾åˆ°ä½†æ˜¯æ²¡æœ‰æ‰¾åˆ°ç‰Œå€¼å¤§çš„
+				// ÕÒµ½µ«ÊÇÃ»ÓĞÕÒµ½ÅÆÖµ´óµÄ
 				return null;
 			}
 		}

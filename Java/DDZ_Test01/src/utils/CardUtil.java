@@ -13,12 +13,13 @@ import java.util.Map;
  */
 
 public class CardUtil {
+    public static Iterator cardIterator;
     public CardUtil() {
     }
 
     public static Map<String, Integer> asValueStaticCount(List<Card> list) {
         HashMap map = new HashMap();
-        Iterator cardIterator = list.iterator();
+        cardIterator = list.iterator();
 
         while(cardIterator.hasNext()) {
             Card c = (Card)cardIterator.next();

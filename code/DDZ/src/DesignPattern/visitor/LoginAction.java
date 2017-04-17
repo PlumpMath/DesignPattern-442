@@ -1,7 +1,6 @@
 package DesignPattern.visitor;
 
 import DesignPattern.DBManager.DBConnection;
-
 import DesignPattern.state.ConcreteStateEnoughMoney;
 import DesignPattern.state.ConcreteStateLittleMoney;
 import DesignPattern.state.ConcreteStateNoMoney;
@@ -9,26 +8,29 @@ import DesignPattern.state.State;
 
 import javax.swing.*;
 import java.io.IOException;
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 /**
  * Created by DrownFish on 2017/4/9.
  */
 public class LoginAction implements LoginInterface {
+    State state;
     @Override
     public int visitNormalUser(NormalUser normalUser) throws IOException, InterruptedException, SQLException {
         /**
          * 连接数据库，查询成绩，判断应该调用的状态
          */
-        DBConnection dbConnection = new DBConnection();
-        Connection connection = dbConnection.getConn();
+        Connection connection = DBConnection.getConn();
         String sql = "SELECT name,Money FROM user WHERE name=?";
         System.out.println(sql);
         PreparedStatement preparedStatement = connection.prepareStatement(sql);
         preparedStatement.setString(1,normalUser.getName());
         System.out.println("normalUser name" + normalUser.getName());
         ResultSet resultSet = preparedStatement.executeQuery();
-        State state;
+
         if(resultSet!=null){
             resultSet.first();
             int money = resultSet.getInt("Money");

@@ -1,8 +1,9 @@
 package DesignPattern.cardType.cardTypeImpl;
 
+import DesignPattern.cardDesign.Card;
 import utils.CardUtil;
 import utils.OneSendCard;
-import DesignPattern.cardDesign.Card;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -12,7 +13,7 @@ import java.util.Map;
  */
 
 /**
- * ä¸‰å¼ ç‰Œçš„ç‰Œåž‹
+ * ÈýÕÅÅÆµÄÅÆÐÍ
  * 
  * @author Administrator
  *
@@ -77,18 +78,18 @@ public class ThreeCardType implements DesignPattern.cardType.ICardType {
 			}
 		}
 		if (threeList.size() == 0) {
-			// å¦‚æžœæ²¡æœ‰3å¼ ç›¸åŒç‰Œ
+			// Èç¹ûÃ»ÓÐ3ÕÅÏàÍ¬ÅÆ
 			return null;
 		} else {
-			// å¦‚æžœæœ‰3å¼ ç›¸åŒç‰Œï¼Œæ‰¾å‡ºç‰Œä¸­æœ€å°ä¸€ä¸ªï¼Œä½†æ˜¯æ¯”bçš„å€¼å¤§çš„é‚£ä¸ª
+			// Èç¹ûÓÐ3ÕÅÏàÍ¬ÅÆ£¬ÕÒ³öÅÆÖÐ×îÐ¡Ò»¸ö£¬µ«ÊÇ±ÈbµÄÖµ´óµÄÄÇ¸ö
 			int biggerButLeast = CardUtil.getBiggerButLeastFromList(threeList, b.getValue());
 			if (biggerButLeast > 0) {
-				// æ‰¾åˆ°ä¸”å¤§äºŽç‰Œå€¼
+				// ÕÒµ½ÇÒ´óÓÚÅÆÖµ
 				List<Card> needList = CardUtil.getCardListByValueAndCount(playerList, biggerButLeast, 3);
 				osc = new OneSendCard(needList, CardTypeString.THREE_CARDTYPE);
 				return osc;
 			} else {
-				// æ‰¾åˆ°ä½†æ˜¯æ²¡æœ‰æ‰¾åˆ°ç‰Œå€¼å¤§çš„
+				// ÕÒµ½µ«ÊÇÃ»ÓÐÕÒµ½ÅÆÖµ´óµÄ
 				return null;
 			}
 		}

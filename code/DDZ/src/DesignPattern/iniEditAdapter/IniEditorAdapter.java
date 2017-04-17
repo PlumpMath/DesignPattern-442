@@ -1,14 +1,13 @@
 package DesignPattern.iniEditAdapter;
 
-import java.io.*;
+import java.io.IOException;
 import java.util.HashMap;
 
 /**
  * Created by DrownFish on 2017/4/5.
  */
-public class IniEditorAdapter implements IniEditorInterface,Serializable {
+public class IniEditorAdapter implements IniEditorInterface {
 
-    //使用单例模式，避免多次调用读取配置文件
     private static IniEditorAdapter iniEditorAdapter = null;
     IniEditor inieditor = null;
     HashMap<String,HashMap<String,String>> elements = new HashMap<>();

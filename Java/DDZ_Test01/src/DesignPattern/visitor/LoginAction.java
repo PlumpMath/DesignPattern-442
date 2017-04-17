@@ -15,6 +15,7 @@ import java.sql.*;
  * Created by DrownFish on 2017/4/9.
  */
 public class LoginAction implements LoginInterface {
+    State state;
     @Override
     public int visitNormalUser(NormalUser normalUser) throws IOException, InterruptedException, SQLException {
         /**
@@ -27,7 +28,7 @@ public class LoginAction implements LoginInterface {
         preparedStatement.setString(1,normalUser.getName());
         System.out.println("normalUser name" + normalUser.getName());
         ResultSet resultSet = preparedStatement.executeQuery();
-        State state;
+
         if(resultSet!=null){
             resultSet.first();
             int money = resultSet.getInt("Money");

@@ -1,8 +1,9 @@
 package DesignPattern.cardType.cardTypeImpl;
 
+import DesignPattern.cardDesign.Card;
 import utils.CardUtil;
 import utils.OneSendCard;
-import DesignPattern.cardDesign.Card;
+
 import java.util.*;
 
 /**
@@ -10,7 +11,7 @@ import java.util.*;
  */
 
 /**
- * ä¸¤å¼ ç‰Œçš„ç‰Œå‹
+ * Á½ÕÅÅÆµÄÅÆĞÍ
  * 
  * @author Administrator
  *
@@ -69,10 +70,10 @@ public class DoubleCardType implements DesignPattern.cardType.ICardType {
 			}
 		}
 		if (doubleList.size() == 0) {
-			// å¦‚æœæ²¡æœ‰å¯¹ç‰Œ,å°±æ‰¾3å¼ ç‰Œ
+			// Èç¹ûÃ»ÓĞ¶ÔÅÆ,¾ÍÕÒ3ÕÅÅÆ
 			osc = findTwoInThree(playerList, b.getValue());
 		} else {
-			// å¦‚æœæœ‰å¯¹ç‰Œï¼Œæ‰¾å‡ºå¯¹ç‰Œä¸­æœ€å°ä¸€ä¸ªï¼Œä½†æ˜¯æ¯”bçš„å€¼å¤§çš„é‚£ä¸ª
+			// Èç¹ûÓĞ¶ÔÅÆ£¬ÕÒ³ö¶ÔÅÆÖĞ×îĞ¡Ò»¸ö£¬µ«ÊÇ±ÈbµÄÖµ´óµÄÄÇ¸ö
 			Object[] objs = doubleList.toArray();
 			Arrays.sort(objs);
 			int findValue = 0;
@@ -84,7 +85,7 @@ public class DoubleCardType implements DesignPattern.cardType.ICardType {
 				}
 			}
 			if (findValue > 0) {
-				// å¦‚æœæ‰¾åˆ°å¤§äºå‡ºç‰Œçš„ç‰Œ
+				// Èç¹ûÕÒµ½´óÓÚ³öÅÆµÄÅÆ
 				List<Card> findList = new ArrayList<Card>();
 				int count = 0;
 				for (Card bc : playerList) {
@@ -98,7 +99,7 @@ public class DoubleCardType implements DesignPattern.cardType.ICardType {
 					}
 				}
 			} else {
-				// å¦‚æœæ²¡æœ‰æ‰¾åˆ°å¤§äºå‡ºç‰Œçš„ç‰Œ
+				// Èç¹ûÃ»ÓĞÕÒµ½´óÓÚ³öÅÆµÄÅÆ
 				osc = findTwoInThree(playerList, b.getValue());
 			}
 		}
@@ -106,7 +107,7 @@ public class DoubleCardType implements DesignPattern.cardType.ICardType {
 	}
 
 	/**
-	 * ä»æ•°é‡ä¸º3çš„ç‰Œä¸­æ‰¾ä¸€ä¸ªå¤§äºvalueå€¼çš„æœ€å°ä¸¤å¼ ç‰Œ
+	 * ´ÓÊıÁ¿Îª3µÄÅÆÖĞÕÒÒ»¸ö´óÓÚvalueÖµµÄ×îĞ¡Á½ÕÅÅÆ
 	 * 
 	 * @param playerList
 	 * @param value
@@ -118,23 +119,23 @@ public class DoubleCardType implements DesignPattern.cardType.ICardType {
 		Set<String> set = map3.keySet();
 		List<Integer> list = new ArrayList<Integer>();
 		if (set.size() > 0) {
-			// 3å¼ ç‰Œä¸­æ‰¾åˆ°
+			// 3ÕÅÅÆÖĞÕÒµ½
 			for (String s : set) {
 				list.add(Integer.parseInt(s));
 			}
 			int biggerButLeast = CardUtil.getBiggerButLeastFromList(list, value);
 			if (biggerButLeast > 0) {
-				// æ‰¾åˆ°ä¸”å¤§äºç‰Œå€¼
+				// ÕÒµ½ÇÒ´óÓÚÅÆÖµ
 				List<Card> needList = CardUtil.getCardListByValueAndCount(playerList, biggerButLeast, 2);
 				osc = new OneSendCard(needList, CardTypeString.DOUBLE_CARDTYPE);
 				return osc;
 			} else {
-				// æ‰¾åˆ°ä½†æ˜¯æ²¡æœ‰æ‰¾åˆ°ç‰Œå€¼å¤§çš„
+				// ÕÒµ½µ«ÊÇÃ»ÓĞÕÒµ½ÅÆÖµ´óµÄ
 				return null;
 			}
 
 		} else {
-			// 3å¼ ç‰Œä¸­æ²¡æœ‰æ‰¾åˆ°
+			// 3ÕÅÅÆÖĞÃ»ÓĞÕÒµ½
 			return null;
 		}
 	}

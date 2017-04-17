@@ -1,13 +1,13 @@
 package thread;
 
 import DesignPattern.DBManager.UpdateMoney;
-import utils.OneSendCard;
+import DesignPattern.cardDesign.Card;
 import DesignPattern.cardType.CardTypeFactory;
+import utils.OneSendCard;
 import view.Common;
 import view.Home;
-import DesignPattern.cardDesign.Card;
-import java.awt.Color;
-import java.awt.Point;
+
+import java.awt.*;
 import java.sql.SQLException;
 import java.util.List;
 

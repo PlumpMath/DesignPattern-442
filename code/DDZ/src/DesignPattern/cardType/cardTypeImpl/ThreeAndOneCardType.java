@@ -1,8 +1,9 @@
 package DesignPattern.cardType.cardTypeImpl;
 
+import DesignPattern.cardDesign.Card;
 import utils.CardUtil;
 import utils.OneSendCard;
-import DesignPattern.cardDesign.Card;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -12,7 +13,7 @@ import java.util.Map;
  */
 
 /**
- * å•å¼ ç‰Œçš„ç‰Œå‹
+ * µ¥ÕÅÅÆµÄÅÆĞÍ
  * 
  * @author Administrator
  *
@@ -80,7 +81,7 @@ public class ThreeAndOneCardType implements DesignPattern.cardType.ICardType {
 	public OneSendCard getOneSendCardBiggerButleast(List<Card> playerList, OneSendCard preOneSendCard) {
 		// TODO Auto-generated method stub
 		OneSendCard osc = null;
-		// ä¸‰å¸¦ä¸€ä¸­ï¼Œä¸‰ä¸ªçš„é‚£ä¸ªå€¼
+		// Èı´øÒ»ÖĞ£¬Èı¸öµÄÄÇ¸öÖµ
 		int preValue = 0;
 		Map<String, Integer> mapPre = CardUtil.asValueStaticCount(preOneSendCard.getOneSendCardList());
 		for (Map.Entry<String, Integer> entry : mapPre.entrySet()) {
@@ -101,21 +102,21 @@ public class ThreeAndOneCardType implements DesignPattern.cardType.ICardType {
 			}
 		}
 		if (threeList.size() == 0) {
-			// å¦‚æœæ²¡æœ‰3å¼ ç›¸åŒç‰Œ
+			// Èç¹ûÃ»ÓĞ3ÕÅÏàÍ¬ÅÆ
 			return null;
 		} else {
-			// å¦‚æœæœ‰3å¼ ç›¸åŒç‰Œï¼Œæ‰¾å‡ºç‰Œä¸­æœ€å°ä¸€ä¸ªï¼Œä½†æ˜¯æ¯”bçš„å€¼å¤§çš„é‚£ä¸ª
+			// Èç¹ûÓĞ3ÕÅÏàÍ¬ÅÆ£¬ÕÒ³öÅÆÖĞ×îĞ¡Ò»¸ö£¬µ«ÊÇ±ÈbµÄÖµ´óµÄÄÇ¸ö
 			int biggerButLeast = CardUtil.getBiggerButLeastFromList(threeList, preValue);
 			if (biggerButLeast > 0) {
-				// æ‰¾åˆ°ä¸”å¤§äºç‰Œå€¼
+				// ÕÒµ½ÇÒ´óÓÚÅÆÖµ
 				List<Card> needList = CardUtil.getCardListByValueAndCount(playerList, biggerButLeast, 3);
 				if (oneList.size() > 0) {
-					// å¦‚æœæœ‰å•ç‰Œå°±å¸¦ä¸€å¼ æœ€å°çš„å•ç‰Œ
+					// Èç¹ûÓĞµ¥ÅÆ¾Í´øÒ»ÕÅ×îĞ¡µÄµ¥ÅÆ
 					int least = CardUtil.getLeastFromList(oneList);
 					List<Card> oneCardList = CardUtil.getCardListByValueAndCount(playerList, least, 1);
 					needList.add(oneCardList.get(0));
 				} else {
-					// å¦‚æœæ²¡æœ‰å•ç‰Œï¼Œå°±ä»å‰©ä½™ç‰Œä¸­æ‰¾ä¸€å¼ æœ€å°çš„ç‰Œ
+					// Èç¹ûÃ»ÓĞµ¥ÅÆ£¬¾Í´ÓÊ£ÓàÅÆÖĞÕÒÒ»ÕÅ×îĞ¡µÄÅÆ
 					List<Card> restList = CardUtil.getRestListByRemove(playerList, needList);
 					if (restList.size() == 0) {
 						return null;
@@ -126,7 +127,7 @@ public class ThreeAndOneCardType implements DesignPattern.cardType.ICardType {
 				osc = new OneSendCard(needList, CardTypeString.THREEANDONE_CARDTYPE);
 				return osc;
 			} else {
-				// æ‰¾åˆ°ä½†æ˜¯æ²¡æœ‰æ‰¾åˆ°ç‰Œå€¼å¤§çš„
+				// ÕÒµ½µ«ÊÇÃ»ÓĞÕÒµ½ÅÆÖµ´óµÄ
 				return null;
 			}
 		}

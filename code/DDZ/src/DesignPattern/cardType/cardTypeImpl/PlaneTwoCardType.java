@@ -1,8 +1,9 @@
 package DesignPattern.cardType.cardTypeImpl;
 
+import DesignPattern.cardDesign.Card;
 import utils.CardUtil;
 import utils.OneSendCard;
-import DesignPattern.cardDesign.Card;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -13,7 +14,7 @@ import java.util.Map;
  */
 
 /**
- * é£æœºç‰Œå¸¦ä¸€å¯¹çš„ç‰Œå‹
+ * ·É»úÅÆ´øÒ»¶ÔµÄÅÆĞÍ
  * 
  * @author Administrator
  *
@@ -22,7 +23,7 @@ public class PlaneTwoCardType implements DesignPattern.cardType.ICardType {
 
 	@Override
 	public int compare(List<Card> a, List<Card> b) {
-		// æŠŠç‰Œå»é™¤æ‰åŒç‰Œï¼Œè°ƒç”¨planeçš„æ¯”è¾ƒç®—æ³•
+		// °ÑÅÆÈ¥³ıµôË«ÅÆ£¬µ÷ÓÃplaneµÄ±È½ÏËã·¨
 		List<Card> aRest = CardUtil.removeByCount(a, 2);
 		List<Card> bRest = CardUtil.removeByCount(b, 2);
 		int ret = new PlaneCardType().compare(aRest, bRest);
@@ -45,15 +46,15 @@ public class PlaneTwoCardType implements DesignPattern.cardType.ICardType {
 	public boolean matches(List<Card> list) {
 		// TODO Auto-generated method stub
 		if (list != null) {
-			// 333444 56æˆ–333444555 789
-			// é™¤ä»¥4å¾—åˆ°çš„å•†ï¼Œå°†æ‰€æœ‰ç‰Œæ±‚å¾—ä¸€ä¸ªmap<value,count>countä¸ºåŒä¸€ä¸ªvalueçš„ä¸ªæ•°ï¼Œcount=3çš„ä¸ªæ•°è¦==å•†
-			// ä¸”count=2çš„ä¸ªæ•°==å•†
+			// 333444 56»ò333444555 789
+			// ³ıÒÔ4µÃµ½µÄÉÌ£¬½«ËùÓĞÅÆÇóµÃÒ»¸ömap<value,count>countÎªÍ¬Ò»¸övalueµÄ¸öÊı£¬count=3µÄ¸öÊıÒª==ÉÌ
+			// ÇÒcount=2µÄ¸öÊı==ÉÌ
 			if (list.size() >= 10 && list.size() % 5 == 0) {
 				int shang = list.size() / 5;
 				Map<String, Integer> map = CardUtil.asValueStaticCount(list);
 				int countE3 = 0;
 				int countE2 = 0;
-				// å°†å¤§äº3ä¸ªçš„å€¼æ”¾åˆ°listä¸­ï¼Œå¦‚æœå¤§äº3ä¸ªçš„å€¼æ˜¯3ï¼Œ4ï¼Œ5ç±»å‹ä¸”æœ€å¤§ä¸è¶…è¿‡14
+				// ½«´óÓÚ3¸öµÄÖµ·Åµ½listÖĞ£¬Èç¹û´óÓÚ3¸öµÄÖµÊÇ3£¬4£¬5ÀàĞÍÇÒ×î´ó²»³¬¹ı14
 				List<Integer> count3 = new ArrayList<Integer>();
 				for (Map.Entry<String, Integer> entry : map.entrySet()) {
 					if (entry.getValue() >= 3) {
@@ -65,7 +66,7 @@ public class PlaneTwoCardType implements DesignPattern.cardType.ICardType {
 					}
 				}
 				if (shang == countE3 && shang == countE2) {
-					// å•†ç›¸ç­‰ï¼Œå¹¶ä¸”è¿™ä¸ªshangä¸ªkeyä¸º3ï¼Œ4ï¼Œ5ç±»å‹ä¸”æœ€å¤§ä¸è¶…è¿‡14
+					// ÉÌÏàµÈ£¬²¢ÇÒÕâ¸öshang¸ökeyÎª3£¬4£¬5ÀàĞÍÇÒ×î´ó²»³¬¹ı14
 					Object[] intArr = count3.toArray();
 					Arrays.sort(intArr);
 					for (int i = 1; i < intArr.length; i++) {
@@ -93,29 +94,29 @@ public class PlaneTwoCardType implements DesignPattern.cardType.ICardType {
 	@Override
 	public OneSendCard getOneSendCardBiggerButleast(List<Card> playerList, OneSendCard preOneSendCard) {
 		if (playerList.size() < preOneSendCard.getOneSendCardList().size()) {
-			// å¦‚æœç‰Œæ•°ä¸å¤Ÿç›´æ¥è¿”å›
+			// Èç¹ûÅÆÊı²»¹»Ö±½Ó·µ»Ø
 			return null;
 		}
-		// å»é™¤åŒç‰Œï¼Œè°ƒç”¨é£æœºçš„å‹ç‰Œç®—æ³•ï¼Œå†ä»å‰©ä½™çš„ç‰Œä¸­æ‰¾å‡º3å¼ å•ç‰Œå°±okäº†
+		// È¥³ıË«ÅÆ£¬µ÷ÓÃ·É»úµÄÑ¹ÅÆËã·¨£¬ÔÙ´ÓÊ£ÓàµÄÅÆÖĞÕÒ³ö3ÕÅµ¥ÅÆ¾ÍokÁË
 		List<Card> aRest = CardUtil.removeByCount(preOneSendCard.getOneSendCardList(), 2);
 		OneSendCard newPreOneSendCard = new OneSendCard(aRest, CardTypeString.PLANE_CARDTYPE);
 		PlaneCardType pCardType = new PlaneCardType();
 		OneSendCard retOsc = null;
 		OneSendCard osc = pCardType.getOneSendCardBiggerButleast(playerList, newPreOneSendCard);
 		if (osc == null) {
-			// å¦‚æœé£æœºéƒ½å‹ä¸äº†ï¼Œé‚£ä¹ˆåŠ ä¸ŠåŒç‰Œè¿˜æ˜¯å‹ä¸äº†
+			// Èç¹û·É»ú¶¼Ñ¹²»ÁË£¬ÄÇÃ´¼ÓÉÏË«ÅÆ»¹ÊÇÑ¹²»ÁË
 			return null;
 		} else {
-			// èƒ½å‹ä½ï¼Œå†ä»å‰©ä½™çš„ç‰Œä¸­æ‰¾3å¯¹åŒç‰Œ
-			// å…ˆè·å–å‰©ä½™ç‰Œ
+			// ÄÜÑ¹×¡£¬ÔÙ´ÓÊ£ÓàµÄÅÆÖĞÕÒ3¶ÔË«ÅÆ
+			// ÏÈ»ñÈ¡Ê£ÓàÅÆ
 			List<Card> restList = CardUtil.getRestListByRemove(playerList, osc.getOneSendCardList());
-			// æœ‰å¤šå°‘ä¸ª3å¼ ä¸€æ ·å¹¶ä¸”ç›¸è¿çš„
+			// ÓĞ¶àÉÙ¸ö3ÕÅÒ»Ñù²¢ÇÒÏàÁ¬µÄ
 			int count = preOneSendCard.getOneSendCardList().size() / 5;
 			List<Card> needList = CardUtil.getDoubleCardListBy(restList, count);
 			if (needList == null) {
 				return null;
 			}
-			// é£æœºå¯ä»¥å‹ä½çš„ç‰Œçš„list
+			// ·É»ú¿ÉÒÔÑ¹×¡µÄÅÆµÄlist
 			List<Card> newList = osc.getOneSendCardList();
 			newList.addAll(needList);
 			retOsc = new OneSendCard(newList, CardTypeString.PLANETWO_CARDTYPE);

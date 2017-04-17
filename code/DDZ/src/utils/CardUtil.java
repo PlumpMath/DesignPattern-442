@@ -1,24 +1,21 @@
 package utils;
 
 import DesignPattern.cardDesign.Card;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+
+import java.util.*;
 
 /**
  * Created by DrownFish on 2017/3/10.
  */
 
 public class CardUtil {
+    public static Iterator cardIterator;
     public CardUtil() {
     }
 
     public static Map<String, Integer> asValueStaticCount(List<Card> list) {
         HashMap map = new HashMap();
-        Iterator cardIterator = list.iterator();
+        cardIterator = list.iterator();
 
         while(cardIterator.hasNext()) {
             Card c = (Card)cardIterator.next();

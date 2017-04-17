@@ -2,25 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4296dfb1-b4b9-42b0-8eff-3c8c0992263b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/DBManager/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/cardDesign/CardInterface.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/DBManager/DBConnection.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/DBManager/DBConnection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/DBManager/UpdateMoney.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/DBManager/UpdateMoney.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/SaveScore/Originator.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/SaveScore/Originator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/visitor/CheckAction.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/visitor/CheckAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/cardDesign/Card.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/cardDesign/Card.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/visitor/LoginAction.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/visitor/LoginAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/visitor/LoginView$1.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/visitor/LoginView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/visitor/LoginView.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/DesignPattern/visitor/LoginView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/CardUtil.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/utils/CardUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$1.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$2.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$3.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$4.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$5.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$6.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home.class" afterPath="$PROJECT_DIR$/out/production/DDZ_Test01/view/Home.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/utils/CardUtil.class" afterPath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/utils/CardUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/utils/OneSendCard.class" afterPath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/utils/OneSendCard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/view/Home$1.class" afterPath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/view/Home$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/view/Home$2.class" afterPath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/view/Home$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/view/Home$3.class" afterPath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/view/Home$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/view/Home$4.class" afterPath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/view/Home$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/view/Home$5.class" afterPath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/view/Home$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/view/Home$6.class" afterPath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/view/Home$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/view/Home.class" afterPath="$PROJECT_DIR$/../../code/DDZ/out/production/DDZ/view/Home.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myInterface.ini" afterPath="$PROJECT_DIR$/myInterface.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/DBManager/DBConnection.java" afterPath="$PROJECT_DIR$/src/DesignPattern/DBManager/DBConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/DBManager/UpdateMoney.java" afterPath="$PROJECT_DIR$/src/DesignPattern/DBManager/UpdateMoney.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/SaveScore/Originator.java" afterPath="$PROJECT_DIR$/src/DesignPattern/SaveScore/Originator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardDesign/CardFactory.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardDesign/CardFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditor.java" afterPath="$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditorAdapter.java" afterPath="$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditorAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/visitor/CheckAction.java" afterPath="$PROJECT_DIR$/src/DesignPattern/visitor/CheckAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardDesign/Card.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardDesign/Card.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/visitor/LoginAction.java" afterPath="$PROJECT_DIR$/src/DesignPattern/visitor/LoginAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java" afterPath="$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/visitor/LoginInterface.java" afterPath="$PROJECT_DIR$/src/DesignPattern/visitor/LoginInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/CardUtil.java" afterPath="$PROJECT_DIR$/src/utils/CardUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/Home.java" afterPath="$PROJECT_DIR$/src/view/Home.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../../code/DDZ/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../code/DDZ/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/DBManager/DBConnection.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/DBManager/DBConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/DBManager/UpdateMoney.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/DBManager/UpdateMoney.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/SaveScore/Originator.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/SaveScore/Originator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardDesign/Card.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardDesign/Card.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardDesign/CardFactory.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardDesign/CardFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/CardTypeFactory.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/CardTypeFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/ICardType.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/ICardType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/CardTypeString.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/CardTypeString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/DoubleCardType.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/DoubleCardType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/FourCardType.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/FourCardType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/FourOneOneCardType.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/FourOneOneCardType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/FourTwoTwoCardType.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/FourTwoTwoCardType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/OneOneTwoTwoCardType.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/OneOneTwoTwoCardType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/OneTwoThreeCardType.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/OneTwoThreeCardType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/PlaneCardType.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/PlaneCardType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/PlaneOneCardType.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/PlaneOneCardType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/PlaneTwoCardType.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/PlaneTwoCardType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/SingleCardType.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/SingleCardType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/ThreeAndOneCardType.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/ThreeAndOneCardType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/ThreeAndTwoCardType.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/ThreeAndTwoCardType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/ThreeCardType.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/cardType/cardTypeImpl/ThreeCardType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/iniEditAdapter/IniEditor.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/iniEditAdapter/IniEditor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/iniEditAdapter/IniEditorAdapter.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/iniEditAdapter/IniEditorAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/strategy/StrategygetAuto.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/strategy/StrategygetAuto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/strategy/StrategygetBigger.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/strategy/StrategygetBigger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/visitor/CheckAction.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/visitor/CheckAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/visitor/LoginAction.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/visitor/LoginAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/visitor/LoginView.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/DesignPattern/visitor/LoginView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/thread/TimeThread.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/thread/TimeThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/utils/CardUtil.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/utils/CardUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/utils/OneSendCard.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/utils/OneSendCard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/utils/devided/DevidedCardSolution.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/utils/devided/DevidedCardSolution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/utils/devided/DevidedCardSolutionFactory.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/utils/devided/DevidedCardSolutionFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/view/Common.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/view/Common.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../code/DDZ/src/view/Home.java" afterPath="$PROJECT_DIR$/../../code/DDZ/src/view/Home.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,23 +146,105 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IniEditorInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditorInterface.java">
+      <file leaf-file-name="CardUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/CardUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/CardFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#957#958#0" expanded="false" />
+                <element signature="e#991#992#0" expanded="false" />
+                <element signature="e#1030#1031#0" expanded="false" />
+                <element signature="e#1079#1080#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/CardInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginAction.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginAction.java">
+      <file leaf-file-name="CardTypeFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardType/CardTypeFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="38" column="54" lean-forward="false" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+            <state relative-caret-position="862">
+              <caret line="159" column="17" lean-forward="false" selection-start-line="159" selection-start-column="17" selection-end-line="159" selection-end-column="17" />
               <folding>
-                <marker date="1492137601407" expanded="true" signature="695:735" ph="SELECT name,... user" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4663#4684#0" expanded="false" />
+                <element signature="e#5049#5062#0" expanded="false" />
+                <element signature="e#10959#10965#0" expanded="false" />
+                <element signature="e#12535#12556#0" expanded="false" />
+                <element signature="e#13138#13159#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/DBManager/DBConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1893#1894#0" expanded="false" />
+                <element signature="e#1984#1985#0" expanded="false" />
+                <element signature="e#2709#2710#0" expanded="false" />
+                <element signature="e#2742#2743#0" expanded="false" />
+                <element signature="e#2781#2782#0" expanded="false" />
+                <element signature="e#2815#2816#0" expanded="false" />
+                <element signature="e#2844#2845#0" expanded="false" />
+                <element signature="e#2877#2878#0" expanded="false" />
+                <element signature="e#2916#2917#0" expanded="false" />
+                <element signature="e#2950#2951#0" expanded="false" />
+                <element signature="e#2986#2987#0" expanded="false" />
+                <element signature="e#3023#3024#0" expanded="false" />
+                <element signature="e#3073#3074#0" expanded="false" />
+                <element signature="e#3115#3116#0" expanded="false" />
+                <element signature="e#3144#3145#0" expanded="false" />
+                <element signature="e#3176#3177#0" expanded="false" />
+                <element signature="e#3215#3216#0" expanded="false" />
+                <element signature="e#3247#3248#0" expanded="false" />
+                <element signature="e#3282#3283#0" expanded="false" />
+                <element signature="e#3318#3319#0" expanded="false" />
+                <element signature="e#3367#3368#0" expanded="false" />
+                <element signature="e#3407#3408#0" expanded="false" />
+                <element signature="e#3441#3442#0" expanded="false" />
+                <element signature="e#3476#3477#0" expanded="false" />
+                <element signature="e#3523#3524#0" expanded="false" />
+                <element signature="e#3561#3562#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -133,9 +262,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>time</find>
-      <find>rePosition</find>
-      <find>sleepSeconds</find>
       <find>dizhuFlag</find>
       <find>抢地主</find>
       <find>地主</find>
@@ -163,6 +289,9 @@
       <find>CardSh</find>
       <find>CardSha</find>
       <find>CardShare</find>
+      <find>JFrame.EXIT_ON_CLOSE</find>
+      <find>提示</find>
+      <find>CardIterator</find>
     </findStrings>
     <replaceStrings>
       <replace>game</replace>
@@ -179,10 +308,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/login/LoginInterface.java" />
-        <option value="$PROJECT_DIR$/src/login/AdminUser.java" />
-        <option value="$PROJECT_DIR$/src/login/NormalUser.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1a70e391-a8f1-42e5-8cda-8c56e2747dc8/console.sql" />
         <option value="$PROJECT_DIR$/src/login/LoginAction.java" />
         <option value="$PROJECT_DIR$/src/login/CheckAction.java" />
         <option value="$PROJECT_DIR$/src/login/LoginView.java" />
@@ -211,25 +336,29 @@
         <option value="$PROJECT_DIR$/src/utils/strategy/getBigger.java" />
         <option value="$PROJECT_DIR$/src/utils/strategy/StrategygetBigger.java" />
         <option value="$PROJECT_DIR$/src/utils/strategy/StrategygetAuto.java" />
-        <option value="$PROJECT_DIR$/src/view/Home.java" />
         <option value="$PROJECT_DIR$/src/thread/TimeThread.java" />
         <option value="$PROJECT_DIR$/src/utils/cardType/CardTypeFactory.java" />
         <option value="$PROJECT_DIR$/src/utils/iterator.java" />
         <option value="$PROJECT_DIR$/src/utils/iterator/CardList.java" />
         <option value="$PROJECT_DIR$/src/view/Common.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/cardDesign/CardShare.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/cardDesign/Card.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/CardTypeString.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/DBManager/Test.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/SaveScore/Originator.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/visitor/CheckAction.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/visitor/LoginAction.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/DBManager/DBConnection.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/DBManager/UpdateMoney.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/cardDesign/CardFactory.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditor.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditorAdapter.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/cardDesign/AbstractCard.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/cardDesign/CardInterface.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/cardDesign/Card.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/DBManager/DBConnection.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/visitor/LoginAction.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/visitor/LoginInterface.java" />
+        <option value="$PROJECT_DIR$/src/view/Home.java" />
+        <option value="$PROJECT_DIR$/src/utils/CardUtil.java" />
       </list>
     </option>
   </component>
@@ -243,9 +372,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="654" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -292,182 +422,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="visitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iterator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iniEditAdapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DBManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardType" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardType" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardTypeImpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ_Test01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardDesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -475,11 +429,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/模式UML图" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -1123,6 +1077,10 @@
       <workItem from="1492157755026" duration="280000" />
       <workItem from="1492159321053" duration="1669000" />
       <workItem from="1492346208245" duration="4563000" />
+      <workItem from="1492398023393" duration="2275000" />
+      <workItem from="1492404404535" duration="1544000" />
+      <workItem from="1492409113509" duration="2532000" />
+      <workItem from="1492412951355" duration="3015000" />
     </task>
     <task id="LOCAL-00001" summary="NEW">
       <created>1489740484434</created>
@@ -1142,7 +1100,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105134000" />
+    <option name="totallyTimeSpent" value="114500000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1154,8 +1112,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="654" height="1047" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1167,12 +1124,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21418338" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26138827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28587076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37093276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43771043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17590618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36795253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33151433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1286,230 +1243,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/devided/DevidedCardSolutionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="93" column="23" lean-forward="false" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/OneSendCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="120" column="64" lean-forward="true" selection-start-line="120" selection-start-column="64" selection-end-line="120" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardType/ICardType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourCardType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-734">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/iterator.java" />
-    <entry file="file://$PROJECT_DIR$/src/view/Common.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="101" column="34" lean-forward="false" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3349">
-          <caret line="262" column="8" lean-forward="false" selection-start-line="262" selection-start-column="8" selection-end-line="262" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#Home#0" expanded="false" />
-            <element signature="docComment;method#Home#0;class#Home#0" expanded="false" />
-            <element signature="method#Home#0;class#Home#0" expanded="false" />
-            <element signature="e#3484#3485#0" expanded="false" />
-            <element signature="e#3516#3517#0" expanded="false" />
-            <element signature="e#3568#3569#0" expanded="false" />
-            <element signature="e#3612#3613#0" expanded="false" />
-            <element signature="e#3641#3642#0" expanded="false" />
-            <element signature="e#3668#3669#0" expanded="false" />
-            <element signature="e#3706#3707#0" expanded="false" />
-            <element signature="e#3738#3739#0" expanded="false" />
-            <element signature="e#6444#6445#0" expanded="false" />
-            <element signature="e#6495#6496#0" expanded="false" />
-            <element signature="docComment;method#startGame#0;class#Home#0" expanded="false" />
-            <element signature="method#startGame#0;class#Home#0" expanded="false" />
-            <element signature="method#getLord#0;class#Home#0" expanded="false" />
-            <element signature="e#14713#14761#0" expanded="false" />
-            <element signature="e#15038#15089#0" expanded="false" />
-            <element signature="docComment;method#isFriend#0;class#Home#0" expanded="false" />
-            <element signature="method#isFriend#0;class#Home#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/CardTypeString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/DesignPattern.cardDesign.CardFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>DesignPattern.cardDesign.CardFactory</OriginalElement>
-          <nodes>
-            <node x="" y="">DesignPattern.cardDesign.CardFactory</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="59.0" y="15.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/DBManager/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/DBManager/UpdateMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="79" lean-forward="true" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
-          <folding>
-            <marker date="1492157913018" expanded="true" signature="330:352" ph="SELECT Playe... " />
-            <marker date="1492157913018" expanded="true" signature="330:389" ph="SELECT Playe... WHERE" />
-            <marker date="1492157913018" expanded="true" signature="809:845" ph="UPDATE SET w... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/DBManager/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/2-1.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/TimeThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="e#554#555#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateEnoughMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateLittleMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateNoMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/strategy/Strategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/strategy/StrategygetAuto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/AdminUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/CheckAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="65" column="52" lean-forward="false" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/NormalUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/strategy/StrategygetBigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPattern/observer/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1528,7 +1261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1543,51 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#188#189#0" expanded="false" />
-            <element signature="e#218#219#0" expanded="false" />
-            <element signature="e#281#282#0" expanded="false" />
-            <element signature="e#326#327#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iterator/CardIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#622#623#0" expanded="false" />
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#826#827#0" expanded="false" />
-            <element signature="e#862#863#0" expanded="false" />
-            <element signature="e#911#912#0" expanded="false" />
-            <element signature="e#955#956#0" expanded="false" />
-            <element signature="e#1008#1009#0" expanded="false" />
-            <element signature="e#1052#1053#0" expanded="false" />
-            <element signature="e#1089#1090#0" expanded="false" />
-            <element signature="e#1120#1121#0" expanded="false" />
-            <element signature="e#1170#1171#0" expanded="false" />
-            <element signature="e#1210#1211#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iterator/AbstractObjectList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#279#280#0" expanded="false" />
-            <element signature="e#317#318#0" expanded="false" />
-            <element signature="e#359#360#0" expanded="false" />
-            <element signature="e#399#400#0" expanded="false" />
-            <element signature="e#444#445#0" expanded="false" />
-            <element signature="e#487#488#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#557#558#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1595,7 +1282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1611,39 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <marker date="1492137555659" expanded="true" signature="373:453" ph="SELECT Playe... result" />
-            <marker date="1492137555659" expanded="true" signature="971:1028" ph="UPDATE resul... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/DesignPattern.cardDesign">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>DesignPattern.cardDesign</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">DesignPattern.cardDesign.CardFactory</node>
-            <node x="0.0" y="75.0">DesignPattern.cardDesign.Card</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-449.0" y="-21.5" />
-          <SelectedNodes>
-            <node>DesignPattern.cardDesign.CardFactory</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/CardFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1664,7 +1317,7 @@
               <point x="0.0" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-425.5" y="18.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-425.0" y="19.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1718,7 +1371,69 @@
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditorAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditorInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardType/ICardType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/DesignPattern.cardDesign.CardFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DesignPattern.cardDesign.CardFactory</OriginalElement>
+          <nodes>
+            <node x="-211.0" y="-53.0">DesignPattern.cardDesign.CardFactory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-497.0" y="-177.0" />
+          <SelectedNodes>
+            <node>DesignPattern.cardDesign.CardFactory</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/DesignPattern.cardDesign.Card">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DesignPattern.cardDesign.Card</OriginalElement>
+          <nodes>
+            <node x="" y="">DesignPattern.cardDesign.CardInterface</node>
+            <node x="" y="">DesignPattern.cardDesign.Card</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="355.0" y="118.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -1728,123 +1443,154 @@
           <ID>JAVA</ID>
           <OriginalElement>DesignPattern.cardType.cardTypeImpl.CardTypeString</OriginalElement>
           <nodes>
-            <node x="622.0" y="120.0">DesignPattern.cardType.cardTypeImpl.PlaneTwoCardType</node>
-            <node x="191.0" y="195.0">DesignPattern.cardType.cardTypeImpl.CardTypeString</node>
-            <node x="1627.0" y="120.0">DesignPattern.cardType.cardTypeImpl.ThreeAndTwoCardType</node>
-            <node x="1263.0" y="120.0">DesignPattern.cardType.cardTypeImpl.OneTwoThreeCardType</node>
-            <node x="801.0" y="120.0">DesignPattern.cardType.cardTypeImpl.FourCardType</node>
-            <node x="204.0" y="120.0">DesignPattern.cardType.cardTypeImpl.FourOneOneCardType</node>
-            <node x="1831.0" y="120.0">DesignPattern.cardType.cardTypeImpl.FourTwoTwoCardType</node>
-            <node x="2208.0" y="120.0">DesignPattern.cardType.cardTypeImpl.DoubleCardType</node>
-            <node x="2029.0" y="120.0">DesignPattern.cardType.cardTypeImpl.PlaneOneCardType</node>
-            <node x="1468.0" y="120.0">DesignPattern.cardType.cardTypeImpl.SingleCardType</node>
-            <node x="1121.5" y="0.0">DesignPattern.cardType.ICardType</node>
-            <node x="951.0" y="120.0">DesignPattern.cardType.cardTypeImpl.ThreeCardType</node>
-            <node x="0.0" y="195.0">DesignPattern.cardType.CardTypeFactory</node>
-            <node x="1108.0" y="120.0">DesignPattern.cardType.cardTypeImpl.PlaneCardType</node>
-            <node x="402.0" y="120.0">DesignPattern.cardType.cardTypeImpl.OneOneTwoTwoCardType</node>
-            <node x="0.0" y="120.0">DesignPattern.cardType.cardTypeImpl.ThreeAndOneCardType</node>
+            <node x="" y="">DesignPattern.cardType.cardTypeImpl.PlaneTwoCardType</node>
+            <node x="" y="">DesignPattern.cardType.cardTypeImpl.CardTypeString</node>
+            <node x="" y="">DesignPattern.cardType.cardTypeImpl.ThreeAndTwoCardType</node>
+            <node x="" y="">DesignPattern.cardType.cardTypeImpl.OneTwoThreeCardType</node>
+            <node x="" y="">DesignPattern.cardType.cardTypeImpl.FourCardType</node>
+            <node x="" y="">DesignPattern.cardType.cardTypeImpl.FourOneOneCardType</node>
+            <node x="" y="">DesignPattern.cardType.cardTypeImpl.FourTwoTwoCardType</node>
+            <node x="" y="">DesignPattern.cardType.cardTypeImpl.PlaneOneCardType</node>
+            <node x="" y="">DesignPattern.cardType.cardTypeImpl.SingleCardType</node>
+            <node x="" y="">DesignPattern.cardType.cardTypeImpl.DoubleCardType</node>
+            <node x="" y="">DesignPattern.cardType.ICardType</node>
+            <node x="" y="">DesignPattern.cardType.cardTypeImpl.ThreeCardType</node>
+            <node x="" y="">DesignPattern.cardType.CardTypeFactory</node>
+            <node x="" y="">DesignPattern.cardType.cardTypeImpl.PlaneCardType</node>
+            <node x="" y="">DesignPattern.cardType.cardTypeImpl.OneOneTwoTwoCardType</node>
+            <node x="" y="">DesignPattern.cardType.cardTypeImpl.ThreeAndOneCardType</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="DesignPattern.cardType.cardTypeImpl.DoubleCardType" target="DesignPattern.cardType.ICardType">
-              <point x="0.0" y="-15.0" />
-              <point x="2281.0" y="50.0" />
-              <point x="1225.3461538461538" y="50.0" />
-              <point x="49.84615384615381" y="15.0" />
-            </edge>
-            <edge source="DesignPattern.cardType.cardTypeImpl.PlaneOneCardType" target="DesignPattern.cardType.ICardType">
-              <point x="0.0" y="-15.0" />
-              <point x="2108.5" y="60.0" />
-              <point x="1217.0384615384614" y="60.0" />
-              <point x="41.53846153846143" y="15.0" />
-            </edge>
-            <edge source="DesignPattern.cardType.cardTypeImpl.PlaneTwoCardType" target="DesignPattern.cardType.ICardType">
-              <point x="0.0" y="-15.0" />
-              <point x="701.5" y="80.0" />
-              <point x="1150.576923076923" y="80.0" />
-              <point x="-24.923076923076906" y="15.0" />
-            </edge>
-            <edge source="DesignPattern.cardType.cardTypeImpl.FourOneOneCardType" target="DesignPattern.cardType.ICardType">
-              <point x="0.0" y="-15.0" />
-              <point x="293.0" y="60.0" />
-              <point x="1133.9615384615386" y="60.0" />
-              <point x="-41.53846153846143" y="15.0" />
-            </edge>
-            <edge source="DesignPattern.cardType.cardTypeImpl.ThreeAndTwoCardType" target="DesignPattern.cardType.ICardType">
-              <point x="0.0" y="-15.0" />
-              <point x="1719.0" y="80.0" />
-              <point x="1200.423076923077" y="80.0" />
-              <point x="24.923076923076906" y="15.0" />
-            </edge>
-            <edge source="DesignPattern.cardType.cardTypeImpl.OneOneTwoTwoCardType" target="DesignPattern.cardType.ICardType">
-              <point x="0.0" y="-15.0" />
-              <point x="502.0" y="70.0" />
-              <point x="1142.2692307692307" y="70.0" />
-              <point x="-33.23076923076928" y="15.0" />
-            </edge>
-            <edge source="DesignPattern.cardType.cardTypeImpl.PlaneCardType" target="DesignPattern.cardType.ICardType">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="DesignPattern.cardType.cardTypeImpl.FourTwoTwoCardType" target="DesignPattern.cardType.ICardType">
-              <point x="0.0" y="-15.0" />
-              <point x="1920.0" y="70.0" />
-              <point x="1208.7307692307693" y="70.0" />
-              <point x="33.23076923076928" y="15.0" />
-            </edge>
-            <edge source="DesignPattern.cardType.cardTypeImpl.ThreeAndOneCardType" target="DesignPattern.cardType.ICardType">
-              <point x="0.0" y="-15.0" />
-              <point x="92.0" y="50.0" />
-              <point x="1125.6538461538462" y="50.0" />
-              <point x="-49.84615384615381" y="15.0" />
-            </edge>
-            <edge source="DesignPattern.cardType.cardTypeImpl.OneTwoThreeCardType" target="DesignPattern.cardType.ICardType">
-              <point x="0.0" y="-15.0" />
-              <point x="1355.5" y="100.0" />
-              <point x="1183.8076923076924" y="100.0" />
-              <point x="8.307692307692378" y="15.0" />
-            </edge>
-            <edge source="DesignPattern.cardType.cardTypeImpl.ThreeCardType" target="DesignPattern.cardType.ICardType">
-              <point x="0.0" y="-15.0" />
-              <point x="1019.5" y="100.0" />
-              <point x="1167.1923076923076" y="100.0" />
-              <point x="-8.307692307692378" y="15.0" />
-            </edge>
-            <edge source="DesignPattern.cardType.cardTypeImpl.SingleCardType" target="DesignPattern.cardType.ICardType">
-              <point x="0.0" y="-15.0" />
-              <point x="1537.5" y="90.0" />
-              <point x="1192.1153846153845" y="90.0" />
-              <point x="16.615384615384528" y="15.0" />
-            </edge>
-            <edge source="DesignPattern.cardType.cardTypeImpl.FourCardType" target="DesignPattern.cardType.ICardType">
-              <point x="0.0" y="-15.0" />
-              <point x="866.0" y="90.0" />
-              <point x="1158.8846153846155" y="90.0" />
-              <point x="-16.615384615384528" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.1301600673967989" x="202.35929929183746" y="50.35929929183746" />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.39735664037518653" x="2023.0" y="397.0" />
           <SelectedNodes />
-          <Categories />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardType/CardTypeFactory.java">
+    <entry file="uml://JAVA/DesignPattern.cardDesign">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DesignPattern.cardDesign</OriginalElement>
+          <nodes>
+            <node x="" y="">DesignPattern.cardDesign.CardInterface</node>
+            <node x="" y="">DesignPattern.cardDesign.CardFactory</node>
+            <node x="" y="">DesignPattern.cardDesign.Card</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="76.0" y="316.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/DesignPattern.observer.ConcreteControlCenter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DesignPattern.observer.ConcreteControlCenter</OriginalElement>
+          <nodes>
+            <node x="" y="">DesignPattern.observer.Observer</node>
+            <node x="" y="">DesignPattern.observer.ConcreteControlCenter</node>
+            <node x="" y="">DesignPattern.observer.Player</node>
+            <node x="" y="">DesignPattern.observer.ControlCenter</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="218.0" y="190.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/DBManager/UpdateMoney.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="159" column="17" lean-forward="true" selection-start-line="159" selection-start-column="17" selection-end-line="159" selection-end-column="17" />
+        <state relative-caret-position="34">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <marker date="1492157913018" expanded="true" signature="330:352" ph="SELECT Playe... " />
+            <marker date="1492157913018" expanded="true" signature="330:389" ph="SELECT Playe... WHERE" />
+            <marker date="1492157913018" expanded="true" signature="809:845" ph="UPDATE SET w... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/DesignPattern.DBManager.UpdateMoney">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DesignPattern.DBManager.UpdateMoney</OriginalElement>
+          <nodes>
+            <node x="" y="">DesignPattern.DBManager.UpdateMoney</node>
+            <node x="" y="">DesignPattern.DBManager.DBConnection</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-220.0" y="49.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/DBManager/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+    <entry file="uml://JAVA/DesignPattern.DBManager.DBConnection">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DesignPattern.DBManager.DBConnection</OriginalElement>
+          <nodes>
+            <node x="" y="">DesignPattern.DBManager.DBConnection</node>
+            <node x="" y="">DesignPattern.DBManager.Test</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="67.0" y="74.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -1854,30 +1600,379 @@
           <ID>JAVA</ID>
           <OriginalElement>DesignPattern.iniEditAdapter.IniEditor</OriginalElement>
           <nodes>
-            <node x="280.0" y="0.0">DesignPattern.iniEditAdapter.IniEditor</node>
-            <node x="0.0" y="334.5">DesignPattern.iniEditAdapter.IniEditorInterface</node>
-            <node x="381.25" y="795.0">DesignPattern.iniEditAdapter.IniEditorAdapter</node>
+            <node x="282.0" y="0.0">DesignPattern.iniEditAdapter.IniEditor</node>
+            <node x="0.0" y="323.0">DesignPattern.iniEditAdapter.IniEditorInterface</node>
+            <node x="316.0" y="773.0">DesignPattern.iniEditAdapter.IniEditorAdapter</node>
           </nodes>
           <notes />
           <edges>
             <edge source="DesignPattern.iniEditAdapter.IniEditorAdapter" target="DesignPattern.iniEditAdapter.IniEditor">
-              <point x="54.0" y="-49.5" />
-              <point x="516.25" y="770.0" />
-              <point x="826.75" y="770.0" />
-              <point x="182.25" y="372.5" />
+              <point x="121.66666666666663" y="-85.0" />
+              <point x="620.1666666666666" y="748.0" />
+              <point x="931.5" y="748.0" />
+              <point x="216.5" y="361.5" />
             </edge>
             <edge source="DesignPattern.iniEditAdapter.IniEditorAdapter" target="DesignPattern.iniEditAdapter.IniEditorInterface">
-              <point x="-54.0" y="-49.5" />
-              <point x="408.25" y="770.0" />
-              <point x="130.0" y="770.0" />
-              <point x="0.0" y="38.0" />
+              <point x="-121.66666666666669" y="-85.0" />
+              <point x="376.8333333333333" y="748.0" />
+              <point x="131.0" y="748.0" />
+              <point x="0.0" y="38.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-208.0" y="278.0" />
+          <settings layout="Hierarchic Group" zoom="0.7123572170301142" x="403.0" y="472.0" />
           <SelectedNodes />
           <Categories>
+            <Category>Fields</Category>
             <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/DesignPattern.visitor.AdminUser">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DesignPattern.visitor.AdminUser</OriginalElement>
+          <nodes>
+            <node x="" y="">DesignPattern.visitor.LoginAction</node>
+            <node x="" y="">DesignPattern.visitor.NormalUser</node>
+            <node x="" y="">DesignPattern.visitor.LoginInterface</node>
+            <node x="" y="">DesignPattern.visitor.LoginView</node>
+            <node x="" y="">DesignPattern.visitor.CheckAction</node>
+            <node x="" y="">DesignPattern.visitor.User</node>
+            <node x="" y="">DesignPattern.visitor.AdminUser</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8967320261437909" x="290.0" y="413.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
             <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/DesignPattern.SaveScore.Caretaker">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DesignPattern.SaveScore.Caretaker</OriginalElement>
+          <nodes>
+            <node x="0.0" y="146.0">DesignPattern.SaveScore.Originator</node>
+            <node x="0.0" y="0.0">DesignPattern.SaveScore.Caretaker</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-231.0" y="9.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-738">
+          <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <folding>
+            <marker date="1492137935002" expanded="true" signature="2280:2334" ph="SELECT passw... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <marker date="1492411071396" expanded="true" signature="712:752" ph="SELECT name,... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/DesignPattern.visitor.LoginAction">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DesignPattern.visitor.LoginAction</OriginalElement>
+          <nodes>
+            <node x="540.0" y="231.0">DesignPattern.visitor.LoginAction</node>
+            <node x="753.0" y="115.5">DesignPattern.state.ConcreteStateNoMoney</node>
+            <node x="659.1428571428571" y="0.0">DesignPattern.state.State</node>
+            <node x="0.0" y="104.0">DesignPattern.visitor.LoginInterface</node>
+            <node x="299.99999999999994" y="115.5">DesignPattern.state.ConcreteStateLittleMoney</node>
+            <node x="518.0" y="115.5">DesignPattern.state.ConcreteStateEnoughMoney</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="DesignPattern.visitor.LoginAction" target="DesignPattern.state.ConcreteStateEnoughMoney">
+              <point x="0.0" y="-50.5" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="DesignPattern.state.ConcreteStateLittleMoney" target="DesignPattern.state.State">
+              <point x="0.0" y="-27.0" />
+              <point x="398.99999999999994" y="74.0" />
+              <point x="679.1428571428571" y="74.0" />
+              <point x="-60.0" y="27.0" />
+            </edge>
+            <edge source="DesignPattern.visitor.LoginAction" target="DesignPattern.state.ConcreteStateLittleMoney">
+              <point x="-34.200000000000045" y="-50.5" />
+              <point x="591.3" y="201.0" />
+              <point x="398.99999999999994" y="201.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="DesignPattern.visitor.LoginAction" target="DesignPattern.state.ConcreteStateNoMoney">
+              <point x="34.200000000000045" y="-50.5" />
+              <point x="659.7" y="201.0" />
+              <point x="847.5" y="201.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="DesignPattern.state.ConcreteStateNoMoney" target="DesignPattern.state.State">
+              <point x="0.0" y="-27.0" />
+              <point x="847.5" y="84.0" />
+              <point x="759.1428571428571" y="84.0" />
+              <point x="20.0" y="27.0" />
+            </edge>
+            <edge source="DesignPattern.state.ConcreteStateEnoughMoney" target="DesignPattern.state.State">
+              <point x="0.0" y="-27.0" />
+              <point x="625.5" y="84.0" />
+              <point x="719.1428571428571" y="84.0" />
+              <point x="-20.0" y="27.0" />
+            </edge>
+            <edge source="DesignPattern.visitor.LoginAction" target="DesignPattern.state.State">
+              <point x="68.39999999999998" y="-50.5" />
+              <point x="693.9" y="211.0" />
+              <point x="952.5" y="211.0" />
+              <point x="952.5" y="74.0" />
+              <point x="799.1428571428571" y="74.0" />
+              <point x="60.0" y="27.0" />
+            </edge>
+            <edge source="DesignPattern.visitor.LoginAction" target="DesignPattern.visitor.LoginInterface">
+              <point x="-68.39999999999998" y="-50.5" />
+              <point x="557.1" y="211.0" />
+              <point x="140.0" y="211.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="140.0" y="263.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/DesignPattern.strategy.Strategy">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DesignPattern.strategy.Strategy</OriginalElement>
+          <nodes>
+            <node x="398.0" y="104.0">DesignPattern.strategy.StrategygetAuto</node>
+            <node x="199.0" y="0.0">DesignPattern.strategy.Strategy</node>
+            <node x="0.0" y="104.0">DesignPattern.strategy.StrategygetBigger</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="DesignPattern.strategy.StrategygetBigger" target="DesignPattern.strategy.Strategy">
+              <point x="0.0" y="-27.0" />
+              <point x="189.0" y="79.0" />
+              <point x="293.5" y="79.0" />
+              <point x="-94.5" y="27.0" />
+            </edge>
+            <edge source="DesignPattern.strategy.StrategygetAuto" target="DesignPattern.strategy.Strategy">
+              <point x="0.0" y="-27.0" />
+              <point x="587.0" y="79.0" />
+              <point x="482.5" y="79.0" />
+              <point x="94.5" y="27.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="52.0" y="-24.0" />
+          <SelectedNodes>
+            <node>DesignPattern.strategy.Strategy</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="63" column="30" lean-forward="true" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+          <folding>
+            <element signature="docComment;class#Home#0" expanded="false" />
+            <element signature="docComment;method#Home#0;class#Home#0" expanded="false" />
+            <element signature="method#Home#0;class#Home#0" expanded="false" />
+            <element signature="docComment;method#startGame#0;class#Home#0" expanded="false" />
+            <element signature="method#getLord#0;class#Home#0" expanded="false" />
+            <element signature="e#14743#14791#0" expanded="false" />
+            <element signature="e#15068#15119#0" expanded="false" />
+            <element signature="docComment;method#isFriend#0;class#Home#0" expanded="false" />
+            <element signature="method#isFriend#0;class#Home#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/CheckAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <marker date="1492137590200" expanded="true" signature="589:652" ph="SELECT winTi... result" />
+            <marker date="1492137590200" expanded="true" signature="1360:1406" ph="SELECT Playe... result" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/DesignPattern.state.ConcreteStateEnoughMoney">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DesignPattern.state.ConcreteStateEnoughMoney</OriginalElement>
+          <nodes>
+            <node x="" y="">DesignPattern.state.ConcreteStateNoMoney</node>
+            <node x="" y="">DesignPattern.state.State</node>
+            <node x="" y="">DesignPattern.state.ConcreteStateLittleMoney</node>
+            <node x="" y="">DesignPattern.state.ConcreteStateEnoughMoney</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="321.0" y="56.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/view.Home">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>view.Home</OriginalElement>
+          <nodes>
+            <node x="0.0" y="104.0">DesignPattern.strategy.StrategygetAuto</node>
+            <node x="398.00000000000006" y="0.0">DesignPattern.strategy.Strategy</node>
+            <node x="398.00000000000006" y="104.0">DesignPattern.strategy.StrategygetBigger</node>
+            <node x="408.50000000000006" y="208.0">view.Home</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="view.Home" target="DesignPattern.strategy.Strategy">
+              <point x="119.00000000000001" y="-166.0" />
+              <point x="706.0" y="183.0" />
+              <point x="786.5" y="183.0" />
+              <point x="786.5" y="79.0" />
+              <point x="713.0" y="79.0" />
+              <point x="126.0" y="27.0" />
+            </edge>
+            <edge source="view.Home" target="DesignPattern.strategy.StrategygetBigger">
+              <point x="0.0" y="-166.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="DesignPattern.strategy.StrategygetAuto" target="DesignPattern.strategy.Strategy">
+              <point x="0.0" y="-27.0" />
+              <point x="189.0" y="79.0" />
+              <point x="461.00000000000006" y="79.0" />
+              <point x="-126.0" y="27.0" />
+            </edge>
+            <edge source="DesignPattern.strategy.StrategygetBigger" target="DesignPattern.strategy.Strategy">
+              <point x="0.0" y="-27.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="view.Home" target="DesignPattern.strategy.StrategygetAuto">
+              <point x="-119.0" y="-166.0" />
+              <point x="468.00000000000006" y="183.0" />
+              <point x="189.0" y="183.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="57.0" y="167.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/TimeThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iterator/AbstractObjectList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/utils.CardUtil">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>utils.CardUtil</OriginalElement>
+          <nodes>
+            <node x="" y="">DesignPattern.iterator.AbstractIterator</node>
+            <node x="" y="">DesignPattern.iterator.CardIterator</node>
+            <node x="" y="">DesignPattern.iterator.AbstractObjectList</node>
+            <node x="" y="">DesignPattern.iterator.CardList</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9462068965517242" x="516.0" y="313.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
             <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
@@ -1891,56 +1986,399 @@
           <ID>JAVA</ID>
           <OriginalElement>DesignPattern.iterator.AbstractIterator</OriginalElement>
           <nodes>
-            <node x="" y="">DesignPattern.iterator.AbstractIterator</node>
-            <node x="" y="">DesignPattern.iterator.CardIterator</node>
-            <node x="" y="">DesignPattern.iterator.AbstractObjectList</node>
-            <node x="" y="">DesignPattern.iterator.CardList</node>
+            <node x="0.0" y="198.0">DesignPattern.iterator.AbstractIterator</node>
+            <node x="105.0" y="418.0">DesignPattern.iterator.CardIterator</node>
+            <node x="192.0" y="0.0">DesignPattern.iterator.AbstractObjectList</node>
+            <node x="251.0" y="244.0">DesignPattern.iterator.CardList</node>
           </nodes>
           <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="237.0" y="390.0" />
-          <SelectedNodes />
+          <edges>
+            <edge source="DesignPattern.iterator.CardIterator" target="DesignPattern.iterator.AbstractIterator">
+              <point x="-115.0" y="-143.5" />
+              <point x="162.5" y="393.0" />
+              <point x="115.5" y="393.0" />
+              <point x="0.0" y="85.0" />
+            </edge>
+            <edge source="DesignPattern.iterator.CardIterator" target="DesignPattern.iterator.CardList">
+              <point x="0.0" y="-143.5" />
+              <point x="277.5" y="393.0" />
+              <point x="293.0" y="393.0" />
+              <point x="-42.0" y="39.0" />
+            </edge>
+            <edge source="DesignPattern.iterator.CardList" target="DesignPattern.iterator.AbstractObjectList">
+              <point x="0.0" y="-39.0" />
+              <point x="0.0" y="74.0" />
+            </edge>
+            <edge source="DesignPattern.iterator.CardList" target="DesignPattern.iterator.CardIterator">
+              <point x="42.0" y="39.0" />
+              <point x="377.0" y="393.0" />
+              <point x="392.5" y="393.0" />
+              <point x="115.0" y="-143.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9462068965517242" x="239.0" y="354.0" />
+          <SelectedNodes>
+            <node>DesignPattern.iterator.AbstractIterator</node>
+          </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
             <Category>Properties</Category>
             <Category>Methods</Category>
-            <Category>Constructors</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
+    <entry file="uml://JavaScript-modules-diagram/E:/DesignPattern/Java/DDZ_Test01/src/view;E:/DesignPattern/Java/DDZ_Test01/src/utils;E:/DesignPattern/Java/DDZ_Test01/src/utils/devided;E:/DesignPattern/Java/DDZ_Test01/src/thread;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/visitor;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/strategy;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/state;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/SaveScore;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/observer;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/iterator;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/iniEditAdapter;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/DBManager;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/cardType/cardTypeImpl;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/cardType;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/cardDesign;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/view;E:/DesignPattern/Java/DDZ_Test01/src/utils;E:/DesignPattern/Java/DDZ_Test01/src/utils/devided;E:/DesignPattern/Java/DDZ_Test01/src/thread;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/visitor;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/strategy;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/state;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/SaveScore;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/observer;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/iterator;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/iniEditAdapter;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/DBManager;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/cardType/cardTypeImpl;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/cardType;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/cardDesign;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="575.0" y="344.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/cardDesign;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/cardType;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/cardType/cardTypeImpl;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/DBManager;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/iniEditAdapter;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/iterator;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/observer;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/SaveScore;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/state;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/strategy;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/visitor;E:/DesignPattern/Java/DDZ_Test01/src/thread;E:/DesignPattern/Java/DDZ_Test01/src/utils;E:/DesignPattern/Java/DDZ_Test01/src/utils/devided;E:/DesignPattern/Java/DDZ_Test01/src/view;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/DesignPattern;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/cardDesign;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/cardType;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/cardType/cardTypeImpl;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/DBManager;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/iniEditAdapter;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/iterator;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/observer;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/SaveScore;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/state;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/strategy;E:/DesignPattern/Java/DDZ_Test01/src/DesignPattern/visitor;E:/DesignPattern/Java/DDZ_Test01/src/thread;E:/DesignPattern/Java/DDZ_Test01/src/utils;E:/DesignPattern/Java/DDZ_Test01/src/utils/devided;E:/DesignPattern/Java/DDZ_Test01/src/view;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="575.0" y="344.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="112" column="23" lean-forward="false" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+        <state relative-caret-position="170">
+          <caret line="112" column="22" lean-forward="false" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditorAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iterator/CardIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        <state relative-caret-position="45">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditorInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+    <entry file="uml://JAVA/DesignPattern">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DesignPattern</OriginalElement>
+          <nodes>
+            <node x="196.0" y="75.0">DesignPattern.SaveScore</node>
+            <node x="0.0" y="0.0">DesignPattern.iniEditAdapter</node>
+            <node x="0.0" y="150.0">DesignPattern.cardType</node>
+            <node x="177.0" y="225.0">DesignPattern.iterator</node>
+            <node x="0.0" y="300.0">DesignPattern.visitor</node>
+            <node x="212.0" y="0.0">DesignPattern.DBManager</node>
+            <node x="165.0" y="300.0">DesignPattern.state</node>
+            <node x="184.0" y="150.0">DesignPattern.observer</node>
+            <node x="0.0" y="225.0">DesignPattern.strategy</node>
+            <node x="0.0" y="75.0">DesignPattern.cardDesign</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-151.5" y="60.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginAction.java">
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="392.6" y="123.951171875">utils.OneSendCard</node>
+            <node x="197.0" y="294.951171875">DesignPattern.cardType</node>
+            <node x="378.0" y="294.951171875">utils.devided</node>
+            <node x="1480.1882352941175" y="123.951171875">DesignPattern.visitor</node>
+            <node x="769.271568627451" y="385.951171875">thread</node>
+            <node x="740.1882352941176" y="123.951171875">DesignPattern.SaveScore</node>
+            <node x="1271.1882352941175" y="123.951171875">DesignPattern.iniEditAdapter</node>
+            <node x="794.4382352941176" y="294.951171875">view</node>
+            <node x="0.0" y="461.951171875">utils.CardUtil</node>
+            <node x="1091.1882352941175" y="123.951171875">DesignPattern.iterator</node>
+            <node x="0.0" y="294.951171875">DesignPattern.DBManager</node>
+            <node x="1483.6882352941175" y="12.951171875">DesignPattern.state</node>
+            <node x="581.1882352941176" y="123.951171875">DesignPattern.observer</node>
+            <node x="907.1882352941176" y="123.951171875">DesignPattern.strategy</node>
+            <node x="368.81770472895045" y="12.951171875">DesignPattern.cardDesign</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="view" target="DesignPattern.cardDesign">
+              <point x="-39.529411764705856" y="-15.5" />
+              <point x="810.9088235294117" y="254.951171875" />
+              <point x="534.1" y="254.951171875" />
+              <point x="534.1" y="103.951171875" />
+              <point x="483.56770472895045" y="103.951171875" />
+              <point x="38.25" y="15.5" />
+            </edge>
+            <edge source="DesignPattern.cardType" target="utils.OneSendCard">
+              <point x="35.25" y="-15.5" />
+              <point x="302.75" y="274.951171875" />
+              <point x="405.70000000000005" y="274.951171875" />
+              <point x="-52.39999999999998" y="15.5" />
+            </edge>
+            <edge source="thread" target="DesignPattern.DBManager">
+              <point x="-46.875" y="-15.5" />
+              <point x="784.896568627451" y="365.951171875" />
+              <point x="78.5" y="365.951171875" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="view" target="DesignPattern.iniEditAdapter">
+              <point x="26.35294117647061" y="-15.5" />
+              <point x="876.7911764705882" y="234.951171875" />
+              <point x="1376.8132352941175" y="234.951171875" />
+              <point x="21.125" y="15.5" />
+            </edge>
+            <edge source="DesignPattern.visitor" target="DesignPattern.state">
+              <point x="30.5" y="-15.5" />
+              <point x="1571.6882352941175" y="103.951171875" />
+              <point x="1569.9382352941175" y="103.951171875" />
+              <point x="28.75" y="15.5" />
+            </edge>
+            <edge source="view" target="DesignPattern.strategy">
+              <point x="6.5882352941176805" y="-15.5" />
+              <point x="857.0264705882353" y="204.951171875" />
+              <point x="940.6882352941176" y="204.951171875" />
+              <point x="-33.5" y="15.5" />
+            </edge>
+            <edge source="view" target="DesignPattern.visitor">
+              <point x="39.529411764705856" y="-15.5" />
+              <point x="889.9676470588234" y="254.951171875" />
+              <point x="1525.9382352941175" y="254.951171875" />
+              <point x="-15.25" y="15.5" />
+            </edge>
+            <edge source="DesignPattern.cardType" target="DesignPattern.cardDesign">
+              <point x="-35.25" y="-15.5" />
+              <point x="232.25" y="103.951171875" />
+              <point x="432.56770472895045" y="103.951171875" />
+              <point x="-12.75" y="15.5" />
+            </edge>
+            <edge source="view" target="DesignPattern.iterator">
+              <point x="19.764705882352928" y="-15.5" />
+              <point x="870.2029411764705" y="224.951171875" />
+              <point x="1199.521568627451" y="224.951171875" />
+              <point x="43.33333333333326" y="15.5" />
+            </edge>
+            <edge source="view" target="DesignPattern.SaveScore">
+              <point x="0.0" y="-15.5" />
+              <point x="36.75" y="15.5" />
+            </edge>
+            <edge source="thread" target="view">
+              <point x="-15.625" y="-15.5" />
+              <point x="816.146568627451" y="365.951171875" />
+              <point x="813.1049019607842" y="365.951171875" />
+              <point x="-37.33333333333337" y="15.5" />
+            </edge>
+            <edge source="view" target="utils.OneSendCard">
+              <point x="-46.117647058823536" y="-15.5" />
+              <point x="804.320588235294" y="264.951171875" />
+              <point x="510.5" y="264.951171875" />
+              <point x="52.39999999999998" y="15.5" />
+            </edge>
+            <edge source="DesignPattern.visitor" target="DesignPattern.visitor">
+              <point x="-45.75" y="15.5" />
+              <point x="1495.4382352941175" y="174.951171875" />
+              <point x="1460.1882352941175" y="174.951171875" />
+              <point x="1460.1882352941175" y="139.451171875" />
+              <point x="-61.0" y="-0.0" />
+            </edge>
+            <edge source="DesignPattern.iterator" target="DesignPattern.iterator">
+              <point x="0.0" y="15.5" />
+              <point x="1156.1882352941175" y="184.951171875" />
+              <point x="1061.1882352941175" y="184.951171875" />
+              <point x="1061.1882352941175" y="131.701171875" />
+              <point x="-65.0" y="-7.75" />
+            </edge>
+            <edge source="utils.devided" target="utils.devided">
+              <point x="0.0" y="15.5" />
+              <point x="445.0" y="345.951171875" />
+              <point x="358.0" y="345.951171875" />
+              <point x="358.0" y="310.451171875" />
+              <point x="-67.0" y="-0.0" />
+            </edge>
+            <edge source="utils.devided" target="utils.OneSendCard">
+              <point x="-33.5" y="-15.5" />
+              <point x="411.5" y="274.951171875" />
+              <point x="431.90000000000003" y="274.951171875" />
+              <point x="-26.19999999999999" y="15.5" />
+            </edge>
+            <edge source="view" target="thread">
+              <point x="0.0" y="15.5" />
+              <point x="850.4382352941176" y="365.951171875" />
+              <point x="847.396568627451" y="365.951171875" />
+              <point x="15.625" y="-15.5" />
+            </edge>
+            <edge source="view" target="DesignPattern.observer">
+              <point x="-19.764705882352928" y="-15.5" />
+              <point x="830.6735294117647" y="224.951171875" />
+              <point x="678.4882352941175" y="224.951171875" />
+              <point x="27.799999999999955" y="15.5" />
+            </edge>
+            <edge source="DesignPattern.observer" target="DesignPattern.observer">
+              <point x="-55.599999999999994" y="15.5" />
+              <point x="595.0882352941176" y="174.951171875" />
+              <point x="561.1882352941176" y="174.951171875" />
+              <point x="561.1882352941176" y="147.201171875" />
+              <point x="-69.5" y="7.75" />
+            </edge>
+            <edge source="utils.OneSendCard" target="DesignPattern.cardDesign">
+              <point x="0.0" y="-15.5" />
+              <point x="12.75" y="15.5" />
+            </edge>
+            <edge source="DesignPattern.cardDesign" target="DesignPattern.cardDesign">
+              <point x="-63.75" y="15.5" />
+              <point x="381.56770472895045" y="63.951171875" />
+              <point x="348.81770472895045" y="63.951171875" />
+              <point x="348.81770472895045" y="36.201171875" />
+              <point x="-76.5" y="7.75" />
+            </edge>
+            <edge source="DesignPattern.iniEditAdapter" target="DesignPattern.iniEditAdapter">
+              <point x="-21.125" y="15.5" />
+              <point x="1334.5632352941175" y="184.951171875" />
+              <point x="1241.1882352941175" y="184.951171875" />
+              <point x="1241.1882352941175" y="131.701171875" />
+              <point x="-84.5" y="-7.75" />
+            </edge>
+            <edge source="DesignPattern.visitor" target="view">
+              <point x="45.75" y="15.5" />
+              <point x="1586.9382352941175" y="274.951171875" />
+              <point x="903.1441176470588" y="274.951171875" />
+              <point x="52.70588235294122" y="-15.5" />
+            </edge>
+            <edge source="DesignPattern.cardType" target="DesignPattern.cardType">
+              <point x="0.0" y="15.5" />
+              <point x="267.5" y="345.951171875" />
+              <point x="177.0" y="345.951171875" />
+              <point x="177.0" y="310.451171875" />
+              <point x="-70.5" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.860135551447936" x="888.6955587392549" y="352.87858166189113" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/CardUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="38" column="54" lean-forward="false" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        <state relative-caret-position="102">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding>
-            <marker date="1492137601407" expanded="true" signature="695:735" ph="SELECT name,... user" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardType/CardTypeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="159" column="17" lean-forward="false" selection-start-line="159" selection-start-column="17" selection-end-line="159" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4663#4684#0" expanded="false" />
+            <element signature="e#5049#5062#0" expanded="false" />
+            <element signature="e#10959#10965#0" expanded="false" />
+            <element signature="e#12535#12556#0" expanded="false" />
+            <element signature="e#13138#13159#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1893#1894#0" expanded="false" />
+            <element signature="e#1984#1985#0" expanded="false" />
+            <element signature="e#2709#2710#0" expanded="false" />
+            <element signature="e#2742#2743#0" expanded="false" />
+            <element signature="e#2781#2782#0" expanded="false" />
+            <element signature="e#2815#2816#0" expanded="false" />
+            <element signature="e#2844#2845#0" expanded="false" />
+            <element signature="e#2877#2878#0" expanded="false" />
+            <element signature="e#2916#2917#0" expanded="false" />
+            <element signature="e#2950#2951#0" expanded="false" />
+            <element signature="e#2986#2987#0" expanded="false" />
+            <element signature="e#3023#3024#0" expanded="false" />
+            <element signature="e#3073#3074#0" expanded="false" />
+            <element signature="e#3115#3116#0" expanded="false" />
+            <element signature="e#3144#3145#0" expanded="false" />
+            <element signature="e#3176#3177#0" expanded="false" />
+            <element signature="e#3215#3216#0" expanded="false" />
+            <element signature="e#3247#3248#0" expanded="false" />
+            <element signature="e#3282#3283#0" expanded="false" />
+            <element signature="e#3318#3319#0" expanded="false" />
+            <element signature="e#3367#3368#0" expanded="false" />
+            <element signature="e#3407#3408#0" expanded="false" />
+            <element signature="e#3441#3442#0" expanded="false" />
+            <element signature="e#3476#3477#0" expanded="false" />
+            <element signature="e#3523#3524#0" expanded="false" />
+            <element signature="e#3561#3562#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/CardFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#957#958#0" expanded="false" />
+            <element signature="e#991#992#0" expanded="false" />
+            <element signature="e#1030#1031#0" expanded="false" />
+            <element signature="e#1079#1080#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/CardInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/DBManager/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>

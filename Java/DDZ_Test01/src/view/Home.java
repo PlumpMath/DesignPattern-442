@@ -40,6 +40,7 @@ import javax.swing.JLabel;
  */
 
 public class Home extends JFrame implements ActionListener, Runnable,Serializable {
+    public Strategy strategy;
     public Originator originator = new Originator();
     public Caretaker caretaker =new Caretaker();
     public User user;
@@ -133,7 +134,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
         this.setLocationRelativeTo(this.getOwner());
         this.container = this.getContentPane();
         this.container.setLayout((LayoutManager)null);
-        this.setDefaultCloseOperation(3);
+        this.setDefaultCloseOperation(2);
         this.setVisible(true);
         this.logImage = new ImageIcon("images/log.png");
         this.logJLabel = new JLabel(this.logImage);
@@ -680,7 +681,6 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
          */
         if(e.getSource() == this.publishCard[2]) {
             OneSendCard c = null;
-            Strategy strategy;
             if(this.preChuPai != 1 && this.preChuPai != -1) {
                 strategy = new StrategygetBigger();
                 c = strategy.getPrompt(this.playerList[1], this.preOneSendCard);

@@ -1,8 +1,9 @@
 package DesignPattern.cardType.cardTypeImpl;
 
+import DesignPattern.cardDesign.Card;
 import utils.CardUtil;
 import utils.OneSendCard;
-import DesignPattern.cardDesign.Card;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -13,7 +14,7 @@ import java.util.Map;
  */
 
 /**
- * å•å¼ ç‰Œçš„ç‰Œåž‹
+ * µ¥ÕÅÅÆµÄÅÆÐÍ
  * 
  * @author Administrator
  *
@@ -68,7 +69,7 @@ public class SingleCardType implements DesignPattern.cardType.ICardType {
 			}
 		}
 		if (singleList.size() == 0) {
-			// å¦‚æžœæ²¡æœ‰å•ç‰Œ,å°±æ‰¾ä¸€ä¸ªæ¯”å¼ ç‰Œå¤§çš„ç‰Œå°±è¡Œäº†
+			// Èç¹ûÃ»ÓÐµ¥ÅÆ,¾ÍÕÒÒ»¸ö±ÈÕÅÅÆ´óµÄÅÆ¾ÍÐÐÁË
 			for (Card bc : playerList) {
 				if (bc.getValue() > b.getValue()) {
 					List<Card> findList = new ArrayList<Card>();
@@ -78,7 +79,7 @@ public class SingleCardType implements DesignPattern.cardType.ICardType {
 				}
 			}
 		} else {
-			// å¦‚æžœæœ‰å•ç‰Œï¼Œæ‰¾å‡ºå•ç‰Œä¸­æœ€å°ä¸€ä¸ªï¼Œä½†æ˜¯åˆ«bçš„å€¼å¤§çš„é‚£ä¸ª
+			// Èç¹ûÓÐµ¥ÅÆ£¬ÕÒ³öµ¥ÅÆÖÐ×îÐ¡Ò»¸ö£¬µ«ÊÇ±ðbµÄÖµ´óµÄÄÇ¸ö
 			Object[] objs = singleList.toArray();
 			Arrays.sort(objs);
 			int findValue = 0;
@@ -90,7 +91,7 @@ public class SingleCardType implements DesignPattern.cardType.ICardType {
 				}
 			}
 			if (findValue > 0) {
-				// å¦‚æžœæ‰¾åˆ°
+				// Èç¹ûÕÒµ½
 				for (Card bc : playerList) {
 					if (bc.getValue() == findValue) {
 						List<Card> findList = new ArrayList<Card>();
@@ -100,7 +101,7 @@ public class SingleCardType implements DesignPattern.cardType.ICardType {
 					}
 				}
 			} else {
-				// å¦‚æžœæ²¡æœ‰æ‰¾åˆ°
+				// Èç¹ûÃ»ÓÐÕÒµ½
 				for (Card bc : playerList) {
 					if (bc.getValue() > b.getValue()) {
 						List<Card> findList = new ArrayList<Card>();

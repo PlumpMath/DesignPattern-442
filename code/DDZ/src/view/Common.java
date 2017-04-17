@@ -5,7 +5,7 @@ import DesignPattern.iterator.AbstractIterator;
 import DesignPattern.iterator.AbstractObjectList;
 import DesignPattern.iterator.CardList;
 
-import java.awt.Point;
+import java.awt.*;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
