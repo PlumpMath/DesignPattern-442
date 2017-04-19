@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/CardTypeString.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/CardInterface.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/CardTypeString.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/DoubleCardType.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/DoubleCardType.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourCardType.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourCardType.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourOneOneCardType.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourOneOneCardType.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourTwoTwoCardType.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourTwoTwoCardType.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/OneOneTwoTwoCardType.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/OneOneTwoTwoCardType.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/OneTwoThreeCardType.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/OneTwoThreeCardType.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneCardType.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneCardType.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneOneCardType.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneOneCardType.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneTwoCardType.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneTwoCardType.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/SingleCardType.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/SingleCardType.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeAndOneCardType.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeAndOneCardType.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeAndTwoCardType.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeAndTwoCardType.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeCardType.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeCardType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateEnoughMoney.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateLittleMoney.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateNoMoney.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/view/Home.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

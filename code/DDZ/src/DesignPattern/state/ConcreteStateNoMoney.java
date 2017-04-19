@@ -10,7 +10,7 @@ public class ConcreteStateNoMoney implements State {
     @Override
     public void handle(int money) {
         JOptionPane.showMessageDialog(null,
-                "æ‚¨è¿˜æœ‰"+money+"å…ƒï¼Œä¸èƒ½å¼€å§‹æ¸¸æˆ",
-                "ç™»é™†æˆåŠŸ",JOptionPane.INFORMATION_MESSAGE);
+                "Äú»¹ÓĞ"+money+"Ôª£¬²»ÄÜ¿ªÊ¼ÓÎÏ·",
+                "µÇÂ½³É¹¦",JOptionPane.INFORMATION_MESSAGE);
     }
 }

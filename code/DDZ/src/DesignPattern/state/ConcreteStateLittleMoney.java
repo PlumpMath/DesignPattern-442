@@ -9,7 +9,7 @@ public class ConcreteStateLittleMoney implements State {
     @Override
     public void handle(int money) {
         JOptionPane.showMessageDialog(null,
-                "æ‚¨è¿˜æœ‰"+money+"å…ƒ,è¯·å°½å¿«å……å€¼",
-                "ç™»é™†æˆåŠŸ",JOptionPane.INFORMATION_MESSAGE);
+                "Äú»¹ÓĞ"+money+"Ôª,Çë¾¡¿ì³äÖµ",
+                "µÇÂ½³É¹¦",JOptionPane.INFORMATION_MESSAGE);
     }
 }

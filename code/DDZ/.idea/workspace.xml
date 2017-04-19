@@ -2,132 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3eab12-206b-445c-a557-7cfaf86cf879" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/src/DesignPattern/cardDesign/CardInterface.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/DBManager/DBConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/DBManager/UpdateMoney.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/SaveScore/Caretaker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/SaveScore/Originator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardDesign/Card.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardDesign/CardFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/CardTypeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/ICardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/cardTypeImpl/CardTypeString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/cardTypeImpl/DoubleCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/cardTypeImpl/FourCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/cardTypeImpl/FourOneOneCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/cardTypeImpl/FourTwoTwoCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/cardTypeImpl/OneOneTwoTwoCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/cardTypeImpl/OneTwoThreeCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/cardTypeImpl/PlaneCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/cardTypeImpl/PlaneOneCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/cardTypeImpl/PlaneTwoCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/cardTypeImpl/SingleCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/cardTypeImpl/ThreeAndOneCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/cardTypeImpl/ThreeAndTwoCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/cardType/cardTypeImpl/ThreeCardType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/iniEditAdapter/IniEditor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/iniEditAdapter/IniEditor$Comment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/iniEditAdapter/IniEditor$Line.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/iniEditAdapter/IniEditor$NoSuchSectionException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/iniEditAdapter/IniEditor$Option.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/iniEditAdapter/IniEditor$OptionFormat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/iniEditAdapter/IniEditor$Section.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/iniEditAdapter/IniEditor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/iniEditAdapter/IniEditorAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/iniEditAdapter/IniEditorInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/iterator/AbstractIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/iterator/AbstractObjectList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/iterator/CardIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/iterator/CardList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/observer/ConcreteControlCenter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/observer/ControlCenter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/observer/Observer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/observer/Player.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/state/ConcreteStateEnoughMoney.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/state/ConcreteStateLittleMoney.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/state/ConcreteStateNoMoney.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/state/State.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/strategy/Strategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/strategy/StrategygetAuto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/strategy/StrategygetBigger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/visitor/AdminUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/visitor/CheckAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/visitor/LoginAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/visitor/LoginInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/visitor/LoginView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/visitor/LoginView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/visitor/NormalUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/DesignPattern/visitor/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/thread/ComputerTimeThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/thread/TimeThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/utils/CardUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/utils/OneSendCard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/utils/devided/DevidedCardSolution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/utils/devided/DevidedCardSolutionFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/view/Common$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/view/Common.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/view/Home$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/view/Home$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/view/Home$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/view/Home$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/view/Home$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/view/Home$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DDZ/view/Home.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/DesignPattern/DBManager/DBConnection.class" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/DesignPattern/DBManager/DBConnection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/DesignPattern/cardDesign/Card.class" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/DesignPattern/cardDesign/Card.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/DesignPattern/visitor/LoginAction.class" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/DesignPattern/visitor/LoginAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/utils/CardUtil.class" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/utils/CardUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/view/Home$1.class" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/view/Home$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/view/Home$2.class" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/view/Home$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/view/Home$3.class" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/view/Home$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/view/Home$4.class" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/view/Home$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/view/Home$5.class" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/view/Home$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/view/Home$6.class" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/view/Home$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/view/Home.class" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/out/production/DDZ_Test01/view/Home.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/myInterface.ini" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/myInterface.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/src/DesignPattern/DBManager/DBConnection.java" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/src/DesignPattern/DBManager/DBConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/src/DesignPattern/cardDesign/Card.java" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/src/DesignPattern/cardDesign/Card.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/src/DesignPattern/visitor/LoginAction.java" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/src/DesignPattern/visitor/LoginAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/src/DesignPattern/visitor/LoginInterface.java" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/src/DesignPattern/visitor/LoginInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/src/utils/CardUtil.java" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/src/utils/CardUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/DDZ_Test01/src/view/Home.java" afterPath="$PROJECT_DIR$/../../Java/DDZ_Test01/src/view/Home.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/DBManager/DBConnection.java" afterPath="$PROJECT_DIR$/src/DesignPattern/DBManager/DBConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/DBManager/UpdateMoney.java" afterPath="$PROJECT_DIR$/src/DesignPattern/DBManager/UpdateMoney.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/SaveScore/Originator.java" afterPath="$PROJECT_DIR$/src/DesignPattern/SaveScore/Originator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardDesign/Card.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardDesign/Card.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardDesign/CardFactory.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardDesign/CardFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/CardTypeFactory.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/CardTypeFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/ICardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/ICardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/CardTypeString.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/CardTypeString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/DoubleCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/DoubleCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourOneOneCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourOneOneCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourTwoTwoCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/FourTwoTwoCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/OneOneTwoTwoCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/OneOneTwoTwoCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/OneTwoThreeCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/OneTwoThreeCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneOneCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneOneCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneTwoCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneTwoCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/SingleCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/SingleCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeAndOneCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeAndOneCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeAndTwoCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeAndTwoCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeCardType.java" afterPath="$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/ThreeCardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditor.java" afterPath="$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditorAdapter.java" afterPath="$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditorAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/strategy/StrategygetAuto.java" afterPath="$PROJECT_DIR$/src/DesignPattern/strategy/StrategygetAuto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/strategy/StrategygetBigger.java" afterPath="$PROJECT_DIR$/src/DesignPattern/strategy/StrategygetBigger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/visitor/CheckAction.java" afterPath="$PROJECT_DIR$/src/DesignPattern/visitor/CheckAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/visitor/LoginAction.java" afterPath="$PROJECT_DIR$/src/DesignPattern/visitor/LoginAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateEnoughMoney.java" afterPath="$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateEnoughMoney.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateLittleMoney.java" afterPath="$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateLittleMoney.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateNoMoney.java" afterPath="$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateNoMoney.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java" afterPath="$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thread/TimeThread.java" afterPath="$PROJECT_DIR$/src/thread/TimeThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/CardUtil.java" afterPath="$PROJECT_DIR$/src/utils/CardUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/OneSendCard.java" afterPath="$PROJECT_DIR$/src/utils/OneSendCard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/devided/DevidedCardSolution.java" afterPath="$PROJECT_DIR$/src/utils/devided/DevidedCardSolution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/devided/DevidedCardSolutionFactory.java" afterPath="$PROJECT_DIR$/src/utils/devided/DevidedCardSolutionFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/Common.java" afterPath="$PROJECT_DIR$/src/view/Common.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/Home.java" afterPath="$PROJECT_DIR$/src/view/Home.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -196,141 +76,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlaneOneCardType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardType/cardTypeImpl/PlaneOneCardType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1393#1402#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPattern/observer/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#238#239#0" expanded="false" />
-                <element signature="e#265#266#0" expanded="false" />
-                <element signature="e#309#310#0" expanded="false" />
-                <element signature="e#345#346#0" expanded="false" />
-                <element signature="e#385#386#0" expanded="false" />
-                <element signature="e#417#418#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPattern/observer/Observer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IniEditor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPattern/iniEditAdapter/IniEditor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#42693#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#5082#5083#0" expanded="false" />
-                <element signature="e#5114#5115#0" expanded="false" />
-                <element signature="e#5361#5362#0" expanded="false" />
-                <element signature="e#5410#5411#0" expanded="false" />
-                <element signature="e#5674#5675#0" expanded="false" />
-                <element signature="e#5712#5713#0" expanded="false" />
-                <element signature="e#6101#6102#0" expanded="false" />
-                <element signature="e#6156#6157#0" expanded="false" />
-                <element signature="e#6448#6449#0" expanded="false" />
-                <element signature="e#6482#6483#0" expanded="false" />
-                <element signature="e#6899#6900#0" expanded="false" />
-                <element signature="e#6950#6951#0" expanded="false" />
-                <element signature="e#7434#7435#0" expanded="false" />
-                <element signature="e#7500#7501#0" expanded="false" />
-                <element signature="e#9503#9504#0" expanded="false" />
-                <element signature="e#9569#9570#0" expanded="false" />
-                <element signature="e#12702#12703#0" expanded="false" />
-                <element signature="e#12769#12770#0" expanded="false" />
-                <element signature="e#14704#14712#0" expanded="false" />
-                <element signature="e#20611#20612#0" expanded="false" />
-                <element signature="e#20665#20666#0" expanded="false" />
-                <element signature="e#23184#23185#0" expanded="false" />
-                <element signature="e#23224#23225#0" expanded="false" />
-                <element signature="e#23587#23588#0" expanded="false" />
-                <element signature="e#23644#23645#0" expanded="false" />
-                <element signature="e#24096#24097#0" expanded="false" />
-                <element signature="e#24164#24165#0" expanded="false" />
-                <element signature="e#26970#26971#0" expanded="false" />
-                <element signature="e#27046#27047#0" expanded="false" />
-                <element signature="e#27323#27324#0" expanded="false" />
-                <element signature="e#27373#27374#0" expanded="false" />
-                <element signature="e#27669#27677#0" expanded="false" />
-                <element signature="e#28250#28251#0" expanded="false" />
-                <element signature="e#28323#28324#0" expanded="false" />
-                <element signature="e#29204#29205#0" expanded="false" />
-                <element signature="e#29268#29269#0" expanded="false" />
-                <element signature="e#31044#31045#0" expanded="false" />
-                <element signature="e#31110#31111#0" expanded="false" />
-                <element signature="e#31905#31906#0" expanded="false" />
-                <element signature="e#31955#31956#0" expanded="false" />
-                <element signature="e#35815#35816#0" expanded="false" />
-                <element signature="e#35868#35869#0" expanded="false" />
-                <element signature="e#36091#36092#0" expanded="false" />
-                <element signature="e#36159#36160#0" expanded="false" />
-                <element signature="e#37533#37599#0" expanded="false" />
-                <element signature="e#37598#37599#0" expanded="false" />
-                <element signature="e#38249#38250#0" expanded="false" />
-                <element signature="e#38289#38290#0" expanded="false" />
-                <element signature="e#38322#38323#0" expanded="false" />
-                <element signature="e#38363#38364#0" expanded="false" />
-                <element signature="e#38988#38989#0" expanded="false" />
-                <element signature="e#39076#39077#0" expanded="false" />
-                <element signature="e#39588#39589#0" expanded="false" />
-                <element signature="e#39644#39645#0" expanded="false" />
-                <element signature="e#39831#39832#0" expanded="false" />
-                <element signature="e#39897#39898#0" expanded="false" />
-                <element signature="e#40092#40093#0" expanded="false" />
-                <element signature="e#40168#40169#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CardIterator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DesignPattern/iterator/CardIterator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -364,11 +109,88 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardInterface.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CardInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/CardInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <marker date="1492428573905" expanded="true" signature="2280:2334" ph="SELECT passw... user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/Home.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#3317#3318#0" expanded="false" />
+                <element signature="e#3349#3350#0" expanded="false" />
+                <element signature="e#3401#3402#0" expanded="false" />
+                <element signature="e#3445#3446#0" expanded="false" />
+                <element signature="e#3474#3475#0" expanded="false" />
+                <element signature="e#3501#3502#0" expanded="false" />
+                <element signature="e#3539#3540#0" expanded="false" />
+                <element signature="e#3571#3572#0" expanded="false" />
+                <element signature="e#6277#6278#0" expanded="false" />
+                <element signature="e#6328#6329#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Common.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/Common.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteStateEnoughMoney.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateEnoughMoney.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteStateLittleMoney.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateLittleMoney.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteStateNoMoney.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateNoMoney.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -380,7 +202,10 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#202#212#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="false" />
+                <element signature="e#292#293#0" expanded="false" />
+                <element signature="e#333#334#0" expanded="false" />
+                <element signature="e#373#374#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -399,14 +224,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/DBManager/UpdateMoney.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/observer/ControlCenter.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/cardDesign/CardInterface.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java" />
+        <option value="$PROJECT_DIR$/src/view/Home.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateEnoughMoney.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateLittleMoney.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateNoMoney.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -414,8 +250,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1924" />
-    <option name="height" value="1056" />
+    <option name="width" value="1444" />
+    <option name="height" value="904" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -434,8 +270,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -461,22 +295,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DDZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
+              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,11 +314,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iniEditAdapter" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -516,11 +332,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DBManager" />
+              <option name="myItemId" value="thread" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -542,7 +354,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cardType" />
+              <option name="myItemId" value="visitor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -564,20 +376,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cardDesign" />
+              <option name="myItemId" value="strategy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDZ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDZ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="state" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDZ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDZ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-5.1.40-bin.jar!/" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -1094,15 +948,18 @@
       <updated>1492085581628</updated>
       <workItem from="1492085585548" duration="895000" />
       <workItem from="1492419763668" duration="849000" />
-      <workItem from="1492422046069" duration="35000" />
+      <workItem from="1492422046069" duration="665000" />
+      <workItem from="1492422934941" duration="135000" />
+      <workItem from="1492428451241" duration="536000" />
+      <workItem from="1492480531509" duration="46000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1779000" />
+    <option name="totallyTimeSpent" value="3126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1444" height="904" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1114,12 +971,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26977247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26898047" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26445088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1131,7 +988,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1151,13 +1008,60 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/strategy/StrategygetAuto.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/iterator/CardIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#671#672#0" expanded="false" />
+            <element signature="e#826#827#0" expanded="false" />
+            <element signature="e#862#863#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
+            <element signature="e#955#956#0" expanded="false" />
+            <element signature="e#1008#1009#0" expanded="false" />
+            <element signature="e#1052#1053#0" expanded="false" />
+            <element signature="e#1089#1090#0" expanded="false" />
+            <element signature="e#1120#1121#0" expanded="false" />
+            <element signature="e#1170#1171#0" expanded="false" />
+            <element signature="e#1210#1211#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/DBManager/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/observer/ControlCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#255#256#0" expanded="false" />
+            <element signature="e#292#293#0" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/CardInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/strategy/StrategygetAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1175,9 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1185,10 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1393#1402#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,14 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#238#239#0" expanded="false" />
-            <element signature="e#265#266#0" expanded="false" />
-            <element signature="e#309#310#0" expanded="false" />
-            <element signature="e#345#346#0" expanded="false" />
-            <element signature="e#385#386#0" expanded="false" />
-            <element signature="e#417#418#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1211,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1219,68 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42693#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5082#5083#0" expanded="false" />
-            <element signature="e#5114#5115#0" expanded="false" />
-            <element signature="e#5361#5362#0" expanded="false" />
-            <element signature="e#5410#5411#0" expanded="false" />
-            <element signature="e#5674#5675#0" expanded="false" />
-            <element signature="e#5712#5713#0" expanded="false" />
-            <element signature="e#6101#6102#0" expanded="false" />
-            <element signature="e#6156#6157#0" expanded="false" />
-            <element signature="e#6448#6449#0" expanded="false" />
-            <element signature="e#6482#6483#0" expanded="false" />
-            <element signature="e#6899#6900#0" expanded="false" />
-            <element signature="e#6950#6951#0" expanded="false" />
-            <element signature="e#7434#7435#0" expanded="false" />
-            <element signature="e#7500#7501#0" expanded="false" />
-            <element signature="e#9503#9504#0" expanded="false" />
-            <element signature="e#9569#9570#0" expanded="false" />
-            <element signature="e#12702#12703#0" expanded="false" />
-            <element signature="e#12769#12770#0" expanded="false" />
-            <element signature="e#14704#14712#0" expanded="false" />
-            <element signature="e#20611#20612#0" expanded="false" />
-            <element signature="e#20665#20666#0" expanded="false" />
-            <element signature="e#23184#23185#0" expanded="false" />
-            <element signature="e#23224#23225#0" expanded="false" />
-            <element signature="e#23587#23588#0" expanded="false" />
-            <element signature="e#23644#23645#0" expanded="false" />
-            <element signature="e#24096#24097#0" expanded="false" />
-            <element signature="e#24164#24165#0" expanded="false" />
-            <element signature="e#26970#26971#0" expanded="false" />
-            <element signature="e#27046#27047#0" expanded="false" />
-            <element signature="e#27323#27324#0" expanded="false" />
-            <element signature="e#27373#27374#0" expanded="false" />
-            <element signature="e#27669#27677#0" expanded="false" />
-            <element signature="e#28250#28251#0" expanded="false" />
-            <element signature="e#28323#28324#0" expanded="false" />
-            <element signature="e#29204#29205#0" expanded="false" />
-            <element signature="e#29268#29269#0" expanded="false" />
-            <element signature="e#31044#31045#0" expanded="false" />
-            <element signature="e#31110#31111#0" expanded="false" />
-            <element signature="e#31905#31906#0" expanded="false" />
-            <element signature="e#31955#31956#0" expanded="false" />
-            <element signature="e#35815#35816#0" expanded="false" />
-            <element signature="e#35868#35869#0" expanded="false" />
-            <element signature="e#36091#36092#0" expanded="false" />
-            <element signature="e#36159#36160#0" expanded="false" />
-            <element signature="e#37533#37599#0" expanded="false" />
-            <element signature="e#37598#37599#0" expanded="false" />
-            <element signature="e#38249#38250#0" expanded="false" />
-            <element signature="e#38289#38290#0" expanded="false" />
-            <element signature="e#38322#38323#0" expanded="false" />
-            <element signature="e#38363#38364#0" expanded="false" />
-            <element signature="e#38988#38989#0" expanded="false" />
-            <element signature="e#39076#39077#0" expanded="false" />
-            <element signature="e#39588#39589#0" expanded="false" />
-            <element signature="e#39644#39645#0" expanded="false" />
-            <element signature="e#39831#39832#0" expanded="false" />
-            <element signature="e#39897#39898#0" expanded="false" />
-            <element signature="e#40092#40093#0" expanded="false" />
-            <element signature="e#40168#40169#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1318,7 +1144,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#202#212#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="false" />
+            <element signature="e#292#293#0" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1348,10 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1393#1402#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1366,7 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2754">
           <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1374,7 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1386,14 +1209,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/98476d5c/4323603c-832a-4e08-9573-f3c1a0444ebf/ddz.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1401,20 +1224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-952">
-          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1450,7 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2754">
           <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1462,14 +1270,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/98476d5c/4323603c-832a-4e08-9573-f3c1a0444ebf/ddz.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1477,7 +1285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1499,9 +1306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1519,9 +1323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1529,10 +1330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1393#1402#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1540,14 +1337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#238#239#0" expanded="false" />
-            <element signature="e#265#266#0" expanded="false" />
-            <element signature="e#309#310#0" expanded="false" />
-            <element signature="e#345#346#0" expanded="false" />
-            <element signature="e#385#386#0" expanded="false" />
-            <element signature="e#417#418#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1555,7 +1344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1563,68 +1351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42693#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5082#5083#0" expanded="false" />
-            <element signature="e#5114#5115#0" expanded="false" />
-            <element signature="e#5361#5362#0" expanded="false" />
-            <element signature="e#5410#5411#0" expanded="false" />
-            <element signature="e#5674#5675#0" expanded="false" />
-            <element signature="e#5712#5713#0" expanded="false" />
-            <element signature="e#6101#6102#0" expanded="false" />
-            <element signature="e#6156#6157#0" expanded="false" />
-            <element signature="e#6448#6449#0" expanded="false" />
-            <element signature="e#6482#6483#0" expanded="false" />
-            <element signature="e#6899#6900#0" expanded="false" />
-            <element signature="e#6950#6951#0" expanded="false" />
-            <element signature="e#7434#7435#0" expanded="false" />
-            <element signature="e#7500#7501#0" expanded="false" />
-            <element signature="e#9503#9504#0" expanded="false" />
-            <element signature="e#9569#9570#0" expanded="false" />
-            <element signature="e#12702#12703#0" expanded="false" />
-            <element signature="e#12769#12770#0" expanded="false" />
-            <element signature="e#14704#14712#0" expanded="false" />
-            <element signature="e#20611#20612#0" expanded="false" />
-            <element signature="e#20665#20666#0" expanded="false" />
-            <element signature="e#23184#23185#0" expanded="false" />
-            <element signature="e#23224#23225#0" expanded="false" />
-            <element signature="e#23587#23588#0" expanded="false" />
-            <element signature="e#23644#23645#0" expanded="false" />
-            <element signature="e#24096#24097#0" expanded="false" />
-            <element signature="e#24164#24165#0" expanded="false" />
-            <element signature="e#26970#26971#0" expanded="false" />
-            <element signature="e#27046#27047#0" expanded="false" />
-            <element signature="e#27323#27324#0" expanded="false" />
-            <element signature="e#27373#27374#0" expanded="false" />
-            <element signature="e#27669#27677#0" expanded="false" />
-            <element signature="e#28250#28251#0" expanded="false" />
-            <element signature="e#28323#28324#0" expanded="false" />
-            <element signature="e#29204#29205#0" expanded="false" />
-            <element signature="e#29268#29269#0" expanded="false" />
-            <element signature="e#31044#31045#0" expanded="false" />
-            <element signature="e#31110#31111#0" expanded="false" />
-            <element signature="e#31905#31906#0" expanded="false" />
-            <element signature="e#31955#31956#0" expanded="false" />
-            <element signature="e#35815#35816#0" expanded="false" />
-            <element signature="e#35868#35869#0" expanded="false" />
-            <element signature="e#36091#36092#0" expanded="false" />
-            <element signature="e#36159#36160#0" expanded="false" />
-            <element signature="e#37533#37599#0" expanded="false" />
-            <element signature="e#37598#37599#0" expanded="false" />
-            <element signature="e#38249#38250#0" expanded="false" />
-            <element signature="e#38289#38290#0" expanded="false" />
-            <element signature="e#38322#38323#0" expanded="false" />
-            <element signature="e#38363#38364#0" expanded="false" />
-            <element signature="e#38988#38989#0" expanded="false" />
-            <element signature="e#39076#39077#0" expanded="false" />
-            <element signature="e#39588#39589#0" expanded="false" />
-            <element signature="e#39644#39645#0" expanded="false" />
-            <element signature="e#39831#39832#0" expanded="false" />
-            <element signature="e#39897#39898#0" expanded="false" />
-            <element signature="e#40092#40093#0" expanded="false" />
-            <element signature="e#40168#40169#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1654,7 +1380,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#202#212#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="false" />
+            <element signature="e#292#293#0" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1669,8 +1398,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPattern/cardDesign/CardInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/visitor/LoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1492428573905" expanded="true" signature="2280:2334" ph="SELECT passw... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3317#3318#0" expanded="false" />
+            <element signature="e#3349#3350#0" expanded="false" />
+            <element signature="e#3401#3402#0" expanded="false" />
+            <element signature="e#3445#3446#0" expanded="false" />
+            <element signature="e#3474#3475#0" expanded="false" />
+            <element signature="e#3501#3502#0" expanded="false" />
+            <element signature="e#3539#3540#0" expanded="false" />
+            <element signature="e#3571#3572#0" expanded="false" />
+            <element signature="e#6277#6278#0" expanded="false" />
+            <element signature="e#6328#6329#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateEnoughMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateLittleMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/state/ConcreteStateNoMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>

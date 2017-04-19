@@ -30,18 +30,18 @@ public class LoginView extends JFrame {
     }
     public LoginView()
     {
-        jFrame = new JFrame("ç™»é™†ç•Œé¢");
+        jFrame = new JFrame("µÇÂ½½çÃæ");
         Dimension dimension = Toolkit.getDefaultToolkit().getScreenSize();
         jFrame.setBounds(((int)dimension.getWidth() - 200) / 2, ((int)dimension.getHeight() - 300) / 2, 200, 150);
         jFrame.setResizable(false);
         jFrame.setLayout(null);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        jLabelName = new JLabel("å§“å");
+        jLabelName = new JLabel("ĞÕÃû");
         jLabelName.setBounds(10, 10, 100, 30);
         jFrame.add(jLabelName);
 
-        jLabelPwd = new JLabel("å¯†ç ");
+        jLabelPwd = new JLabel("ÃÜÂë");
         jLabelPwd.setBounds(10, 40, 100, 30);
         jFrame.add(jLabelPwd);
 
@@ -53,7 +53,7 @@ public class LoginView extends JFrame {
         jPasswordFieldPwd.setBounds(50, 45, 130, 20);
         jFrame.add(jPasswordFieldPwd);
 
-        JButton button = new JButton("ç™»å½•");
+        JButton button = new JButton("µÇÂ¼");
         button.setBounds(10, 75, 170, 40);
         jFrame.add(button);
         jFrame.setVisible(true);
@@ -75,8 +75,8 @@ public class LoginView extends JFrame {
                     if(resultSet!=null){
                         resultSet.last();
                         if(resultSet.getRow() == 0){
-                            JOptionPane.showMessageDialog(null,"æ­¤ç”¨æˆ·ä¸å­˜åœ¨ï¼Œè¯·é‡æ–°è¾“å…¥",
-                                    "æç¤º",JOptionPane.ERROR_MESSAGE);
+                            JOptionPane.showMessageDialog(null,"´ËÓÃ»§²»´æÔÚ£¬ÇëÖØĞÂÊäÈë",
+                                    "ÌáÊ¾",JOptionPane.ERROR_MESSAGE);
                             jTextFieldName.setText("");
                             jPasswordFieldPwd.setText("");
                         }else{
@@ -85,9 +85,9 @@ public class LoginView extends JFrame {
                             String type = resultSet.getString("type");
                             System.out.println(type);
                             if(password.equals(passwordRight)){
-                                //å¯†ç æ­£ç¡®
+                                //ÃÜÂëÕıÈ·
                                 if(type.equals("1")){
-                                    //ç”¨æˆ·ç™»å½•ï¼Œè¿›è¡Œæ¸¸æˆ
+                                    //ÓÃ»§µÇÂ¼£¬½øĞĞÓÎÏ·
                                     System.out.println("right player");
 
                                     User normalUser = new NormalUser();
@@ -99,7 +99,7 @@ public class LoginView extends JFrame {
                                     me.setPlayerName(name);
                                     me.setUser(normalUser);
                                 }else if(type.equals("2")){
-                                    //ç®¡ç†å‘˜ç™»å½•ï¼ŒæŸ¥çœ‹ç”¨æˆ·çš„æˆç»©
+                                    //¹ÜÀíÔ±µÇÂ¼£¬²é¿´ÓÃ»§µÄ³É¼¨
                                     System.out.println("right admin");
 
                                     User adminUser = new AdminUser();
@@ -112,9 +112,9 @@ public class LoginView extends JFrame {
                                     me.setUser(adminUser);
                                 }
                             }else{
-                                //å¯†ç é”™è¯¯
-                                JOptionPane.showMessageDialog(null,"å¯†ç é”™è¯¯",
-                                        "æç¤º",JOptionPane.ERROR_MESSAGE);
+                                //ÃÜÂë´íÎó
+                                JOptionPane.showMessageDialog(null,"ÃÜÂë´íÎó",
+                                        "ÌáÊ¾",JOptionPane.ERROR_MESSAGE);
                                 jTextFieldName.setText("");
                                 jPasswordFieldPwd.setText("");
 

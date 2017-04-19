@@ -81,7 +81,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
     public JButton exitBtn;
     public JButton checkBtn;
     public JButton changeBtn;
-    public JButton lastStepBtn;//æ‚”æ­¥æŒ‰é’®
+    public JButton lastStepBtn;//»Ú²½°´Å¥
     public JButton saveStepBtn;
     public ImageIcon winImage;
     public ImageIcon loseImage;
@@ -92,7 +92,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
     IniEditorInterface editorTarget = new IniEditorAdapter();
 
     /**
-     * åˆå§‹åŒ–å¹¶å°†å›¾åƒå±•ç¤ºå‡º
+     * ³õÊ¼»¯²¢½«Í¼ÏñÕ¹Ê¾³ö
      * @throws InterruptedException
      */
     public Home() throws InterruptedException, IOException {
@@ -118,10 +118,10 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
 
 
     /**
-     * åˆå§‹åŒ–ç•Œé¢,å¹¶æ·»åŠ éœ€è¦çš„ç›‘å¬å™¨
+     * ³õÊ¼»¯½çÃæ,²¢Ìí¼ÓĞèÒªµÄ¼àÌıÆ÷
      */
     public void Init() throws InterruptedException, IOException {
-        this.setTitle("æ–—åœ°ä¸»");
+        this.setTitle("¶·µØÖ÷");
         this.setSize(830, 620);
         this.setResizable(false);
         this.setLocationRelativeTo(this.getOwner());
@@ -228,7 +228,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
     }
 
     /**
-     * å¼€å§‹æ¸¸æˆï¼Œé¦–å…ˆæ¸…é™¤åˆå§‹åŒ–ç•Œé¢çš„å†…å®¹ï¼Œä¹‹åæ·»åŠ Buttonã€Cardã€
+     * ¿ªÊ¼ÓÎÏ·£¬Ê×ÏÈÇå³ı³õÊ¼»¯½çÃæµÄÄÚÈİ£¬Ö®ºóÌí¼ÓButton¡¢Card¡¢
      */
     void startGame() throws InterruptedException, IOException {
         this.container.removeAll();
@@ -242,7 +242,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
     }
 
     /**
-     * æŠ¢åœ°ä¸»æŒ‰é’®å›¾æ ‡
+     * ÇÀµØÖ÷°´Å¥Í¼±ê
      */
     public void getLord() {
         for(int i = 0; i < 2; ++i) {
@@ -253,9 +253,9 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
     public void CardInit() {
         int count = 0;
 
-        //ä½¿ç”¨äº«å…ƒæ¨¡å¼è·å–åˆ›å»ºçš„ç‰Œ
+        //Ê¹ÓÃÏíÔªÄ£Ê½»ñÈ¡´´½¨µÄÅÆ
         CardFactory cardFactory = new CardFactory().getCardFactory();
-        //åˆå§‹åŒ–é»‘çº¢æ¢…èŠ±ç‰‡å››ç§ç‰Œçš„æ¯ç§13å¼ ç‰Œ
+        //³õÊ¼»¯ºÚºìÃ·»¨Æ¬ËÄÖÖÅÆµÄÃ¿ÖÖ13ÕÅÅÆ
         for(int t = 1; t <= 4; ++t) {
             for(int i = 3; i <= 15; ++i) {
                 if(i >= 14 && i <= 15){
@@ -269,7 +269,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
             }
         }
 
-        //åˆå§‹åŒ–å¤§ç‹å’Œå°ç‹
+        //³õÊ¼»¯´óÍõºÍĞ¡Íõ
         this.card[52] = (Card) cardFactory.getCard("smallKing");
         this.card[52].setLocation(350, 50);
         this.container.add(this.card[52]);
@@ -278,7 +278,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
         this.card[53].setLocation(350, 50);
         this.container.add(this.card[53]);
 
-        //æ‰“ä¹±ç‰Œé¡ºåº
+        //´òÂÒÅÆË³Ğò
         for(int t = 0; t < 100; ++t) {
             Random var7 = new Random();
             int a = var7.nextInt(54);
@@ -289,8 +289,8 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
         }
 
         /**
-         * è¿›è¡Œå‘ç‰Œæ“ä½œ
-         * æŒ‰ç…§å¾ªç¯é¡ºåºè¿›è¡Œå‘æ”¾ï¼Œå‰©ä¸‹çš„3å¼ ç‰Œä¸ºåœ°ä¸»ç‰Œ
+         * ½øĞĞ·¢ÅÆ²Ù×÷
+         * °´ÕÕÑ­»·Ë³Ğò½øĞĞ·¢·Å£¬Ê£ÏÂµÄ3ÕÅÅÆÎªµØÖ÷ÅÆ
          */
         for(int t = 0; t < 3; ++t) {
             this.playerList[t] = new ArrayList();
@@ -336,8 +336,8 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
         }
 
         /**
-         * è®¾ç½®åœ°ä¸»ä¸å†œæ°‘çš„å¤´åƒ
-         * å¹¶è®¾ç½®3ä¸ªçš„å¤§å°ä¸ä½ç½®ï¼Œä½†æ˜¯å¹¶ä¸æ˜¾ç¤º
+         * ÉèÖÃµØÖ÷ÓëÅ©ÃñµÄÍ·Ïñ
+         * ²¢ÉèÖÃ3¸öµÄ´óĞ¡ÓëÎ»ÖÃ£¬µ«ÊÇ²¢²»ÏÔÊ¾
          */
         this.dizhu = new JLabel(new ImageIcon("images/dizhu.gif"));
         this.farmer1 = new JLabel(new ImageIcon("images/farmer1.png"));
@@ -355,13 +355,13 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
 
     public void SetButton() throws IOException {
         /**
-         * è®¾ç½®å…¶ä¸­ä¼šç”¨åˆ°çš„æ¯ä¸ªButton,åŠ å…¥å›¾æ ‡ï¼Œä½†æ˜¯å¹¶ä¸æ˜¾ç¤º
+         * ÉèÖÃÆäÖĞ»áÓÃµ½µÄÃ¿¸öButton,¼ÓÈëÍ¼±ê£¬µ«ÊÇ²¢²»ÏÔÊ¾
          */
-        this.robImage = new ImageIcon("images/rob.png");//å«åœ°ä¸»
-        this.noImage = new ImageIcon("images/no.png");//ä¸å«
-        this.tipImage = new ImageIcon("images/tip.png");//æç¤º
-        this.disImage = new ImageIcon("images/dis.png");//ä¸è¦
-        this.doImage = new ImageIcon("images/do.png");//å‡ºç‰Œ
+        this.robImage = new ImageIcon("images/rob.png");//½ĞµØÖ÷
+        this.noImage = new ImageIcon("images/no.png");//²»½Ğ
+        this.tipImage = new ImageIcon("images/tip.png");//ÌáÊ¾
+        this.disImage = new ImageIcon("images/dis.png");//²»Òª
+        this.doImage = new ImageIcon("images/do.png");//³öÅÆ
 
         this.landlord[0] = new JButton(this.robImage);
         this.landlord[1] = new JButton(this.noImage);
@@ -370,7 +370,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
         this.publishCard[1] = new JButton(this.disImage);
         this.publishCard[2] = new JButton(this.tipImage);
 
-        //æ ¹æ®å›¾ç‰‡å¤§å°è®¾ç½®Button
+        //¸ù¾İÍ¼Æ¬´óĞ¡ÉèÖÃButton
         this.landlord[0].setSize(this.robImage.getIconWidth(), this.robImage.getIconHeight());
         this.landlord[1].setSize(this.noImage.getIconWidth(), this.noImage.getIconHeight());
         this.publishCard[0].setSize(this.doImage.getIconWidth(), this.doImage.getIconHeight());
@@ -379,7 +379,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
 
 
         /**
-         * å°†5ç§æŒ‰é’®æ·»åŠ åˆ°ç•Œé¢ä¸­ï¼Œä½†æ˜¯å¹¶ä¸æ˜¾ç¤º
+         * ½«5ÖÖ°´Å¥Ìí¼Óµ½½çÃæÖĞ£¬µ«ÊÇ²¢²»ÏÔÊ¾
          */
         for(int i = 0; i < 2; ++i) {
             this.landlord[i].setLocation(320 + i * 100, 400);
@@ -399,16 +399,16 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
         this.publishCard[2].addActionListener(this);
 
         /**
-         * æ·»åŠ å€’è®¡æ—¶Lable
+         * Ìí¼Óµ¹¼ÆÊ±Lable
          */
         for(int i = 0; i < 3; ++i) {
-            this.time[i] = new JLabel("å€’è®¡æ—¶:");
+            this.time[i] = new JLabel("µ¹¼ÆÊ±:");
             this.time[i].setVisible(false);
             this.container.add(this.time[i]);
         }
 
         /**
-         * æ·»åŠ ç‰Œå°‘æç¤º
+         * Ìí¼ÓÅÆÉÙÌáÊ¾
          */
         for(int i=0;i<3;i++){
 //            this.tips[i] = new JLabel("tips");
@@ -429,26 +429,26 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
         this.time[2].setBounds(620, 230, 60, 20);
 
         /**
-         * å½“å‰ç‰Œæ¡Œä¸Šçš„ç‰Œ
+         * µ±Ç°ÅÆ×ÀÉÏµÄÅÆ
          */
         for(int i = 0; i < 3; ++i) {
             this.currentList[i] = new ArrayList();
         }
 
         /**
-         * è®¾ç½®æœ€åè¾“èµ¢æç¤ºLabel
+         * ÉèÖÃ×îºóÊäÓ®ÌáÊ¾Label
          */
         this.winOrLose = new JLabel("You win!");
         this.winOrLose.setSize(600, 100);
         this.winOrLose.setHorizontalAlignment(0);
-        this.winOrLose.setFont(new Font("é»‘ä½“", 1, 50));
+        this.winOrLose.setFont(new Font("ºÚÌå", 1, 50));
         this.winOrLose.setLocation((this.container.getWidth() - this.winOrLose.getWidth()) / 2, 200);
         this.winOrLose.setVisible(false);
         this.container.add(this.winOrLose);
 
 
         /**
-         * èƒœåˆ©åŠ¨ç”»
+         * Ê¤Àû¶¯»­
          */
         this.winImage = new ImageIcon("images/win.gif");
         this.winJLabel = new JLabel[2];
@@ -462,7 +462,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
 
 
         /**
-         * å¤±è´¥åŠ¨ç”»
+         * Ê§°Ü¶¯»­
          */
         this.loseImage = new ImageIcon("images/lose.gif");
         this.loseJLabel = new JLabel[2];
@@ -476,7 +476,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
 
 
         /**
-         * ä¸€é”®æ”¹å˜èƒŒæ™¯é¢œè‰²
+         * Ò»¼ü¸Ä±ä±³¾°ÑÕÉ«
          */
         this.changeImage = new ImageIcon("images/change.png");
         this.changeBtn = new JButton(this.changeImage);
@@ -543,7 +543,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
         this.lastStepBtn.setLocation(690, 490);
         this.lastStepBtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println("æ¢å¤æˆç»©æ“ä½œ");
+                System.out.println("»Ö¸´³É¼¨²Ù×÷");
                 try {
                     originator.saveScore(caretaker.reCoverScore(),playerName);
                 } catch (SQLException e1) {
@@ -560,7 +560,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
         this.saveStepBtn.setLocation(690, 460);
         this.saveStepBtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println("ä¿å­˜æˆç»©æ“ä½œ");
+                System.out.println("±£´æ³É¼¨²Ù×÷");
                 try {
                     caretaker.saveScore(originator.getScore(playerName));
                 } catch (SQLException e1) {
@@ -573,25 +573,25 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
 
     public void actionPerformed(ActionEvent e) {
         /**
-         * æŠ¢åœ°ä¸»
+         * ÇÀµØÖ÷
          */
         if(e.getSource() == this.landlord[0]) {
-            this.time[1].setText("æŠ¢åœ°ä¸»");
+            this.time[1].setText("ÇÀµØÖ÷");
             this.dizhuFlag = 1;
             this.turn = 1;
         }
 
         /**
-         * ä¸æŠ¢
+         * ²»ÇÀ
          */
         if(e.getSource() == this.landlord[1]) {
-            this.time[1].setText("ä¸æŠ¢");
+            this.time[1].setText("²»ÇÀ");
             this.dizhuFlag = Common.computeLord(this.playerList[0], this.playerList[2]);
             this.turn = this.dizhuFlag;
         }
 
         /**
-         * å‡ºç‰Œ
+         * ³öÅÆ
          */
         if(e.getSource() == this.publishCard[0]) {
             ArrayList arrayListChoose = new ArrayList();
@@ -607,11 +607,11 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
             int len;
             String cardType;
             /**
-             * å½“æ²¡æœ‰äºº
+             * µ±Ã»ÓĞÈË
              */
             if(this.preChuPai != -1 && this.preChuPai != 1) {
                 /**
-                 * åˆ¤æ–­ç‰Œçš„ç±»å‹
+                 * ÅĞ¶ÏÅÆµÄÀàĞÍ
                  */
                 cardType = CardTypeFactory.getCardType(arrayListChoose);
 
@@ -660,17 +660,17 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
         }
 
         /**
-         * ä¸è¦
+         * ²»Òª
          */
 
         if(e.getSource() == this.publishCard[1]) {
             this.nextPlayer = true;
             this.currentList[1].clear();
-            this.time[1].setText("ä¸è¦");
+            this.time[1].setText("²»Òª");
         }
 
         /**
-         * æç¤º
+         * ÌáÊ¾
          */
         if(e.getSource() == this.publishCard[2]) {
             OneSendCard c = null;
@@ -687,7 +687,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
             if(c == null) {
                 this.nextPlayer = true;
                 this.currentList[1].clear();
-                this.time[1].setText("ä¸è¦");
+                this.time[1].setText("²»Òª");
             } else {
                 Iterator point = c.getOneSendCardList().iterator();
 
@@ -703,7 +703,7 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
     }
 
     /**
-     * åˆ¤æ–­æ˜¯å‹æ–¹è¿˜æ˜¯æ•Œæ–¹
+     * ÅĞ¶ÏÊÇÓÑ·½»¹ÊÇµĞ·½
      * @param i1
      * @param i2
      * @return
@@ -718,11 +718,11 @@ public class Home extends JFrame implements ActionListener, Runnable,Serializabl
     }
 
     public  <T extends Serializable> T copy(T input) throws IOException, ClassNotFoundException {
-        //å°†å¯¹è±¡å†™åˆ°æµé‡Œ
+        //½«¶ÔÏóĞ´µ½Á÷Àï
         ByteArrayOutputStream bo=new ByteArrayOutputStream();
         ObjectOutputStream oo=new ObjectOutputStream(bo);
         oo.writeObject(this);
-//ä»æµé‡Œè¯»å‡ºæ¥
+//´ÓÁ÷Àï¶Á³öÀ´
         ByteArrayInputStream bi=new ByteArrayInputStream(bo.toByteArray());
         ObjectInputStream oi=new ObjectInputStream(bi);
         return (T) oi.readObject();
